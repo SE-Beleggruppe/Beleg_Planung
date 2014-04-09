@@ -15,10 +15,10 @@ https://drive.google.com/folderview?id=0B1aSm-EQ5bPAVGVRNl8xWXA4ZVk&usp=sharing
 Verantwortliche
 ===============
 
-Projektleiter:  Christian Knothe\n
-Analyse:        Martin Tzschoppe\n
-Entwurf:        Benjamin Reim\n
-Datenbank:      Markus Noack\n
-Implementation: Benjamin Herzog\n
-Test:           Christian Schwarz\n
-Dokumentation:  Felix Krautschuk\n
+Projektleiter:  Christian Knothe<br>
+Analyse:        Martin Tzschoppe<br>
+Entwurf:        Benjamin Reim<br>
+Datenbank:      Markus Noack<br>
+Implementation: Benjamin Herzog<br>
+Test:           Christian Schwarz<br>
+Dokumentation:  Felix Krautschuk
