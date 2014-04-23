@@ -1,10 +1,9 @@
 23.4.2014	13.00-15.00 Bibliothek B302a
 ========================================
 Tagesordnung:
-	-
-	-
-	-
-	...
+	Analyse
+	erste Ideen, Diagramme
+	welche Ideen sind für dieses Projekt sinnvoll oder zu weitläufig?
 
 
 Besprechung der Awendungsfalldiagramme
@@ -45,9 +44,11 @@ Wie sollen Gruppen verwaltet werden???
 		--> Dozent hat nur Kontrollfunktion
 	- potentielle Gruppenleiter melden sich bei Dozenten und werden eingetragen 
 		--> diese suchen sich ihre Mitglieder selbst
+	- geschieht das Entragen online, offline????
 	- Filtermöglicheiten???
 wie komplex??
 besteht Möglichkeit eine Webanwendung zu bauen???
+Entwurf? Was umfasst Entwurf alles??
 
 ----------------
 Bis zum nächsten mal:
