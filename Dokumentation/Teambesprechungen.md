@@ -45,4 +45,17 @@ Wie sollen Gruppen verwaltet werden???
 		--> Dozent hat nur Kontrollfunktion
 	- potentielle Gruppenleiter melden sich bei Dozenten und werden eingetragen 
 		--> diese suchen sich ihre Mitglieder selbst
+	- Filtermöglicheiten???
+wie komplex??
+besteht Möglichkeit eine Webanwendung zu bauen???
 
+----------------
+Bis zum nächsten mal:
+=====================
+
+Benni Reim: Dialoge, eventuell schon Entwurfs-Pläne
+Markus: Archivierung, was muss zum Schluss aus der Datenbank in der PDF landen
+
+
+----
+nächster Treff:	30.04.2014 13.00
