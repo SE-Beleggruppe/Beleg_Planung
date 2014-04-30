@@ -19,8 +19,6 @@ Filtermöcglichketen, da sich über 10 Jahre mit vielen Gruppen und Mitgliedern 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-
-
 Frau Hauptmann:
 
 Automatisierung der ANMELDUNG DER BELEGGRUPPEN, keine Noten!!!
@@ -81,10 +79,20 @@ Ziel: kleine, schlanke, lokale Anwendung, möglichst unter Windows
 1 Thema kann von mehreren Gruppen gewählt werden
 
 Accounts caseXX werden nach jedem Jahr zurückgesetzt um im nächsten Jahr wieder neu verwendet werden zu können
---> müssen archiviert werden
+--> müssen archiviert werden --> aus datenbank gelöscht (genullt), aber Informationen sollen in PDF's
+Rollen, case-Gruppen und Themen sollen in Datenbank weiterhin auswählbar sein... DB soll also nicht komplett genullt werden
 
 caseXX wird automatisch generiert... am Anfang wird festgelegt wie viele cases es gibt z.B. 12
 dann bekommt zuerst angemeldete Gruppe case01, zweite case02,.... case 12... 13te Gruppe bekommt Meldung: "geht nicht mehr"
 
 Admin (Dozent) soll Email verschicken können an z.B, "Alle Gruppenleiter", "alle Analytiker", "Gruppe case04 und Gruppe 07"
 Email-Programm soll nur Verweis sein... nicht neu Implementiert werden.. "senden via Thunderbird"
+
+Datenbank soll auf Sybase-Server laufen, Login wird noch bekanntgegeben
+
+Anwendung soll von Studenten von Hochschule aus und NICHT VON ZU HAUSE bedient werden
+Dozent hat Vollzugriff
+
+Dozent soll ohne große Mühe nach beliebiger Zeit (Jahre..) rausfinden, in welcher Gruppe und Rolle Person XY war
+
+nette Funktionalität: Name der Gruppe, Thema,... individuelle Note und Pflichtenheftnote... A5 ausdruckbar.. Formularansicht?
