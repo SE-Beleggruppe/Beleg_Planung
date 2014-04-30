@@ -96,3 +96,7 @@ Dozent hat Vollzugriff
 Dozent soll ohne große Mühe nach beliebiger Zeit (Jahre..) rausfinden, in welcher Gruppe und Rolle Person XY war
 
 nette Funktionalität: Name der Gruppe, Thema,... individuelle Note und Pflichtenheftnote... A5 ausdruckbar.. Formularansicht?
+
+
+nächster Treff:
+Montag, 5.5. 2014 13:30
