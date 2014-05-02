@@ -35,17 +35,18 @@ Wer gehört zu der Gruppe?
 Wer ist Projektleiter?
 Wer verantwortet was?
 
-Gruppe benötigt Identifiation (z.B. Gruppennummer)
+
 
 Gruppe trägt selbst ihre Mitglieder ein, nachdem sie sich gefunden hat
 
 Gruppe findet sich
-trägt sich ein und legt Passwort fest (entweder kennt nur GruppenleiterPasswort oder alle Mitglieder) --> Sicherheitsfunktion
+trägt sich ein und legt Passwort fest (entweder kennt nur Gruppenleiter Passwort oder alle Mitglieder) --> Sicherheitsfunktion
 --> wenn 7 gefunden und 8 sollen es sein, kann keine beliebige Person sich als 8. Mitglied eintragen
 
 Informationen:
 ==============
-Name, Vorname, sxxxxx, Email, [Verantwortlichkeit], new festgelegtes Passwort (geänderter "Erstlogin"... EINE Person wird Gruppenleiter --> Ansprechpartner für Dozent
+Gruppe benötigt Identifiation (z.B. Gruppennummer)
+Name, Vorname, sxxxxx, Email, [Verantwortlichkeit], neu festgelegtes Passwort (geänderter "Erstlogin"... EINE Person wird Gruppenleiter --> Ansprechpartner für Dozent
 caseXX --> Rahmenbedingungen festlegen damit kein case99 mölgich ist
 
 Vorlesung: "ab sofort können Sie sich anmelden, bitte möglichst schnell, nicht erst in 7 Wochen"
@@ -54,16 +55,16 @@ zu dem Zeitpunkt müssen noch keine Verantwortlchkeiten festgelegt sein --> komm
 
 
 nach gewisser Zeit ist Liste mit Gruppen gefüllt
-ein Admin (Dozent oder Zirkelbach) muss Beleggruppe anlegen mit Thema ... Textfeld soll von Admin ausgefüllt werden können "Sommersemester 2014 4. Semester Wirtschaftsinformatik"
+ein Admin (Dozent oder Zirkelbach) muss Beleggruppe anlegen mit Thema ... Textfeld soll von Admin ausgefüllt werden können "Sommersemester 2014, 4.Semester Wirtschaftsinformatik"
 
 
 ID in Textfeld(Sommersemester 2014 Allgemeine Informatik)
-Startdaten
+Startdatum
 Enddatum
 für die soll eingegeben werden können von Admin
 
 minimale Anzahl... wenn minimale Anzahl an Mitgliedern noch nicht erreicht, dann soll Gruppe sich trotzdem schon anmelden und für die anderen Mitglieder "N" oder so eingeben
-maximale Anzahl an Grzppenteilnehmern
+maximale Anzahl an Gruppenteilnehmern
 
 Themen-Pool (der ganzen Gruppe zugeordenet) auswählen --> flexibel!! muss nur innerhalb startdatum und enddatum festgelegt werden, kann innerhalb der Zeit geändert werden
 Rolle auswählen

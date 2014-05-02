@@ -46,6 +46,7 @@
 
 
 \end{titlepage}
+\setcounter{page}{2} \pagenumbering{arabic}
 
 \thispagestyle{empty}\clearpage
 
@@ -136,5 +137,77 @@ Termin: 30.04.2014\\
 Benjamin Reim: Dialoge, eventuell erste Entwürfe\\
 Markus Noack: Archivierung, alles was zum Schluss aus der Datenbank in der
 PDF-Datei stehen muss
-\setcounter{page}{2} \pagenumbering{arabic}
+
+\newpage
+\subsection{3. Treffen}
+Termin: 30.04.2014 13.30-15.00 in der Bibliothek B302a\\
+Tagesordnung:
+\begin{itemize}
+  \item Diskussion bezüglich des Aufbaus und Einsatzes des Systems mit Frau
+  Prof. Hauptmann
+  \item bisherige Zwischenergebnisse der Analayse an neue Informationen anpassen
+\end{itemize}
+Resultate nach dem Gespräch mit Frau Prof. Hauptmann:\\
+Das Ziel des Projektes ist eine kleine, schlanke, lokale, möglichst
+unter Windows laufende Anwendung zur Automatisierung der ANMELDUNG der
+Beleggruppen OHNE Benotung. Diese Anwendung soll von Studenten von Hochschule
+aus und NICHT VON ZU HAUSE aus bedient werden! Der Dozent soll ohne große Mühe
+auch nach langer Zeit herausfinden können in welcher Gruppe und mit welcher
+Verantwortlichkeit eine Person XY gearbeitet hat.\\
+Der Dozent soll mithilfe von Filter-Funktionen Emails versenden können, also
+z.B. an "alle Gruppenleiter", "alle Analytiker", "Gruppe case04 und Gruppe 07",
+\ldots
+
+Informationen, die im System sichtbar werden sollen:
+\begin{itemize}
+  \item insgesamt:
+  \begin{itemize}
+    \item Welche Beleg-Gruppen gibt es?
+    \item Wer gehört zu welcher Gruppe?
+  \end{itemize}
+  \item für einzelne Gruppen im Detail
+  \begin{itemize}
+    \item Wer ist der Gruppenleiter?
+    \item Welche Rollen haben die einzelnen Mitglieder?
+  \end{itemize}
+\end{itemize}
+
+Wie verläuft die Anmeldung einer Beleggruppe im System?
+\begin{itemize}
+  \item Dozent gibt in der Vorlesung bekannt dass die Anmeldung der Gruppen
+  beginnen kann $\rightarrow$ für den Zeitraum der Anmeldung ist ein Start-Datum
+  und ein End-Datum definiert
+  \item ebenfalls in dieser Vorlesung wird der Erst-Login bekanntgegeben
+  \item nachher (oder evtl bereits geschehen) finden sich die Gruppen zusammen
+  \item Gruppe findet einen Gruppenleiter, welcher dann Ansprechpartner für
+  Dozent darstellt
+  \item Gruppe trägt sich in System ein und ändert das Passwort (entweder kennen
+  alle Mitglieder das neue Passwort oder nur der Gruppenleiter)
+  \item es ist eine Mindest- und Maximalanzahl an Gruppenmitglieder definiert
+  \item innerhalb des Anmelde-Zeitraumes kann Gruppe aus einem Pool ein zu
+  bearbeitendes Thema auswählen und dieses flexibel ändern (mehrere Gruppen
+  dürfen das selbe Thema auswählen)
+  \item nach Beendigung der Belegarbeit (Ende des Semesters?) werden alle
+  Beleg-Gruppendaten in einer PDF archiviert und die Datenbank bis auf die
+  Themenauswahl geräumt werden
+\end{itemize}
+
+Welche Informationen werden zur Anmeldung benötigt?
+\begin{itemize}
+  \item Gruppen-Identifikation (z.B. eine Gruppen-Nummer)
+  \item Gruppenleiter
+  \item geändertes Passwort
+  \item case-Nummer (Rahmenbedingungen für den Wertebereich!)
+  \item pro Mitglied:
+  \begin{itemize}
+    \item Name
+    \item Vorname
+    \item s-Nummer
+    \item Email-Adresse
+    \item Veratnwortlichkeit (kann zum Zeitpunkt der Anmeldung noch
+    freigelassen werden)
+  \end{itemize}
+\end{itemize}
+
+
 \end{document}
