@@ -53,6 +53,8 @@ Vorlesung: "ab sofort können Sie sich anmelden, bitte möglichst schnell, nicht
 zu dem Zeitpunkt müssen noch keine Verantwortlchkeiten festgelegt sein --> kommen später dazu
 "Erstlogin" wird an die Tafel geschrieben
 
+Je Student ist auch die Kennung zum Studiengang zu erfassen (ob "IA" und
+"IW" oder "041" und "042" ist gleichgültig)!!!
 
 nach gewisser Zeit ist Liste mit Gruppen gefüllt
 ein Admin (Dozent oder Zirkelbach) muss Beleggruppe anlegen mit Thema ... Textfeld soll von Admin ausgefüllt werden können "Sommersemester 2014, 4.Semester Wirtschaftsinformatik"
@@ -97,6 +99,7 @@ Dozent hat Vollzugriff
 Dozent soll ohne große Mühe nach beliebiger Zeit (Jahre..) rausfinden, in welcher Gruppe und Rolle Person XY war
 
 nette Funktionalität: Name der Gruppe, Thema,... individuelle Note und Pflichtenheftnote... A5 ausdruckbar.. Formularansicht?
+
 
 
 nächster Treff:
