@@ -21,13 +21,41 @@ Die Datenbankumgebung wird in Form einer Sybase Anwendung bereits vom Auftragsge
 
 
 \part{Funktionale Anforderungen}
+\begin{itemize}
+\item Login mit verschiedenen Berechtigungen(Projektgruppe/Dozent)
+\item hierarchische Auswahl der Auflistung der Belege, der Gruppen, der Daten der Gruppenmitglieder für Dozenten
+\item Erstellung neuer Belege & Zuteilung einer Anzahl an Gruppenslots(Cases)
+\begin{itemize}
+\item Zuteilung von Themen und dem Beleg aus einem bearbeitbaren Themenpool durch Dozent
+\item Zuteilung von Rollen und dem Beleg aus einem bearbeitbaren Rollenpool durch Dozent
+\end{itemize}
+\item lesender/schreibender Zugriff des Dozenten auf sämtliche Daten
+\item Generierung einer PDF-Datei mit entsprechenden Daten des Beleges
+\item Ausgabe von Datensätzen nach Erfüllung einstellbarer Kriterien(Namen, Rollenverteilung)
+\begin{itemize}
+\item relevant für Suchfunktionen und Generierung von E-Mail-Addresslisten
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item Erstellung neuer Gruppen auf Basis eines vorgegebenen Beleg-Erstlogins
+\item tabellarische Auflistung der Gruppendaten aus Gruppenperspektive
+\item Änderungsfunktionen der Gruppendaten aus Gruppenperspektive
+\end{itemize}
 
+Optional:
+\begin{itemize}
+\item Thunderbird-Schnittschnelle(direktes Öffnen)
+\item druckbares Formular zur Benotung
+\end{itemize}
 
 \part{Qualitätsanforderungen}
 
 
 \part{Rahmenbedingungen}
-
+\begin{itemize}
+\item Nutzung des hochschuleigenen Sybase-Servers
+\item Anmeldung der Gruppe über einzelnes Login
+\end{itemize}
 
 \part{Fehlertoleranzmaßnahmen}
 
