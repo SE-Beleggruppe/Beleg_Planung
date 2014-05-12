@@ -33,10 +33,10 @@ MIT ZWISCHENFORM, also Gruppenleiter wird als erstes angemeldet... Checkbox "Ers
 Rolle soll nicht selbst eingegeben werden, sondern ausgewählt werden
 
 belegBearbeiten
---> Programm DOZENT: genauso wie Themen verwalten, auch ROLLEN VERVALTEN ergänzen.. Rollen sind Beleg-abhängig
+--> Programm DOZENT: genauso wie Themen verwalten, auch ROLLEN VERWALTEN ergänzen.. Rollen sind Beleg-abhängig
 Beleg und Belegarbeit ist nicht das selbe
 
---> Programm DOZENT gruppeBearbeiten Kennung ausgreuen
+--> Programm DOZENT gruppeBearbeiten Kennung ausgrauen
 
 Mindest Gruppengröße und Maximale Gruppengröße: Wert weiter reinrücken (Abstand war zu groß)
 
@@ -57,10 +57,6 @@ danach wird zugeordnet 14 Beleggruppen werden dem Beleg SOM2014 4. Semester zuge
 Anzahl der Gruppenmitglieder nicht an Thema gebunden, sondern an Beleg
 
 
-
-
-
-
 Qualitätsanforderungen
 ======================
 Benutzerfreundlichkeit wird über Prorotyp geregelt
@@ -79,17 +75,10 @@ Projekt 		--> Meilensteine, was haben wir geplant, das mussten wir verschieben, 
 (Test) 			--> Testfälle, Testdaten, ... am xx.xx.2014 wurde das getesetet mit dem Ergabnis xy
 
 
-
-
-
-
-
-
-
 bis zum nächsten mal
 ====================
 
 Benni und Felix: Klassendiagramme und sonstiges Entwurfs-Zeugs
 Markus: Datenbankentwurf, ERM, evtl schon Testdaten
-BanchR: Clickdummy anpassen
+BenchR: Clickdummy anpassen
 Christians und Martin: Pflichtenheft
