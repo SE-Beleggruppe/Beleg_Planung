@@ -1,49 +1,72 @@
-\part{Einf�hrung} 
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+
+\title{Pflichtenheft}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\part{Einführung}
 
 Dieses Pflichtenheft gilt als Teil des Software-Engeneering II Beleges vom Sommersemester 2014.
 Aufgabenstellung:
 Entwickeln  Sie ein SW-System, das die Verwaltung der Daten für Belegarbeiten, die auch parallel laufen können. Neben der Erfassung sind auch weitere Anwendungsfälle wie zum Beispiel „archivieren von Daten“ zu realisieren.
 
-
+\newpage
 \part{Auftrag}
 
 
+\newpage
 \part{Abgrenzung des zu entwickelnden Systems}
 Die Datenbankumgebung wird in Form einer Sybase Anwendung bereits vom Auftragsgeber gestellt,muss allerdings vom Auftragsnehmer selbständig mit Tabellen und Testdaten gefüllt werden.
  
+
+\newpage
 \part{Ausgangssituation und Zielsetzung}
 Im Rahmen des Sommersemesterbeleges 2014 im Fach Software Engeneering II der Hochschule für Technik und Wirtschaft Dresden soll ein Softwaresystem zur vereinfachten Erfassung und Verwaltung von Beleggruppen erstellt werden.
 Folgende Aufgabenstellung ist dabei zu realisieren:
 Entwickeln  Sie ein SW-System, das die Verwaltung der Daten für Belegarbeiten, die auch parallel laufen können. Neben der Erfassung sind auch weitere Anwendungsfälle wie zum Beispiel „archivieren von Daten“ zu realisieren.
 
 
+\newpage
 \part{Systemeinsatz, Systemumgebung}
 Das System soll als CLient-Server Architektur realisiert werden. Der Datenbankserver wird dabei vom Auftraggeber gestellt und unterliegt daher weiterführend keine genaueren Betrachtung. Zu Implementieren seien daher:
 \begin{itemize}
-Ein Programm damit Studentengruppen eine Gruppe erstellen und verwalten können
-Ein Programm für den Dozenten mit erweiterten Funktionen als für die Studenten
-Verwaltungsstruktur auf dem Datenbankserver um Informationen langfristig zu speichern
+\item Ein Programm damit Studentengruppen eine Gruppe erstellen und verwalten können
+\item Ein Programm für den Dozenten mit erweiterten Funktionen als für die Studenten
+\item Verwaltungsstruktur auf dem Datenbankserver um Informationen langfristig zu speichern
 \end{itemize}
 
+\newpage
 \part{Benutzerschnittstellen}
 
 
+\newpage
 \part{Funktionale Anforderungen}
 \begin{itemize}
 \item Login mit verschiedenen Berechtigungen(Projektgruppe/Dozent)
 \item hierarchische Auswahl der Auflistung der Belege, der Gruppen, der Daten
-der Gruppenmitglieder f�r Dozenten
-\item Erstellung neuer Belege & Zuteilung einer Anzahl an Gruppenslots(Cases)
+der Gruppenmitglieder für Dozenten
+\item Erstellung neuer Belege \& Zuteilung einer Anzahl an Gruppenslots(Cases)
 \begin{itemize}
 \item Zuteilung von Themen und dem Beleg aus einem bearbeitbaren Themenpool durch Dozent
 \item Zuteilung von Rollen und dem Beleg aus einem bearbeitbaren Rollenpool durch Dozent
 \end{itemize}
 \item lesender/schreibender Zugriff des Dozenten auf sämtliche Daten
 \item Generierung einer PDF-Datei mit entsprechenden Daten des Beleges
-\item Ausgabe von Datens�tzen nach Erf�llung einstellbarer Kriterien(Namen,
+\item Ausgabe von Datensätzen nach Erfüllung einstellbarer Kriterien(Namen,
 Rollenverteilung)
 \begin{itemize}
-\item relevant f�r Suchfunktionen und Generierung von E-Mail-Addresslisten
+\item relevant für Suchfunktionen und Generierung von E-Mail-Addresslisten
 \end{itemize}
 \end{itemize}
 \begin{itemize}
@@ -54,38 +77,65 @@ Rollenverteilung)
 
 Optional:
 \begin{itemize}
-\item Thunderbird-Schnittschnelle(direktes �ffnen)
+\item Thunderbird-Schnittschnelle(direktes öffnen)
 \item druckbares Formular zur Benotung
 \end{itemize}
 
-\part{Qualit�tsanforderungen}
+\newpage
+\part{Qualitätsanforderungen}
 
-
+\newpage
 \part{Rahmenbedingungen}
 \begin{itemize}
 \item Nutzung des hochschuleigenen Sybase-Servers
 \item Die Datenbank (Sybase-DB) zum Speichern der Daten ist bereits vorhanden
 (organisatorisch)
-\item Anmeldung der Gruppe �ber einzelnes Login
-\item Das Betriebssystem, auf dem das Softwaresystem haupts�chlich lauff�hig
+\item Anmeldung der Gruppe über einzelnes Login
+\item Das Betriebssystem, auf dem das Softwaresystem hauptsächlich lauffähig
 sein soll, ist Windows 7(technisch)
 \item Gefordert ist eine Desktopanwendung (keine Webanwendung) (technisch)
 \item Ein Thema darf von mehreren Gruppen bearbeitet werden (organisatorisch)
 \item Beleggruppe darf innerhalb des Anmeldezeitraums flexibel mit Thema und Verantwortlichkeiten (Rollen) umgehen
-\item F�r das Speichern der Benutzerdaten (z.B. der Email-Adressen) gilt das
+\item Für das Speichern der Benutzerdaten (z.B. der Email-Adressen) gilt das
 Datenschutzgesetz (rechtlich)
 \end{itemize}
 
-\part{Fehlertoleranzma�nahmen}
+\newpage
+\part{Fehlertoleranzmaßnahmen}
+
+\section{Generell}
+\begin{description}
+\item[Fehler:] Verbindung Datenbank schlägt Fehl
+\item[Reaktion:] Fehlermeldung anzeigen, erneut versuchen oder beenden
+\end{description}
+
+\begin{description}
+\item[Fehler:] SQL-Injection bei Eingabe von Daten für Datenbankabfragen
+\item[Gegenmaßnahme:] Einfügen von Escape-Zeichen vor `'` und `"` oder entfernen selbiger
+\end{description}
+
+\section{Gruppe erstellen}
+\begin{description}
+\item[Fehler:] falsche Zugangsdaten eingegeben
+\item[Reaktion:] Fehlermeldung anzeigen, Verzögerung in Datenbank, erneut versuchen
+\end{description}
+\begin{description}
+\item[Fehler:] maximale Gruppenanzahl erreicht
+\item[Reaktion:] Fehlermeldung, abbrechen
+\end{description}
 
 
+\newpage
 \part{Anforderungen an die Dokumentation}
 In der Dokumentation sollen die einzelnen Klassen mithilfe von Klassendiagrammen
 und ihre Beziehungen zueinander anschaulich dargestellt werden um das System aus
-verschiedenen Perspektiven erl�utern zu k�nnen.
+verschiedenen Perspektiven erläutern zu können.
 
+\newpage
 \part{Abnahmekriterien}
 
 
+\newpage
 \part{Glossar, Verzeichnisse, Anhang}
 
+\end{document}
