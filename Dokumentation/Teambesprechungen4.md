@@ -9,6 +9,8 @@ Tagesordnung
 	- Fertigstellung der Analyse
 
 
+SYBASE-Passwort: itcyisay
+
 Todo:
 =====
 
@@ -26,11 +28,15 @@ Benutzername: Beleg SOM2014 	Passwort: Student
 wenn Gruppe feststeht:
 Benutzername: caseXX  			Passwort: ******
 
+MIT ZWISCHENFORM, also Gruppenleiter wird als erstes angemeldet... Checkbox "Erstlogin" fliegt raus.. Benutzername wird an "caseXX" erkannt
+
 Rolle soll nicht selbst eingegeben werden, sondern ausgewählt werden
 
 belegBearbeiten
---> Programm DOZENT: genauso wie Themen verwalten, auch ROLLEN VERVALTEN ergänzen
+--> Programm DOZENT: genauso wie Themen verwalten, auch ROLLEN VERVALTEN ergänzen.. Rollen sind Beleg-abhängig
 Beleg und Belegarbeit ist nicht das selbe
+
+--> Programm DOZENT gruppeBearbeiten Kennung ausgreuen
 
 Mindest Gruppengröße und Maximale Gruppengröße: Wert weiter reinrücken (Abstand war zu groß)
 
@@ -55,7 +61,8 @@ Anzahl der Gruppenmitglieder nicht an Thema gebunden, sondern an Beleg
 
 
 
-
+Qualitätsanforderungen
+======================
 Benutzerfreundlichkeit wird über Prorotyp geregelt
 Zuverlässigkeit (Fehleingaben sollten toleriert werden) ... also Überprüfung von Fehleingaben (Buchstaben statt Zahlen, startDatum nach endDatum)
 Sicherheit --> Datenschutz (Matrikelnummer wird neben Namen nicht erwähnt) ... Gruppen durch Passwort geschützt
@@ -70,3 +77,19 @@ Entwickler		--> Paketdiagramm(Projekte in VS Studio, wie hängen diese zusammen?
 Benutzer 		--> Student, Administrator... wie bediene ich das?... online als PDF? schriftlich?? kontextsensitiv oder nicht? (im Programm... 					muss nicht sein)
 Projekt 		--> Meilensteine, was haben wir geplant, das mussten wir verschieben, Protokolle,... Reflektion
 (Test) 			--> Testfälle, Testdaten, ... am xx.xx.2014 wurde das getesetet mit dem Ergabnis xy
+
+
+
+
+
+
+
+
+
+bis zum nächsten mal
+====================
+
+Benni und Felix: Klassendiagramme und sonstiges Entwurfs-Zeugs
+Markus: Datenbankentwurf, ERM, evtl schon Testdaten
+BanchR: Clickdummy anpassen
+Christians und Martin: Pflichtenheft
