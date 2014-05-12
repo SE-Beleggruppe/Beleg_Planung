@@ -1,0 +1,12 @@
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\bin\Debug\ClickDummyStudent.exe.config
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\bin\Debug\ClickDummyStudent.exe
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\bin\Debug\ClickDummyStudent.pdb
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.csprojResolveAssemblyReference.cache
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.LoginForm.resources
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.Properties.Resources.resources
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.csproj.GenerateResource.Cache
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.exe
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.pdb
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.MainForm.resources
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.FormErstanmeldung1.resources
+c:\users\maggo\documents\visual studio 2012\Projects\ClickDummyStudent\ClickDummyStudent\obj\Debug\ClickDummyStudent.FormErstanmeldung2.resources
