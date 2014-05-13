@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 MAY 2014 11:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 MAY 2014 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,15 +561,11 @@ File: bilder/doz2.PNG Graphic file (type png)
 Package pdftex.def Info: bilder/doz2.PNG used on input line 66.
 (pdftex.def)             Requested size: 458.46635pt x 170.28749pt.
 
-<bilder/doz3.PNG, id=40, 835.62187pt x 430.60875pt>
+<bilder/doz3.PNG, id=40, 764.10469pt x 485.56406pt>
 File: bilder/doz3.PNG Graphic file (type png)
  <use bilder/doz3.PNG>
 Package pdftex.def Info: bilder/doz3.PNG used on input line 69.
-(pdftex.def)             Requested size: 501.37698pt x 258.36723pt.
-
-Overfull \hbox (29.34575pt too wide) in paragraph at lines 69--69
- [][] 
- []
+(pdftex.def)             Requested size: 458.46635pt x 291.34068pt.
 
 <bilder/doz4.PNG, id=41, 773.89125pt x 379.4175pt>
 File: bilder/doz4.PNG Graphic file (type png)
@@ -603,7 +599,7 @@ r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/benchr/Development/HTW/SE-Beleg/Analyse/.texpadtmp/Pfl
-ichtenheft.pdf (15 pages, 938184 bytes).
+ichtenheft.pdf (15 pages, 754247 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
