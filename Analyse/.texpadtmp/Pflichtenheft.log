@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 MAY 2014 15:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 MAY 2014 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -520,78 +520,118 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <bilder/pic3.PNG, id=21, 274.77657pt x 134.75343pt>
 File: bilder/pic3.PNG Graphic file (type png)
  <use bilder/pic3.PNG>
-Package pdftex.def Info: bilder/pic3.PNG used on input line 45.
+Package pdftex.def Info: bilder/pic3.PNG used on input line 46.
 (pdftex.def)             Requested size: 274.77588pt x 134.7531pt.
 
 <bilder/pic4.PNG, id=23, 356.0803pt x 188.20313pt>
 File: bilder/pic4.PNG Graphic file (type png)
  <use bilder/pic4.PNG>
-Package pdftex.def Info: bilder/pic4.PNG used on input line 48.
+Package pdftex.def Info: bilder/pic4.PNG used on input line 49.
 (pdftex.def)             Requested size: 356.07944pt x 188.20265pt.
 
 <bilder/pic6.PNG, id=24, 529.22719pt x 244.66406pt>
 File: bilder/pic6.PNG Graphic file (type png)
  <use bilder/pic6.PNG>
-Package pdftex.def Info: bilder/pic6.PNG used on input line 51.
+Package pdftex.def Info: bilder/pic6.PNG used on input line 52.
 (pdftex.def)             Requested size: 423.38232pt x 195.7315pt.
 
 <bilder/pic7.PNG, id=25, 535.2497pt x 338.01282pt>
 File: bilder/pic7.PNG Graphic file (type png)
  <use bilder/pic7.PNG>
-Package pdftex.def Info: bilder/pic7.PNG used on input line 54.
+Package pdftex.def Info: bilder/pic7.PNG used on input line 55.
 (pdftex.def)             Requested size: 428.20033pt x 270.41061pt.
 
 [5 <./bilder/pic3.PNG> <./bilder/pic4.PNG> <./bilder/pic6.PNG>]
 <bilder/pic2.PNG, id=32, 256.70906pt x 135.50626pt>
 File: bilder/pic2.PNG Graphic file (type png)
  <use bilder/pic2.PNG>
-Package pdftex.def Info: bilder/pic2.PNG used on input line 57.
+Package pdftex.def Info: bilder/pic2.PNG used on input line 58.
 (pdftex.def)             Requested size: 256.70842pt x 135.5059pt.
 
-[6 <./bilder/pic7.PNG> <./bilder/pic2.PNG>]
-<bilder/doz1.PNG, id=38, 265.74281pt x 123.46124pt>
+<bilder/pic8.PNG, id=33, 509.65407pt x 240.14719pt>
+File: bilder/pic8.PNG Graphic file (type png)
+ <use bilder/pic8.PNG>
+Package pdftex.def Info: bilder/pic8.PNG used on input line 61.
+(pdftex.def)             Requested size: 407.7238pt x 192.11798pt.
+
+[6 <./bilder/pic7.PNG> <./bilder/pic2.PNG> <./bilder/pic8.PNG>]
+<bilder/doz1.PNG, id=40, 265.74281pt x 123.46124pt>
 File: bilder/doz1.PNG Graphic file (type png)
  <use bilder/doz1.PNG>
-Package pdftex.def Info: bilder/doz1.PNG used on input line 63.
+Package pdftex.def Info: bilder/doz1.PNG used on input line 67.
 (pdftex.def)             Requested size: 265.74216pt x 123.46092pt.
 
-<bilder/doz2.PNG, id=39, 764.10469pt x 283.81032pt>
+<bilder/doz2.PNG, id=41, 764.10469pt x 283.81032pt>
 File: bilder/doz2.PNG Graphic file (type png)
  <use bilder/doz2.PNG>
-Package pdftex.def Info: bilder/doz2.PNG used on input line 66.
+Package pdftex.def Info: bilder/doz2.PNG used on input line 70.
 (pdftex.def)             Requested size: 458.46635pt x 170.28749pt.
 
-<bilder/doz3.PNG, id=40, 764.10469pt x 485.56406pt>
+<bilder/doz3.PNG, id=42, 764.8575pt x 542.77782pt>
 File: bilder/doz3.PNG Graphic file (type png)
  <use bilder/doz3.PNG>
-Package pdftex.def Info: bilder/doz3.PNG used on input line 69.
-(pdftex.def)             Requested size: 458.46635pt x 291.34068pt.
+Package pdftex.def Info: bilder/doz3.PNG used on input line 73.
+(pdftex.def)             Requested size: 420.67291pt x 298.52872pt.
 
-<bilder/doz4.PNG, id=41, 773.89125pt x 379.4175pt>
+<bilder/doz4.PNG, id=43, 773.89125pt x 379.4175pt>
 File: bilder/doz4.PNG Graphic file (type png)
  <use bilder/doz4.PNG>
-Package pdftex.def Info: bilder/doz4.PNG used on input line 72.
+Package pdftex.def Info: bilder/doz4.PNG used on input line 76.
 (pdftex.def)             Requested size: 464.33833pt x 227.65225pt.
 
 [7 <./bilder/doz1.PNG> <./bilder/doz2.PNG> <./bilder/doz3.PNG>]
-<bilder/doz5.PNG, id=49, 762.59906pt x 360.59718pt>
+<bilder/doz5.PNG, id=51, 762.59906pt x 360.59718pt>
 File: bilder/doz5.PNG Graphic file (type png)
  <use bilder/doz5.PNG>
-Package pdftex.def Info: bilder/doz5.PNG used on input line 75.
+Package pdftex.def Info: bilder/doz5.PNG used on input line 79.
 (pdftex.def)             Requested size: 457.56297pt x 216.35997pt.
 
-[8 <./bilder/doz4.PNG> <./bilder/doz5.PNG>] [9] [10] [11] [12] [13] [14]
-[15]
+[8 <./bilder/doz4.PNG> <./bilder/doz5.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--122
+
+ []
+
+[9] [10] [11]
+Underfull \hbox (badness 2547) in paragraph at lines 162--163
+[]\OT1/cmr/m/n/10 Fehlermeldung an-zei-gen, er-neut ver-su-chen
+ []
+
+[12] [13] [14] [15]
 (/Users/benchr/Development/HTW/SE-Beleg/Analyse/.texpadtmp/Pflichtenheft.aux) )
  
 Here is how much of TeX's memory you used:
- 3581 strings out of 493315
- 47876 string characters out of 6137904
+ 3586 strings out of 493315
+ 47963 string characters out of 6137904
  117709 words of memory out of 5000000
- 6951 multiletter control sequences out of 15000+600000
+ 6955 multiletter control sequences out of 15000+600000
  11810 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,24p,325b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,24p,325b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
@@ -599,10 +639,10 @@ r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/benchr/Development/HTW/SE-Beleg/Analyse/.texpadtmp/Pfl
-ichtenheft.pdf (15 pages, 754247 bytes).
+ichtenheft.pdf (15 pages, 893642 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
