@@ -4,7 +4,6 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{graphicx}
 \usepackage[left=2cm,right=3cm,top=2cm,bottom=2cm]{geometry}
 
 \title{Pflichtenheft}
@@ -40,74 +39,53 @@ Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtscha
 
 \newpage
 \part{Benutzerschnittstellen}
-\section{Client für Studenten}
-\begin{center}
-    \includegraphics{bilder/pic3.PNG}\\
-    Erstanmeldung für Studenten \\
-    
-    \includegraphics{bilder/pic4.PNG}\\
-    Eingabe der persönlichen Informationen des Gruppenleiters \\
-    
-   \includegraphics[scale=0.8]{bilder/pic6.PNG}\\
-    Gruppenmitglieder werden automatisch in der gegebenen Mindestanzahl erstellt und können bearbeitet werden. Weiter erst nach Eingbabe eines Gruppenpassworts. \\
-    
-    \includegraphics[scale=0.8]{bilder/pic7.PNG}\\
-    Ist die Erstanmeldung erfolgreich abgeschlossen, wird vom System eine caseXX-Nummer zugeteilt, die die Gruppe in Zukunft als Gruppen-Login verwendet. \\
-    
-    \includegraphics{bilder/pic2.PNG}\\
-    Anmeldung für Studenten, wenn schon eine Gruppe existiert \\
-\end{center}
-\newpage
-\section{Client für Dozenten}
-\begin{center}
-    \includegraphics{bilder/doz1.PNG}\\
-    Anmeldung für Dozenten \\
-    
-    \includegraphics[scale=0.6]{bilder/doz2.PNG}\\
-    Übersicht über alle Belege, dessen Gruppen und dessen Mitglieder direkt nach Anmeldung \\
-    
-    \includegraphics[scale=0.6]{bilder/doz3.PNG}\\
-    Anlegen eines neuen Belegs mit den dazugehörigen Angaben \\
-    
-    \includegraphics[scale=0.6]{bilder/doz4.PNG}\\
-    Gruppe bearbeiten/anlegen, falls Studenten Zugangsdaten oder änhliches vergessen haben \\
-    
-    \includegraphics[scale=0.6]{bilder/doz5.PNG}\\
-    Themen verwalten (anlegen/löschen) \\
-\end{center}
-
 
 
 \newpage
 \part{Funktionale Anforderungen}
-\begin{itemize}
-\item Login mit verschiedenen Berechtigungen(Projektgruppe/Dozent)
-\item hierarchische Auswahl der Auflistung der Belege, der Gruppen, der Daten
-der Gruppenmitglieder für Dozenten
-\item Erstellung neuer Belege \& Zuteilung einer Anzahl an Gruppenslots(Cases)
-\begin{itemize}
-\item Zuteilung von Themen und dem Beleg aus einem bearbeitbaren Themenpool durch Dozent
-\item Zuteilung von Rollen und dem Beleg aus einem bearbeitbaren Rollenpool durch Dozent
-\end{itemize}
-\item lesender/schreibender Zugriff des Dozenten auf sämtliche Daten
-\item Generierung einer PDF-Datei mit entsprechenden Daten des Beleges
-\item Ausgabe von Datensätzen nach Erfüllung einstellbarer Kriterien(Namen,
-Rollenverteilung)
-\begin{itemize}
-\item relevant für Suchfunktionen und Generierung von E-Mail-Addresslisten
-\end{itemize}
-\end{itemize}
-\begin{itemize}
-\item Erstellung neuer Gruppen auf Basis eines vorgegebenen Beleg-Erstlogins
-\item tabellarische Auflistung der Gruppendaten aus Gruppenperspektive
-\item Änderungsfunktionen der Gruppendaten aus Gruppenperspektive
-\end{itemize}
 
-Optional:
-\begin{itemize}
-\item Thunderbird-Schnittschnelle(direktes öffnen)
-\item druckbares Formular zur Benotung
-\end{itemize}
+Das Softwaresystem besteht aus mehreren Programmen, welche die Nutzung als Dozent oder als Projektgruppe erlaubt.\\\\
+
+Dabei soll das Teilsystem des Dozenten eine hierarchische Auswahl der Auflistung der Belege, der Gruppen und der Daten der Gruppenmitglieder, sowie die Möglichkeit der Bearbeitung derselben enthalten.\\
+Außerdem soll es die Erstellung neuer Belege und die Zuteilung von Gruppenslots(Cases) ermöglichen.\\
+Dazu soll auch eine Zuteilung von Themen und Rollen aus jeweilig bearbeitbaren Pools zu einem Beleg möglich sein.\\
+Weiterhin soll die Generierung einer PDF-Datei zur analogen Archivierung der im System enthaltenen Daten ermöglicht werden.\\
+Als weiteres Feature soll dieses Teilsystem die durch spezifizierbare Kriterien bestimmte Datensätzen ausgeben, was grundlegend als Suchfunktion oder zur Generierung von E-Mail-Addresslisten genutzt werden kann.\\\\
+
+Das Teilsystem, welches potenziellen Projektgruppen zur Verfügung gestellt werden wird, soll eine Loginfunktion zur näheren Spezifikation der Projektgruppe enthalten.\\
+Dabei wird es neben Gruppennamen nach dem Schema "caseXX" ermöglicht, durch Eingabe einer Belegkennung und zugehöriger Passphrase eine neue Projektgruppe zu erstellen und einen entsprechenden Slot zugeteilt zu bekommen.\\
+Nach erfolgreichem Login wird einerseits über bisherige Daten der eigenen Gruppe informiert, andererseits die Bearbeitung derselben ermöglicht.\\
+
+Optional kann das Dozentenrelease eine Schnittstelle zu Mozilla Thunderbird beinhalten.\\
+Ebenso optional kann es außerdem die Bereitstellung eines druckbaren Formulars zur Mitschrift der Benotung während oder nach der Präsentation eines Beleges enthalten.\\
+%\begin{itemize}
+%\item Login mit verschiedenen Berechtigungen(Projektgruppe/Dozent)
+%\item hierarchische Auswahl der Auflistung der Belege, der Gruppen, der Daten
+%der Gruppenmitglieder für Dozenten
+%item Erstellung neuer Belege \& Zuteilung einer Anzahl an Gruppenslots(Cases)
+%\begin{itemize}
+%\item Zuteilung von Themen und dem Beleg aus einem bearbeitbaren Themenpool durch Dozent
+%\item Zuteilung von Rollen und dem Beleg aus einem bearbeitbaren Rollenpool durch Dozent
+%\end{itemize}
+%\item lesender/schreibender Zugriff des Dozenten auf sämtliche Daten
+%\item Generierung einer PDF-Datei mit entsprechenden Daten des Beleges
+%\item Ausgabe von Datensätzen nach Erfüllung einstellbarer Kriterien(Namen,
+%Rollenverteilung)
+%\begin{itemize}
+%\item relevant für Suchfunktionen und Generierung von E-Mail-Addresslisten
+%\end{itemize}
+%\end{itemize}
+%\begin{itemize}
+%\item Erstellung neuer Gruppen auf Basis eines vorgegebenen Beleg-Erstlogins
+%\item tabellarische Auflistung der Gruppendaten aus Gruppenperspektive
+%\item Änderungsfunktionen der Gruppendaten aus Gruppenperspektive
+%\end{itemize}
+
+%Optional:
+%\begin{itemize}
+%\item Thunderbird-Schnittschnelle(direktes öffnen)
+%\item druckbares Formular zur Benotung
+%\end{itemize}
 
 \newpage
 \part{Qualitätsanforderungen}
