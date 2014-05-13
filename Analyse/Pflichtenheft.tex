@@ -104,26 +104,28 @@ Datenschutzgesetz (rechtlich)
 \part{Fehlertoleranzmaßnahmen}
 
 \section{Generell}
-\begin{description}
-\item[Fehler:] Verbindung Datenbank schlägt Fehl
-\item[Reaktion:] Fehlermeldung anzeigen, erneut versuchen oder beenden
-\end{description}
-
-\begin{description}
-\item[Fehler:] SQL-Injection bei Eingabe von Daten für Datenbankabfragen
-\item[Gegenmaßnahme:] Einfügen von Escape-Zeichen vor `'` und `"` oder entfernen selbiger
-\end{description}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+	\textbf{Fehler}												&	\textbf{Reaktion / Gegenmaßnahme}						\\
+\hline
+\hline
+	Verbindung Datenbank schlägt Fehl							&	Fehlermeldung anzeigen, erneut versuchen oder beenden	\\
+\hline
+	Anfragen an die Datenbank unter Umgehung des SW-Systems		&	Enge Berechtigungsvergabe und Prüfung der Eingabe auf Seite der Datenbank \\
+\hline
+\end{tabular}
 
 \section{Gruppe erstellen}
-\begin{description}
-\item[Fehler:] falsche Zugangsdaten eingegeben
-\item[Reaktion:] Fehlermeldung anzeigen, Verzögerung in Datenbank, erneut versuchen
-\end{description}
-\begin{description}
-\item[Fehler:] maximale Gruppenanzahl erreicht
-\item[Reaktion:] Fehlermeldung, abbrechen
-\end{description}
-
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+	\textbf{Fehler}					&	\textbf{Reaktion / Gegenmaßnahme}									\\
+\hline
+\hline
+	falsche Zugangsdaten eingegeben	&	Fehlermeldung anzeigen, Verzögerung in Datenbank, erneut versuchen	\\
+\hline
+	maximale Gruppenanzahl erreicht	&	Fehlermeldung, abbrechen											\\
+\hline
+\end{tabular}
 
 \newpage
 \part{Anforderungen an die Dokumentation}
