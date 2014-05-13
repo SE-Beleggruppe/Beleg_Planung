@@ -9,6 +9,8 @@
 
 \title{Pflichtenheft}
 
+\setlength{\parskip}{5mm plus4mm minus3mm}
+
 \begin{document}
 
 \maketitle
@@ -16,14 +18,13 @@
 \tableofcontents
 \newpage
 
-\part{Ausgangssituation und Zielsetzung}
+\section{Ausgangssituation und Zielsetzung}
 Im Rahmen des Sommersemesterbeleges 2014 im Fach Software Engeneering II der Hochschule für Technik und Wirtschaft Dresden soll ein Softwaresystem zur vereinfachten Erfassung und Verwaltung von Beleggruppen unter Frau Professorin Hauptmann, weiterhin als Auftraggeberin benannt, erstellt werden.
 Folgende Aufgabenstellung ist dabei zu realisieren:
 Entwickeln  Sie ein SW-System, das die Verwaltung der Daten für Belegarbeiten, die auch parallel laufen können. Neben der Erfassung sind auch weitere Anwendungsfälle wie zum Beispiel „archivieren von Daten“ zu realisieren.
 Dazu wird im folgendem die Aufgabenstellung auf 2 Programme aufgeteilt, Eines für die Studenten zum Anmelden und Verwalten ihrer eigenen Gruppe und zum anderen ein Programm für den Dozenten , welcher neben administrativer Funktionen auch Verwaltungsrelevante bekommt.
 
-\newpage 
-\part{Systemeinsatz, Systemumgebung}
+\section{Systemeinsatz, Systemumgebung}
 \subsection{Anwendungsbereiche}
 Das System wird zur Verwaltung von Beleggruppen unter dem Auftraggeber eingesetzt. Daher sind einige Festlegungen wie z.B.: die Caseanzahl ausdrücklich vom Auftraggeber festgelegt.
 Das System soll als Client-Server Architektur realisiert werden. Der Datenbankserver wird dabei vom Auftraggeber gestellt und unterliegt daher weiterführend keiner genaueren Betrachtung. Zu Implementieren seien daher:
@@ -38,9 +39,8 @@ Des Weiteren wird das System vom Auftraggeber sowie von Ihr festgelegten weitere
 \subsection{Systemumgebung}
 Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtschaft Dresden benutzt werden. 
 
-\newpage
-\part{Benutzerschnittstellen}
-\section{Client für Studenten}
+\section{Benutzerschnittstellen}
+\subsection{Client für Studenten}
 
 \begin{center}
     \includegraphics{bilder/pic3.PNG}\\
@@ -58,8 +58,8 @@ Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtscha
     \includegraphics{bilder/pic2.PNG}\\
     Anmeldung für Studenten, wenn schon eine Gruppe existiert \\
 \end{center}
-\newpage
-\section{Client für Dozenten}
+
+\subsection{Client für Dozenten}
 \begin{center}
     \includegraphics{bilder/doz1.PNG}\\
     Anmeldung für Dozenten \\
@@ -76,10 +76,8 @@ Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtscha
     \includegraphics[scale=0.6]{bilder/doz5.PNG}\\
     Themen verwalten (anlegen/löschen) \\
 \end{center}
-\newpage
 
-\part{Funktionale Anforderungen}
-
+\section{Funktionale Anforderungen}
 Das Softwaresystem besteht aus mehreren Programmen, welche die Nutzung als Dozent oder als Projektgruppe erlaubt.\\\\
 
 Dabei soll das Teilsystem des Dozenten eine hierarchische Auswahl der Auflistung der Belege, der Gruppen und der Daten der Gruppenmitglieder, sowie die Möglichkeit der Bearbeitung derselben enthalten.\\
@@ -123,16 +121,14 @@ Ebenso optional kann es außerdem die Bereitstellung eines druckbaren Formulars 
 %\item druckbares Formular zur Benotung
 %\end{itemize}
 
-\newpage
-\part{Qualitätsanforderungen}
+\section{Qualitätsanforderungen}
 \begin{itemize}
 \item Benutzerfreundlichkeit (wird über Prototyp geregelt)
 \item Zuverlässigkeit (Überprüfung von potentiellen Fehleingaben des Nutzers)
 \item Sicherheit und Datenschutz (Gruppen durch Passwort geschützt)
 \end{itemize}
 
-\newpage
-\part{Rahmenbedingungen}
+\section{Rahmenbedingungen}
 \begin{itemize}
 \item Nutzung des hochschuleigenen Sybase-Servers
 \item Die Datenbank (Sybase-DB) zum Speichern der Daten ist bereits vorhanden
@@ -147,10 +143,9 @@ sein soll, ist Windows 7(technisch)
 Datenschutzgesetz (rechtlich)
 \end{itemize}
 
-\newpage
-\part{Fehlertoleranzmaßnahmen}
+\section{Fehlertoleranzmaßnahmen}
 
-\section{Generell}
+\subsection{Generell}
 \begin{tabular}{|p{7cm}|p{7cm}|}
 \hline
 	\textbf{Fehler}												&	\textbf{Reaktion / Gegenmaßnahme}						\\
@@ -158,11 +153,13 @@ Datenschutzgesetz (rechtlich)
 \hline
 	Verbindung Datenbank schlägt Fehl							&	Fehlermeldung anzeigen, erneut versuchen oder beenden	\\
 \hline
+	fehlerhafte Eingabe in Datums- und Zahlenfelder				&	die Eingabe falscher Zeichen in ein Eingabefeld wird von den verwendeten Komponenten verhindert	\\
+\hline
 	Anfragen an die Datenbank unter Umgehung des SW-Systems		&	Enge Berechtigungsvergabe und Prüfung der Eingabe auf Seite der Datenbank \\
 \hline
 \end{tabular}
 
-\section{Gruppe erstellen}
+\subsection{Gruppe erstellen}
 \begin{tabular}{|p{7cm}|p{7cm}|}
 \hline
 	\textbf{Fehler}					&	\textbf{Reaktion / Gegenmaßnahme}									\\
@@ -174,8 +171,41 @@ Datenschutzgesetz (rechtlich)
 \hline
 \end{tabular}
 
-\newpage
-\part{Anforderungen an die Dokumentation}
+\subsection{Gruppe bearbeiten}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+	\textbf{Fehler}										&	\textbf{Reaktion / Gegenmaßnahme}				\\
+\hline
+\hline
+	außerhalb des Anmeldezeitraumes						&	Benutzung des Buttons nicht möglich				\\
+\hline
+	Anzahl der Gruppenmitglieder unterschreitet minimum	&	Fehlermeldung, bearbeiten wird fortgesetzt		\\
+\hline
+\end{tabular}
+
+\subsection{Login}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+	\textbf{Fehler}												&	\textbf{Reaktion / Gegenmaßnahme}			\\
+\hline
+\hline
+	falsche Zugangsdaten eingegeben								&	Fehlermeldung anzeigen, erneut versuchen	\\
+\hline
+	Versuch eines Erstlogins außerhalb des Anmeldezeitraumes	&	Fehlermeldung, erneut versuchen				\\
+\hline
+\end{tabular}
+
+\subsection{Belegarbeit bearbeiten}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+	\textbf{Fehler}				&	\textbf{Reaktion / Gegenmaßnahme}	\\
+\hline
+\hline
+	Startdatum nach Enddatum	&	zurück zum ''bearbeiten''-Dialog	\\
+\hline
+\end{tabular}
+
+\section{Anforderungen an die Dokumentation}
 Was gehört zur Dokumentation?
 \begin{itemize}
 \item Das Pflichtenheft selbst
@@ -185,11 +215,9 @@ Was gehört zur Dokumentation?
 \item Testdokumentation mit Testfällen und Testdaten
 \end{itemize}
 
-\newpage
-\part{Abnahmekriterien}
+\section{Abnahmekriterien}
 
 
-\newpage
-\part{Glossar, Verzeichnisse, Anhang}
+\section{Glossar, Verzeichnisse, Anhang}
 
 \end{document}
