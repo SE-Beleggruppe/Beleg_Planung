@@ -7,13 +7,20 @@
 \usepackage{graphicx}
 \usepackage[left=2cm,right=3cm,top=2cm,bottom=2cm]{geometry}
 
-\title{Pflichtenheft}
 
 \setlength{\parskip}{5mm plus4mm minus3mm}
 
 \begin{document}
-
+\begin{titlepage}
+\author{Softwaresystem zur Verwaltung von Beleggruppen} 
+\title{Pflichtenheft} 
+\date{\today} 
 \maketitle
+\end{titlepage}
+\newpage 
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
 \newpage
 \tableofcontents
 \newpage
@@ -43,6 +50,7 @@ Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtscha
 \subsection{Client für Studenten}
 
 \begin{center}
+
     \includegraphics[scale=1]{bilder/pic3.PNG}\\
     Erstanmeldung für Studenten \\
 
@@ -60,8 +68,8 @@ Das Softwaresystem kann nur im Intranet der Hochschule für Technik und Wirtscha
     
     \includegraphics[scale=0.8]{bilder/pic8.PNG}\\
     Eigene Gruppe verwalten (Mitglieder ändern, Thema ändern) \\
-\end{center}
 
+\end{center}
 \subsection{Client für Dozenten}
 \begin{center}
     \includegraphics{bilder/doz1.PNG}\\
@@ -114,7 +122,8 @@ Das Softwaresystem besteht aus mehreren Programmen, welche die Nutzung als Dozen
 \begin{itemize}
 \item Das Dozentenrelease kann eine Schnittstelle zu Mozilla Thunderbird beinhalten.
 
-\item Ebenso kann es außerdem die Bereitstellung eines druckbaren Formulars zur Mitschrift der Benotung während oder nach der Präsentation eines Beleges enthalten.\\
+\item Ebenso kann es außerdem die Bereitstellung eines druckbaren Formulars 
+zur Mitschrift der Benotung während oder nach der Präsentation eines Beleges enthalten.\\
 \end{itemize}
 %\begin{itemize}
 %\item Login mit verschiedenen Berechtigungen(Projektgruppe/Dozent)
@@ -380,22 +389,41 @@ Intranet
 \begin{itemize} 
 \item Rechnernetzwerk innerhalb einer Einrichtung
 \end{itemize}
-\subsection{Anhang}
-\subsubsection{Anwendungsfall-Diagramme}
-\begin{center}
-\includegraphics[scale=1]{bilder/Uebersicht_UseCase.PNG}\\
-\includegraphics[scale=1]{bilder/Belegarbeit_bearbeiten_UseCase.png}\\
-\includegraphics[scale=1]{bilder/Gruppe_bearbeiten_UseCase.png}\\
-\end{center}
-\subsubsection{Aktivitäts-Diagramme}
-\begin{center}
-\includegraphics[scale=1]{bilder/Belegarbeit_erstellen_Activity.png}\\
-\includegraphics[scale=1]{bilder/Belegarbeit_bearbeiten_Activity.png}\\
-\includegraphics[scale=1]{bilder/Belegarbeit_archivieren_Activity.png}\\
+\section{Anhang}
+\appendix
+\section{Anwendungsfall-Diagramme}
 
-\includegraphics[scale=1]{bilder/Email_Adressen_anzeigen_Activity.png}\\
-\includegraphics[scale=1]{bilder/Gruppe_erstellen_Activity.png}\\
-\includegraphics[scale=1]{bilder/Gruppe_bearbeiten_Activity.png}\\
-\end{center}
+\includegraphics[scale=0.8]{bilder/Uebersicht_UseCase.PNG}
+Übersicht des Softwaresystems
 
+\includegraphics[scale=1]{bilder/Belegarbeit_bearbeiten_UseCase.png}
+Belegarbeit bearbeiten
+
+\includegraphics[scale=1]{bilder/Gruppe_bearbeiten_UseCase.png}
+Gruppe bearbeiten
+
+\section{Aktivitäts-Diagramme}
+
+\includegraphics[scale=0.8]{bilder/Belegarbeit_erstellen_Activity.png}
+Belegarbeit erstellen
+
+\includegraphics[scale=0.75]{bilder/Belegarbeit_bearbeiten_Activity.png}
+Belegarbeit bearbeiten
+
+\includegraphics[scale=1]{bilder/Belegarbeit_archivieren_Activity.png}
+Belegarbeit archivieren
+
+\includegraphics[scale=0.7]{bilder/Email_Adressen_anzeigen_Activity.png}
+Email Adressen anzeigen
+
+\includegraphics[scale=0.6]{bilder/Gruppe_erstellen_Activity.png}
+Gruppe erstellen
+
+\includegraphics[angle=270,scale=0.9]{bilder/Gruppe_bearbeiten_Activity.png}
+Gruppe bearbeiten
+
+\section{Entitiy Relationship Modell}
+
+\includegraphics[angle=270,scale=0.68]{bilder/DatenbankModell.png}
+Entitiy Relationship Modell
 \end{document}
