@@ -16,7 +16,7 @@ create table Zuordnung_GruppeStudent (
 create table Gruppe (
 	Gruppenkennung char(6) NOT NULL,
 	Themennummer int NOT NULL,
-	Passwort char(10),
+	Passwort char(25),
 	primary key(Gruppenkennung)
 )
 
@@ -43,13 +43,14 @@ create table Zuordnung_BelegThema (
 	primary key (Belegkennung, Themennummer)
 )
 
+
 create table Thema (
 	Themennummer int NOT NULL,
 	Aufgabe char(80),
 	primary key (Themennummer)
 )
 
-create table Zuordnung_BelegCase (
+create table Zuordnung_BelegCases (
 	Belegkennung char(20) NOT NULL,
 	Casekennung char(6) NOT NULL,
 	primary key (Belegkennung, Casekennung)
