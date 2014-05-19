@@ -21,4 +21,4 @@ Felix Krautschuk:					Projektdokumentation
 
 Nächstes Treffen:
 =================
-26.5.2014 13.00-14.00 Bibliothek
+26.5.2014 15.00-16.00 Bibliothek

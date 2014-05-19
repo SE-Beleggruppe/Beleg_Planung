@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  12 MAY 2014 17:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  19 MAY 2014 18:44
 entering extended mode
 **Dokumentation.tex
 ("C:\Users\Felix\eclipse_workspace\SEII - Doku\Dokumentation.tex"
@@ -377,7 +377,7 @@ LaTeX Info: Redefining \nameref on input line 18.
 ("C:\Users\Felix\eclipse_workspace\SEII - Doku\Dokumentation.out")
 \@outlinefile=\write3
 
-<grafiken/HTW-Logo.png, id=31, 192.72pt x 45.46988pt>
+<grafiken/HTW-Logo.png, id=35, 192.72pt x 45.46988pt>
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
@@ -447,21 +447,27 @@ Overfull \hbox (9.5469pt too wide) in paragraph at lines 304--306
 -yse fer-tig-stellen (Pflicht-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
 [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+Overfull \hbox (7.94138pt too wide) in paragraph at lines 327--329
+[][]\OT1/cmr/m/n/12 Benjamin Her-zog, Markus Noack: weit-ere Ar-beit an der Fun
+k-tion-alitat des Studenten-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  ("C:\Users\Felix\eclipse_workspace\SEII - Doku\Dokumentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `Dokumentation.out' has not changed.
-(rerunfilecheck)             Checksum: 837897D91F6B4B494872B9F30AE109A9;413.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+(rerunfilecheck)             Checksum: 3F34A49CC6D1DAD2B611AE720BC6A41D;473.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 6506 strings out of 493921
- 94176 string characters out of 3144876
+ 6509 strings out of 493921
+ 94213 string characters out of 3144876
  181016 words of memory out of 3000000
- 9704 multiletter control sequences out of 15000+200000
+ 9705 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,257b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -469,9 +475,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Dokumentation.pdf (10 pages, 116275 bytes).
+Output written on Dokumentation.pdf (11 pages, 118527 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
