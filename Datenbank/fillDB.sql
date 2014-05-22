@@ -14,8 +14,8 @@ insert into Zuordnung_BelegRolle values ("beleg1", "Test")
 insert into Zuordnung_BelegRolle values ("beleg1", "Dokumentation")
 
 insert into Zuordnung_BelegThema values ("beleg1", 10)
-insert into Zuordnung_BelegThema values ("beleg1", 11)
-insert into Zuordnung_BelegThema values ("beleg1", 12)
+insert into Zuordnung_BelegThema values ("beleg1", 9)
+insert into Zuordnung_BelegThema values ("beleg1", 8)
 
 insert into Gruppe values ("case01", 10, "pw")
 
