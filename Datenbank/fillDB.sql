@@ -26,3 +26,5 @@ insert into Student values ("s12345", "TestV", "TestN", "s12345@htw-dresden.de",
 insert into Zuordnung_GruppeStudent values ("case01", "s68311")
 insert into Zuordnung_GruppeStudent values ("case01", "s68398")
 insert into Zuordnung_GruppeStudent values ("case01", "s12345")
+
+insert into Zuordnung_GruppeBeleg values ("case01","beleg1")
