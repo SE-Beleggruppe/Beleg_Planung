@@ -85,9 +85,6 @@ create table Rolle (
 
 ausgeführt:
 
-insert into Student values ("s68311", "Benjamin", "Herzog", "s68311@htw-dresden.de", "Implementation")
-insert into Student values ("s68398", "Markus", "Noack", "s68398@htw-dresden.de", "Datenbankentwurf")
-
 insert into Cases values ("caseXX") // case01-case25
 
 insert into Rolle values("Leitung")
@@ -97,5 +94,3 @@ insert into Rolle values("Implementation")
 insert into Rolle values("Analyse")
 insert into Rolle values("Test")
 insert into Rolle values("Dokumentation")
-
-insert into Beleg values ("belegSS14","SS 14","15-05-2014","20-05-2014",6,7,"passwort")
