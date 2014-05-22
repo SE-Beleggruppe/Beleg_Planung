@@ -1,9 +1,9 @@
 insert into Beleg values ("beleg1", "SS14", "15-05-2014", "01-07-2014", 6, 7, "passwort")
 
-insert into Zuordnung_BelegCases ("beleg1", "case01")
-insert into Zuordnung_BelegCases ("beleg1", "case02")
-insert into Zuordnung_BelegCases ("beleg1", "case03")
-insert into Zuordnung_BelegCases ("beleg1", "case04")
+insert into Zuordnung_BelegCases values ("beleg1", "case01")
+insert into Zuordnung_BelegCases values ("beleg1", "case02")
+insert into Zuordnung_BelegCases values ("beleg1", "case03")
+insert into Zuordnung_BelegCases values ("beleg1", "case04")
 
 insert into Zuordnung_BelegRolle values ("beleg1", "Leitung")
 insert into Zuordnung_BelegRolle values ("beleg1", "Entwurf")
