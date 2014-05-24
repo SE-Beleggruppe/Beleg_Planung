@@ -21,7 +21,7 @@ insert into Gruppe values ("case01", 10, "pw")
 
 insert into Student values ("s68311", "Benjamin", "Herzog", "s68311@htw-dresden.de", "Implementation")
 insert into Student values ("s68398", "Markus", "Noack", "s68398@htw-dresden.de", "Datenbankentwurf")
-insert into Student values ("s12345", "TestV", "TestN", "s12345@htw-dresden.de", "Test")
+insert into Student values ("s12345", "TestV", "TestN", "s12345@htw-dresden.de", "Leitung")
 
 insert into Zuordnung_GruppeStudent values ("case01", "s68311")
 insert into Zuordnung_GruppeStudent values ("case01", "s68398")
