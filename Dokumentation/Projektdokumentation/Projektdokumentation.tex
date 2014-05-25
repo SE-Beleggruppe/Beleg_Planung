@@ -1,0 +1,133 @@
+%gibt an: Papierformat, einseitiger Druck, Schriftgröße
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+%-------------------------------------------------------------------
+\usepackage[a4paper, top=2cm, footskip=0pt, headheight=0.8cm, headsep=0.6cm, lmargin=3cm, rmargin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{helvet}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{hyperref} 
+\usepackage[right]{eurosym}
+\usepackage[latin1]{inputenc}
+
+%--------------------------------------------------------------------
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+%--------------------------------------------------------------------
+%Titelseite
+\begin{titlepage}
+	\includegraphics{grafiken/HTW-Logo.png}
+	%\includegraphics[width=.3\textwidth]{grafiken/HTW-Logo.png}
+	\vspace*{3cm}
+	\begin{center}
+		\Huge{Projektdokumentation\\} \vspace*{1cm}
+		\huge{Case-Gruppe 04\\}
+		\vspace*{1cm}
+		\Large{
+			Modul: Software Engineering II\\}
+		\vspace*{2cm}
+		\normalsize{
+			Studiengang Informatik\\
+		}
+	\end{center}
+	\vspace{2cm}
+\begin{center}
+\large{Sommersemester 2014}
+\end{center}
+	\vspace*{3cm}
+
+
+
+\end{titlepage}
+
+\thispagestyle{empty}\clearpage
+
+%-----------------------------------------------------------------------------------------------------------------------------------
+%\rmfamily \pagestyle{fancy} \setcounter{secnumdepth}{4}
+\newtheorem{satz}{Satz}
+\newtheorem{lemma}[satz]{Lemma}
+\newtheorem{folgerung}[satz]{Folgerung}
+\theoremstyle{definition}
+\newtheorem{definition}[satz]{Definition}
+\numberwithin{equation}{section}
+\renewcommand{\proofname}{Beweis}
+
+\pagenumbering{roman}\setcounter{page}{3} \tableofcontents
+\newcounter{roemisch} \setcounter{roemisch}{\value{page}}
+\clearpage
+
+\setcounter{page}{2} \pagenumbering{arabic}
+
+
+\section{Motivation}
+Das Ziel bei diesem Projekt war es, unser Fachwissen und die erlernten
+Techniken aus dem letzten Semester und aus diesem Semester anzuwenden und bei
+der Planung, dem Entwurf, der Implementierung und dem Test unserer Anwendung die
+Prozesse der Softwareentwicklung kennenzulernen.
+
+
+\section{Ablauf des Projektes}
+\subsection{Meilensteine}
+\begin{itemize}
+  \item 1. Abgabe des Pflichtenheftes
+  \item 2. Abschluss des Feinentwurfes
+  \item 3. Abschluss der Implementierung
+  \item 4. Test und gegebenenfalls Durchführung notwendiger Änderungen
+  \item 5. Abgabe des entwickelten Systems an den Kunden mit Präsentation
+\end{itemize}
+
+\subsection{Vorgehensweise}
+\subsubsection{Gruppenfindung und Themenwahl}
+Da sich die Gruppenmitglieder bereits während des Studiums kennenlernten und
+viele Prüfungen gemeinsam vorbereiteten, ging der Prozess der Gruppenfindung
+sehr schnell. \\Auch die Einigung auf das zu bearbeitende Thema nahm kaum Zeit
+in Anspruch. Zu unserer ersten Gruppensitzung (07.04.2014) entschieden wir uns
+für die Entwicklung eines Systems zur Verwaltung von Beleggruppendaten (Alternative 5), da uns diese Aufgabe am
+sinnvollsten erschien. Außerdem legten wir folgende Rollenverteilung fest:
+\begin{itemize}
+  \item Projektleiter: Christian Knothe
+  \item Analyse: Martin Tzschoppe
+  \item Entwurf: Benjamin Reim
+  \item Datenbank: Markus Noack
+  \item Implementierung: Benjamin Herzog
+  \item Tests: Christian Schwarz
+  \item Dokumentation/Protokollierung: Felix Krautschuk
+\end{itemize}
+Unser Projektleiter Christian Knothe legte mehr Wert auf Eigeninitiative der
+Gruppenmitglieder als auf seine führende Rolle und beschränkte seine
+Befugnisse in Entscheidungen auf das Nötigste, was von uns Gruppenmitgliedern
+sehr begrüßt wurde.
+
+\subsubsection{Gruppensitzungen}
+Zu unserem ersten Treffen am 07.04.2014 legten wir fest dass ein Treffen aller
+Gruppenmitglieder alle 14 Tage Montags (ungerade Woche) ausreichend sei. Da es
+aber besonders zu Beginn des Projektes sehr viele Unklarheiten und Diskussionen
+bezüglich des Aufbaus und des Umfanges des gewünschten Softwaresystems gab,
+änderten wir den Rhythmus und trafen uns öfter. Unser Projektleiter schrieb
+dafür rechtzeitig eine Email mit einer Tagesordnung an alle Mitglieder der
+Gruppe, sowie an unsere Kundin Frau Prof. Dr. Hauptmann.
+
+
+\subsubsection{Fertigstellung und Abgabe des Pflichtenheftes}
+Da die Analyse der Ausgangspunkt für die Entstehung des Softwaresystems
+ist, stellte es sich für uns als sinnvoll heraus wenn sich das gesamte
+Team mit der Analyse beschäftigt damit wir schnell mit dem Pflichtenheft
+vorankommen. Allerdings entstanden so viele Diskussionen die unseren Fortschritt
+bei der Bearbeitung der Aufgabe behinderten. Aufgrund mehrerer unglücklcher
+Versuche ein gemeinsames Treffen mit Frau Hauptmann zu vereinbaren, um mit ihr
+solche Probleme zu beseitigen, konnten wir erst sehr spät mit der eigentlichen
+Erstellung von Anforderungen, Kontextdiagrammen usw beginnen. Nach Absprache mit
+Frau Hauptmann erfolgte schließlich die Abgabe des Pflichtenheftes eine Woche
+nach dem offiziellen Abgabetermin.
+
+\subsubsection{Entwicklungsumgebung und Programmiersprache}
+Obwohl Frau Hauptmann keinen Wert auf Plattformunabhängigkeit legte und die
+Vorgabe nur lautete, dass das System unter Windows laufen sollte, nahmen wir uns
+vor ein plattformunabhängiges Produkt in Java oder in C++ mit QT zu entwickeln. 
+Beim Entwickeln eines Oberflächenprototypen entstanden bei der Nutzung der eben
+genannten Systeme Probleme, weshalb wir uns schließlich für die Programmierung
+mit CSharp unter Visual Studio entschieden.
+\end{document}
+
