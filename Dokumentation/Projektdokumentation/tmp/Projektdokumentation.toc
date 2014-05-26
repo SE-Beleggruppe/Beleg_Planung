@@ -9,5 +9,5 @@
 \contentsline {section}{\numberline {3}Kommunikation}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Gruppensitzungen}{3}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Forum}{3}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Github}{3}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Facebook}{3}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.3}Facebook}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Github}{3}{subsection.3.4}
