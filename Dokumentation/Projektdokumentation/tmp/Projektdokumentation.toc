@@ -6,3 +6,8 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Gruppensitzungen}{2}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Fertigstellung und Abgabe des Pflichtenheftes}{2}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}Entwicklungsumgebung und Programmiersprache}{2}{subsubsection.2.2.4}
+\contentsline {section}{\numberline {3}Kommunikation}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Gruppensitzungen}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Forum}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Github}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Facebook}{3}{subsection.3.4}

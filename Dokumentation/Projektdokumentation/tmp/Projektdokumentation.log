@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  25 MAY 2014 19:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  26 MAY 2014 18:15
 entering extended mode
 **Projektdokumentation.tex
 
@@ -381,7 +381,7 @@ tion.out")
 ("C:\Users\Felix\eclipse_workspace\SEII - Projektdokumentation\Projektdokumenta
 tion.out")
 \@outlinefile=\write3
- <grafiken/HTW-Logo.png, id=35, 192.72pt x 45.46988pt>
+ <grafiken/HTW-Logo.png, id=55, 192.72pt x 45.46988pt>
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
@@ -420,34 +420,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \subsubsection
-                    {Gruppensitzungen} [1
+l.107 
+       [1
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Projektdokumentation\Projektdokumenta
 tion.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
-
-
-Package rerunfilecheck Warning: File `Projektdokumentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Projektdokumentation.out':
-(rerunfilecheck)             Before: BD3C6AF3FD33327645D884B53553CF9E;578
-(rerunfilecheck)             After:  42A42C6F3586F160E5A02F940873D1E4;601.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package rerunfilecheck Info: File `Projektdokumentation.out' has not changed.
+(rerunfilecheck)             Checksum: 520235F46B009AF8FBD26D9CB4E2C35C;889.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 6499 strings out of 493921
- 94492 string characters out of 3144876
- 180016 words of memory out of 3000000
- 9703 multiletter control sequences out of 15000+200000
+ 6510 strings out of 493921
+ 94638 string characters out of 3144876
+ 181016 words of memory out of 3000000
+ 9708 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,264b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -455,9 +448,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Projektdokumentation.pdf (4 pages, 106510 bytes).
+Output written on Projektdokumentation.pdf (5 pages, 111623 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
