@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Anforderungen}{1}{section.2}
+\contentsline {section}{\numberline {3}Programm Dozent}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Hauptmen\"u}{1}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Men\"u: Beleg anlegen}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Beleg l\"oschen}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Gruppe anlegen}{3}{subsection.3.4}
+\contentsline {section}{\numberline {4}Programm Student}{3}{section.4}
