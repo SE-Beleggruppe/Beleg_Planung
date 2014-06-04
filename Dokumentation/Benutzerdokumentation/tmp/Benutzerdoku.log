@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  3 JUN 2014 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  4 JUN 2014 12:44
 entering extended mode
 **Benutzerdoku.tex
 
@@ -381,7 +381,7 @@ t")
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation\Benutzerdoku.ou
 t")
 \@outlinefile=\write3
- <grafiken/HTW-Logo.png, id=35, 192.72pt x 45.46988pt>
+ <grafiken/HTW-Logo.png, id=63, 192.72pt x 45.46988pt>
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
@@ -414,7 +414,7 @@ Overfull \hbox (3.51503pt too wide) in paragraph at lines 64--70
  Be-leg-grup-pen-daten und besteht
  []
 
-<grafiken/Dozent_Hauptmenue.png, id=57, 677.53125pt x 205.5178pt>
+<grafiken/Dozent_Hauptmenue.png, id=92, 677.53125pt x 205.5178pt>
 File: grafiken/Dozent_Hauptmenue.png Graphic file (type png)
 
 <use grafiken/Dozent_Hauptmenue.png>
@@ -425,57 +425,119 @@ Overfull \hbox (222.28548pt too wide) in paragraph at lines 76--84
 [][] 
  []
 
-<grafiken/Dozent_Beleg_anlegen.png, id=58, 320.69812pt x 505.89pt>
+<grafiken/Dozent_Beleg_anlegen.png, id=93, 320.69812pt x 505.89pt>
 File: grafiken/Dozent_Beleg_anlegen.png Graphic file (type png)
 
 <use grafiken/Dozent_Beleg_anlegen.png>
 Package pdftex.def Info: grafiken/Dozent_Beleg_anlegen.png used on input line 8
-6.
+8.
 (pdftex.def)             Requested size: 320.69733pt x 505.88875pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 
-      [1
+l.104 
+       [1
 
  <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation/grafiken/Dozent
 _Hauptmenue.png (PNG copy)>] [2 <C:/Users/Felix/eclipse_workspace/SEII - Benutz
 erdokumentation/grafiken/Dozent_Beleg_anlegen.png>]
-<grafiken/Dozent_Gruppe_anlegen.png, id=68, 272.51813pt x 123.46124pt>
+<grafiken/Dozent_Themen_verwalten.png, id=103, 489.32813pt x 195.73125pt>
+File: grafiken/Dozent_Themen_verwalten.png Graphic file (type png)
+
+<use grafiken/Dozent_Themen_verwalten.png>
+Package pdftex.def Info: grafiken/Dozent_Themen_verwalten.png used on input lin
+e 106.
+(pdftex.def)             Requested size: 489.32692pt x 195.73076pt.
+
+Overfull \hbox (34.08281pt too wide) in paragraph at lines 106--109
+[][] 
+ []
+
+<grafiken/Dozent_Rollen_verwalten.png, id=104, 489.32813pt x 195.73125pt>
+File: grafiken/Dozent_Rollen_verwalten.png Graphic file (type png)
+
+<use grafiken/Dozent_Rollen_verwalten.png>
+Package pdftex.def Info: grafiken/Dozent_Rollen_verwalten.png used on input lin
+e 112.
+(pdftex.def)             Requested size: 489.32692pt x 195.73076pt.
+
+Overfull \hbox (34.08281pt too wide) in paragraph at lines 112--114
+[][] 
+ []
+
+<grafiken/Dozent_Kontaktieren.png, id=105, 221.32687pt x 234.8775pt>
+File: grafiken/Dozent_Kontaktieren.png Graphic file (type png)
+
+<use grafiken/Dozent_Kontaktieren.png>
+Package pdftex.def Info: grafiken/Dozent_Kontaktieren.png used on input line 11
+7.
+(pdftex.def)             Requested size: 221.32631pt x 234.87692pt.
+ [3 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation/grafiken/Doz
+ent_Themen_verwalten.png> <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdoku
+mentation/grafiken/Dozent_Rollen_verwalten.png>] <grafiken/Dozent_Archivieren.p
+ng, id=112, 315.42844pt x 225.84375pt>
+File: grafiken/Dozent_Archivieren.png Graphic file (type png)
+
+<use grafiken/Dozent_Archivieren.png>
+Package pdftex.def Info: grafiken/Dozent_Archivieren.png used on input line 124
+.
+(pdftex.def)             Requested size: 315.42766pt x 225.84319pt.
+
+Overfull \hbox (21.06346pt too wide) in paragraph at lines 124--130
+\OT1/cmr/m/n/12 bleiben fur zukunftige Belege verfugbar und die Case-Gruppen
+ sind wieder alle frei auswahlbar. 
+ []
+
+[4 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation/grafiken/Doze
+nt_Kontaktieren.png> <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumenta
+tion/grafiken/Dozent_Archivieren.png>]
+<grafiken/Dozent_Gruppe_anlegen.png, id=119, 272.51813pt x 123.46124pt>
 File: grafiken/Dozent_Gruppe_anlegen.png Graphic file (type png)
 
 <use grafiken/Dozent_Gruppe_anlegen.png>
 Package pdftex.def Info: grafiken/Dozent_Gruppe_anlegen.png used on input line 
-109.
+153.
 (pdftex.def)             Requested size: 272.51746pt x 123.46092pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
- [3 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation/grafiken/Doz
-ent_Gruppe_anlegen.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+
+Overfull \hbox (3.91782pt too wide) in paragraph at lines 146--156
+[]\OT1/cmr/m/n/12 Nachdem der Dozent beim An-le-gen des Beleges die case-Gruppe
+n freigegeben hat, geschieht
+ []
+
+
+Overfull \hbox (5.74976pt too wide) in paragraph at lines 158--162
+[]\OT1/cmr/m/n/12 Genau wie beim Loschen von nicht-leeren Bele-gen bekommt der
+ Dozent auch bei Betatigung
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+[5 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation/grafiken/Doze
+nt_Gruppe_anlegen.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation\Benutzerdoku.au
 x")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `Benutzerdoku.out' has not changed.
-(rerunfilecheck)             Checksum: 729170C26005FAC88AD9B9B311B5E0DB;462.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+(rerunfilecheck)             Checksum: 0AA0B40A3E518106F8E032A8EB8FD70D;1031.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 6498 strings out of 493921
- 94546 string characters out of 3144876
- 179016 words of memory out of 3000000
- 9701 multiletter control sequences out of 15000+200000
+ 6534 strings out of 493921
+ 95563 string characters out of 3144876
+ 180016 words of memory out of 3000000
+ 9724 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,256b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Benutzerdoku.pdf (5 pages, 153560 bytes).
+Output written on Benutzerdoku.pdf (7 pages, 187332 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

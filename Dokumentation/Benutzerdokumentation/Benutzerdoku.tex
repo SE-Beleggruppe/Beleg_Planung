@@ -82,33 +82,84 @@ Case-Gruppe dar. Beim Anklicken einer Case-Gruppe wird die Tabelle entsprechend
 aktualisiert.\\Im unteren Bereich des Menüs sind einige Buttons zur
 Beleg-Verwaltung zu finden.
 
-\subsection{Menü: Beleg anlegen}
+\subsection{Für Dozenten relevante Funktionen}
+
+\subsubsection{Menü: Beleg anlegen}
 \includegraphics{grafiken/Dozent_Beleg_anlegen.png}\\
 Dieses Menü erlaubt es einen neuen Beleg für das aktuelle Semester, welches in
 der zweiten Zeile angezeigt wird, anzulegen. Der Dozent kann hier das
 Startpasswort für den Beleg, sowie den Zeitraum und die Gruppengröße
-festlegen.\\Im unteren Bereich dieses Fensters können speziell für diesen Beleg
-die wählbaren Themen, die festzulegenden Rollen/Verantwortlichkeiten und die
-Case-Gruppen ausgewählt werden. Der Nutzer kann dabei die gewünschten Elemente
-aus der rechten Seite per Button auf die linke Seite schieben um die speziell
-für diesen Beleg verfügbaren Themen, Rollen und Cases festzulegen.
+festlegen. Mit diesem Startpasswort können die Studenten später ihre Gruppen
+anlegen und diese mit Mitgliedern füllen. \\Im unteren Bereich dieses Fensters
+können speziell für diesen Beleg die wählbaren Themen und die festzulegenden
+Rollen/Verantwortlichkeiten ausgewählt werden, sowie die Case-Gruppen
+freiegegeben werden.
+Der Dozent kann dabei die gewünschten Elemente aus der rechten Seite per Button
+auf die linke Seite  schieben um die speziell für diesen Beleg verfügbaren Themen,
+Rollen und Cases festzulegen.
 Ein Beleg kann per Doppelklick auf den entsprechenden Beleg in der linken
-Listbox bearbeitet werden.
+Listbox nachträglich bearbeitet werden. Ebenfalls durch Doppelklick können auch
+die Case-Gruppen des momentan ausgewählten Beleges bearbeitet werden (zum
+Beispiel, wenn eine Gruppe ihr Passwort vergessen hat).
+
+\subsubsection{Themen verwalten}
+\includegraphics{grafiken/Dozent_Themen_verwalten.png}\\
+Per Klick auf den Themen-verwalten-Button erscheint das obige Fenster. Hier kann
+der Dozent Themen zum Themen-Pool hinzufügen oder vorhandene Themen löschen.
 
 
-\subsection{Beleg löschen}
+\subsubsection{Rollen verwalten}
+\includegraphics{grafiken/Dozent_Rollen_verwalten.png}\\
+Genauso können auch die Rollen verwaltet werden.
+
+
+\subsubsection{Kontaktieren}
+\includegraphics{grafiken/Dozent_Kontaktieren.png}\\
+Desweiteren kann der Dozent eine E-Mail an die Studenten eines Beleges senden.
+Hierzu gibt es Filtermöglichkeiten um damit ganz bestimmte Studenten ansprechen
+zu können.
+
+
+\subsubsection{Archivieren}
+\includegraphics{grafiken/Dozent_Archivieren.png}\\
+Beim Archivieren werden alle Daten (also alle Belegeund die dazu gehörigen
+Gruppen mit den Studenten) in ein PDF-Dokument an einem gewünschten
+Ort gespeichert. Danach werden sämtliche Beleggruppenaten aus der Datenbank
+gelöscht. Die Themen und Rollen bleiben für zukünftige Belege verfügbar und die
+Case-Gruppen sind wieder alle frei auswählbar.
+
+
+
+
+\subsection{Administrative Funktionen}
+Die folgenden Funktionen dienen nur administrativen Rolle des Dozenten und
+sollten im Normalfall nicht verwendet werden.
+
+\subsubsection{Beleg löschen}
 Falls der Beleg noch Case-Gruppen erhält wird der Dozent nach Betätigen des
 Löschen-Buttons eine Warnung. Bei erneuter Bestätigung werden die Belege mit
 sämtlichen Case-Gruppen und gegebenenfalls deren Studenten gelöscht.
+Im Normalfall sollte der Dozent allerdings keine Gruppen löschen sondern am Ende
+des Semesters alle Belege archivieren.
 
-
-\subsection{Gruppe anlegen}
+\subsubsection{Gruppe anlegen}
+Nachdem der Dozent beim Anlegen des Beleges die case-Gruppen freigegeben hat,
+geschieht das Anlegen dieser Gruppen eigentlich automatisch durch die Studenten.
+Dennoch hat der Dozent als Administrator die Möglichkeit (das Recht)
+Case-Gruppen anzulegen.\\ 
 Falls für einen Beleg nicht bereits alle Case-Gruppen vergeben sind, kann per
 Klick auf den Gruppe-anlegen-Button eine neue Case-Gruppe für den Beleg
 hinzugefügt werden.\\
 \includegraphics{grafiken/Dozent_Gruppe_anlegen.png}\\
 Hier kann die Kennung der anzulegenden Gruppe, das Thema sowie ein Passwort
 ausgewählt werden.
+
+\subsubsection{Gruppe löschen}
+Genau wie beim Löschen von nicht-leeren Belegen bekommt der Dozent auch bei
+Betätigung des Gruppe-löschen-Buttons eine Warnung, falls die zu löschende
+Case-Gruppe Studenten enthält. Es sei erneut darauf hingeweisen, dass auch die
+Gruppen im Normalfall nie manuell gelöscht werden sollten.
+
 
 \section{Programm Student}
 .
