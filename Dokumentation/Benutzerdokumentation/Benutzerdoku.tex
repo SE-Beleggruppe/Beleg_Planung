@@ -1,0 +1,168 @@
+%gibt an: Papierformat, einseitiger Druck, Schriftgröße
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+%-------------------------------------------------------------------
+\usepackage[a4paper, top=2cm, footskip=0pt, headheight=0.8cm, headsep=0.6cm, lmargin=3cm, rmargin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{helvet}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{hyperref} 
+\usepackage[right]{eurosym}
+\usepackage[latin1]{inputenc}
+
+%--------------------------------------------------------------------
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+%--------------------------------------------------------------------
+%Titelseite
+\begin{titlepage}
+	\includegraphics{grafiken/HTW-Logo.png}
+	%\includegraphics[width=.3\textwidth]{grafiken/HTW-Logo.png}
+	\vspace*{3cm}
+	\begin{center}
+		\Huge{Benutzerdokumentation\\} \vspace*{1cm}
+		\huge{Case-Gruppe 04\\}
+		\vspace*{1cm}
+		\Large{
+			Modul: Software Engineering II\\}
+		\vspace*{2cm}
+		\normalsize{
+			Studiengang Informatik\\
+		}
+	\end{center}
+	\vspace{2cm}
+\begin{center}
+\large{Sommersemester 2014}
+\end{center}
+	\vspace*{3cm}
+
+
+
+\end{titlepage}
+
+\thispagestyle{empty}\clearpage
+
+%-----------------------------------------------------------------------------------------------------------------------------------
+%\rmfamily \pagestyle{fancy} \setcounter{secnumdepth}{4}
+\newtheorem{satz}{Satz}
+\newtheorem{lemma}[satz]{Lemma}
+\newtheorem{folgerung}[satz]{Folgerung}
+\theoremstyle{definition}
+\newtheorem{definition}[satz]{Definition}
+\numberwithin{equation}{section}
+\renewcommand{\proofname}{Beweis}
+
+\pagenumbering{roman}\setcounter{page}{3} \tableofcontents
+\newcounter{roemisch} \setcounter{roemisch}{\value{page}}
+\clearpage
+
+\setcounter{page}{2} \pagenumbering{arabic}
+
+\section{Einleitung}
+Das entwickelte Software-System dient zur Verwaltung von Beleggruppendaten und
+besteht aus genau 2 Programmen. Eines für die Studenten zum Anmelden und
+Verwalten ihrer eigenen Gruppe und zum anderen ein Programm für den Dozenten,
+welcher hauptsächlich administrative Funktionen besitzt.\\
+Die vorliegende Dokumentation soll den Benutzern die grundlegenden Funktionen
+beider Programme verständlich darstellen.
+
+\section{Anforderungen}
+\ldots
+
+\section{Programm Dozent}
+\subsection{Hauptmenü}
+\includegraphics{grafiken/Dozent_Hauptmenue.png}\\
+Das Hauptmenü enthält zunächst 2 Listboxen welche die Belege des aktuellen
+Semesters anzeigen, sowie die Gruppen des aktuell ausgewählten Beleges.
+Der Datagridview rechts neben den beiden Listboxen stellt die für den Beleg
+relevanten Informationen der einzelnen Studenten der aktuell ausgewählten
+Case-Gruppe dar. Beim Anklicken einer Case-Gruppe wird die Tabelle entsprechend
+aktualisiert.\\Im unteren Bereich des Menüs sind einige Buttons zur
+Beleg-Verwaltung zu finden.
+
+\subsection{Für Dozenten relevante Funktionen}
+
+\subsubsection{Menü: Beleg anlegen}
+\includegraphics{grafiken/Dozent_Beleg_anlegen.png}\\
+Dieses Menü erlaubt es einen neuen Beleg für das aktuelle Semester, welches in
+der zweiten Zeile angezeigt wird, anzulegen. Der Dozent kann hier das
+Startpasswort für den Beleg, sowie den Zeitraum und die Gruppengröße
+festlegen. Mit diesem Startpasswort können die Studenten später ihre Gruppen
+anlegen und diese mit Mitgliedern füllen. \\Im unteren Bereich dieses Fensters
+können speziell für diesen Beleg die wählbaren Themen und die festzulegenden
+Rollen/Verantwortlichkeiten ausgewählt werden, sowie die Case-Gruppen
+freiegegeben werden.
+Der Dozent kann dabei die gewünschten Elemente aus der rechten Seite per Button
+auf die linke Seite  schieben um die speziell für diesen Beleg verfügbaren Themen,
+Rollen und Cases festzulegen.
+Ein Beleg kann per Doppelklick auf den entsprechenden Beleg in der linken
+Listbox nachträglich bearbeitet werden. Ebenfalls durch Doppelklick können auch
+die Case-Gruppen des momentan ausgewählten Beleges bearbeitet werden (zum
+Beispiel, wenn eine Gruppe ihr Passwort vergessen hat).
+
+\subsubsection{Themen verwalten}
+\includegraphics{grafiken/Dozent_Themen_verwalten.png}\\
+Per Klick auf den Themen-verwalten-Button erscheint das obige Fenster. Hier kann
+der Dozent Themen zum Themen-Pool hinzufügen oder vorhandene Themen löschen.
+
+
+\subsubsection{Rollen verwalten}
+\includegraphics{grafiken/Dozent_Rollen_verwalten.png}\\
+Genauso können auch die Rollen verwaltet werden.
+
+
+\subsubsection{Kontaktieren}
+\includegraphics{grafiken/Dozent_Kontaktieren.png}\\
+Desweiteren kann der Dozent eine E-Mail an die Studenten eines Beleges senden.
+Hierzu gibt es Filtermöglichkeiten um damit ganz bestimmte Studenten ansprechen
+zu können.
+
+
+\subsubsection{Archivieren}
+\includegraphics{grafiken/Dozent_Archivieren.png}\\
+Beim Archivieren werden alle Daten (also alle Belegeund die dazu gehörigen
+Gruppen mit den Studenten) in ein PDF-Dokument an einem gewünschten
+Ort gespeichert. Danach werden sämtliche Beleggruppenaten aus der Datenbank
+gelöscht. Die Themen und Rollen bleiben für zukünftige Belege verfügbar und die
+Case-Gruppen sind wieder alle frei auswählbar.
+
+
+
+
+\subsection{Administrative Funktionen}
+Die folgenden Funktionen dienen nur administrativen Rolle des Dozenten und
+sollten im Normalfall nicht verwendet werden.
+
+\subsubsection{Beleg löschen}
+Falls der Beleg noch Case-Gruppen erhält wird der Dozent nach Betätigen des
+Löschen-Buttons eine Warnung. Bei erneuter Bestätigung werden die Belege mit
+sämtlichen Case-Gruppen und gegebenenfalls deren Studenten gelöscht.
+Im Normalfall sollte der Dozent allerdings keine Gruppen löschen sondern am Ende
+des Semesters alle Belege archivieren.
+
+\subsubsection{Gruppe anlegen}
+Nachdem der Dozent beim Anlegen des Beleges die case-Gruppen freigegeben hat,
+geschieht das Anlegen dieser Gruppen eigentlich automatisch durch die Studenten.
+Dennoch hat der Dozent als Administrator die Möglichkeit (das Recht)
+Case-Gruppen anzulegen.\\ 
+Falls für einen Beleg nicht bereits alle Case-Gruppen vergeben sind, kann per
+Klick auf den Gruppe-anlegen-Button eine neue Case-Gruppe für den Beleg
+hinzugefügt werden.\\
+\includegraphics{grafiken/Dozent_Gruppe_anlegen.png}\\
+Hier kann die Kennung der anzulegenden Gruppe, das Thema sowie ein Passwort
+ausgewählt werden.
+
+\subsubsection{Gruppe löschen}
+Genau wie beim Löschen von nicht-leeren Belegen bekommt der Dozent auch bei
+Betätigung des Gruppe-löschen-Buttons eine Warnung, falls die zu löschende
+Case-Gruppe Studenten enthält. Es sei erneut darauf hingeweisen, dass auch die
+Gruppen im Normalfall nie manuell gelöscht werden sollten.
+
+
+\section{Programm Student}
+.
+
+
+\end{document}
