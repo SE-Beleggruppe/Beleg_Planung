@@ -1,0 +1,77 @@
+%gibt an: Papierformat, einseitiger Druck, Schriftgröße
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+%-------------------------------------------------------------------
+\usepackage[a4paper, top=2cm, footskip=0pt, headheight=0.8cm, headsep=0.6cm, lmargin=3cm, rmargin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{helvet}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{hyperref} 
+\usepackage[right]{eurosym}
+\usepackage[latin1]{inputenc}
+
+%--------------------------------------------------------------------
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+%--------------------------------------------------------------------
+%Titelseite
+\begin{titlepage}
+	\includegraphics{grafiken/HTW-Logo.png}
+	%\includegraphics[width=.3\textwidth]{grafiken/HTW-Logo.png}
+	\vspace*{3cm}
+	\begin{center}
+		\Huge{Entwicklerdokumentation\\} \vspace*{1cm}
+		\huge{Case-Gruppe 04\\}
+		\vspace*{1cm}
+		\Large{
+			Modul: Software Engineering II\\}
+		\vspace*{2cm}
+		\normalsize{
+			Studiengang Informatik\\
+		}
+	\end{center}
+	\vspace{2cm}
+\begin{center}
+\large{Sommersemester 2014}
+\end{center}
+	\vspace*{3cm}
+
+
+
+\end{titlepage}
+
+\thispagestyle{empty}\clearpage
+
+%-----------------------------------------------------------------------------------------------------------------------------------
+%\rmfamily \pagestyle{fancy} \setcounter{secnumdepth}{4}
+\newtheorem{satz}{Satz}
+\newtheorem{lemma}[satz]{Lemma}
+\newtheorem{folgerung}[satz]{Folgerung}
+\theoremstyle{definition}
+\newtheorem{definition}[satz]{Definition}
+\numberwithin{equation}{section}
+\renewcommand{\proofname}{Beweis}
+
+\pagenumbering{roman}\setcounter{page}{3} \tableofcontents
+\newcounter{roemisch} \setcounter{roemisch}{\value{page}}
+\clearpage
+
+\setcounter{page}{2} \pagenumbering{arabic}
+
+
+\section{Einleitung}
+Die vorliegende Dokumentation dient zukünftigen Entwicklern dazu sich in das
+bestehende System einarbeiten zu können und die Arbeit fortsetzen zu können.
+
+\section{Enwurf}
+\subsection{Grobentwurf}
+\subsubsection{Architektur}
+\subsubsection{Paketdiagramm}
+\subsection{Feinentwurf}
+
+\section{Implementierung}
+
+
+\end{document}
