@@ -13,11 +13,11 @@ insert into Zuordnung_BelegRolle values ("beleg1", "Analyse")
 insert into Zuordnung_BelegRolle values ("beleg1", "Test")
 insert into Zuordnung_BelegRolle values ("beleg1", "Dokumentation")
 
-insert into Zuordnung_BelegThema values ("beleg1", 10)
-insert into Zuordnung_BelegThema values ("beleg1", 9)
-insert into Zuordnung_BelegThema values ("beleg1", 8)
+insert into Zuordnung_BelegThema values ("beleg1", 16)
+insert into Zuordnung_BelegThema values ("beleg1", 17)
+insert into Zuordnung_BelegThema values ("beleg1", 18)
 
-insert into Gruppe values ("case01", 10, "pw")
+insert into Gruppe values ("case01", 16, "pw")
 
 insert into Student values ("s68311", "Benjamin", "Herzog", "s68311@htw-dresden.de", "Implementation")
 insert into Student values ("s68398", "Markus", "Noack", "s68398@htw-dresden.de", "Datenbankentwurf")
@@ -28,3 +28,11 @@ insert into Zuordnung_GruppeStudent values ("case01", "s68398")
 insert into Zuordnung_GruppeStudent values ("case01", "s12345")
 
 insert into Zuordnung_GruppeBeleg values ("case01","beleg1")
+
+insert into Rolle values ("Leitung")
+insert into Rolle values ("Entwurf")
+insert into Rolle values ("Datenbankentwurf")
+insert into Rolle values ("Implementation")
+insert into Rolle values ("Analyse")
+insert into Rolle values ("Test")
+insert into Rolle values ("Dokumentation")

@@ -6,3 +6,4 @@ delete from Zuordnung_GruppeStudent
 delete from Zuordnung_BelegRolle
 delete from Zuordnung_BelegCases
 delete from Zuordnung_BelegThema
+delete from Rolle
