@@ -17,7 +17,7 @@ insert into Zuordnung_BelegThema values ("beleg1", 16)
 insert into Zuordnung_BelegThema values ("beleg1", 17)
 insert into Zuordnung_BelegThema values ("beleg1", 18)
 
-insert into Gruppe values ("case01", 16, "pw")
+insert into Gruppe values ("case01", 16, internal_encrypt("pw"))
 
 insert into Student values ("s68311", "Benjamin", "Herzog", "s68311@htw-dresden.de", "Implementation")
 insert into Student values ("s68398", "Markus", "Noack", "s68398@htw-dresden.de", "Datenbankentwurf")
