@@ -297,14 +297,188 @@ aktuelle und richtige Daten anzuzeigen.
   		anzuzeigen.
 \end{itemize}
 
+
+\subsubsection{Die Klasse Eingabe}
+Mit dieser Klasse wird eine allgemein gültige Form bereitgestellt, über die in
+Form eines Dialoges Daten eingegeben werden können. Dafür wird ein Textfeld
+bereit gestellt. Über einen Delegate erfährt die präsentierende Form, dass die
+Eingabe abgeschlossen ist und bekommt die Daten in Form des Textfeldes
+zugeteilt.
+
+\begin{itemize}
+  \item \textbf{public delegate void textEingabeHandler(object sender);
+  		\\public textEingabeHandler textEingabe;}\\
+  		Dieser Delegate-Handler muss beim Erstellen einer Instanz dieser Klasse
+  		gesetzt werden, um die erfolgreiche Eingabe abzufangen.
+  \item \textbf{public Eingabe()} \\
+  		Der Konstruktor stellt den Titel und die Position des Fensters ein.
+  \item \textbf{private void eingabeButton\_Click(object sender, EventArgs e)}\\
+  		Dieser Handler wird durch den "Bestätigen"-Button ausgelöst und gibt den
+  		eingegebenen Text mittels Delegate-Handler an seinen Delegate zurück.
+\end{itemize}
+
+
 \subsubsection{Die Klasse BelegBearbeiten}
+Diese Klasse stellt ein User Interface zur Verfügung, mit dem man einen Beleg
+anlegen oder einen existierenden bearbeiten kann.\\
+Properties:
+\begin{itemize}
+  \item isNeuerBeleg\\
+  		Dieser Boolean-Wert gibt an, ob es sich bei dem zu bearbeitenden Beleg um
+  		einen neuen Beleg oder einen exisitierenden Beleg handelt. Dies ist wichtig,
+  		um verschiedene UI-Elemente zu sperren und die richtige Speicher-Methode zu
+  		wählen.
+  \item Listen\\
+  		Diese Listen repräsentieren die jeweiligen Pools für auswählbare Themen,
+  		Rollen und Case-Kennungen. Listen mit dem Präfix "Alle" repräsentieren alle
+  		in der Datenbank verfügbaren Daten zu demjeweiligen Bereich. Listen mit dem
+  		Präfix "Verf" beinhalten alle Daten, die durch die Studenten dieses Beleges
+  		auswählbar sind.
+\end{itemize}
+
+Methoden:
+\begin{itemize}
+  \item \textbf{public BelegBearbeiten(string belegKennung, bool neu)}\\
+  		Dieser Konstruktor bekommt die Belegkennung, um den jeweiligen Beleg aus der
+  		Datenbank zu ziehen und den Boolean-Wert, ob es sich um einen neuen Beleg
+  		handelt. Danach werden Titel des Fensters, die Fenster-Position und die
+  		jeweiligen Daten aus der Datenbank in die UI-Elemente geladen. Handelt es
+  		sich um einen existierenden Beleg, der bearbeitet werden soll, wird das
+  		Textfeld der Belegkennung gesperrt, da die Belegkennung ein Primärschlüssel
+  		in der Datenbank ist und demzufolge nicht geändert werden darf.
+  \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  		Diese Funktion gibt dem "Abbrechen"-Button die Funktion, dass die Form
+  		geschlossen wird.
+  \item \textbf{private void speichernbutton\_Click(object sender, EventArgs
+  e)}\\
+  		Diese Funktion speichert den eingegebenen Beleg in der Datenbank. Dabei wird
+  		unterschieden zwischen einem komplett neuen Beleg und einen bearbeiteten
+  		Beleg. Ist der Beleg neu, wird außerdem überprüft, ob die Belegkennung schon
+  		in der Datenbank vorhanden ist. Dies ist wichtig, da die Kennung ein
+  		Primärschlüssel in der Datenbank darstellt.
+  \item \textbf{bool checkTextFields()}\\
+  		Diese Funktion überprüft, ob die Belegkennung eingegeben wurde und ob die
+  		zulässige Größe nicht überschritten wurde.
+  \item \textbf{void UpdateBeleg()}\\
+  		Diese Methode wird augerufen, wenn ein existierender Beleg bearbeitet wurde
+  		und dann gespeichert werden soll. Es werden alle eingegebenen Daten in die
+  		Datenbank übernommen. Eventuelle Fehleingaben werden mit den entsprechenden
+  		Eventhandlern schon vorher abgefangen.
+  \item \textbf{void InsertBeleg()}\\
+  		Die Methode InsertBeleg() ist äquivalent zu der Methode UpdateBeleg() mit
+  	    dem Unterschied, dass es sich hier um einen neuen Beleg handelt. Dabei
+  	    werden in der Datenbank nicht die Werte geändert, sondern neue Werte
+  	    eingeschrieben.
+  \item \textbf{private void addButtonThema\_Click(object sender, EventArgs
+  e)}\\
+  		Diese Methode und auch die äquivalenten Methoden ..Rolle\_Click(), und
+  		..Case\_Click() fügen einen Datensatz aus einer Alle ..Liste in
+  		die Verf..-Liste ein und aktualisieren die angezeigten Daten.
+  \item \textbf{private void remButtonThema\_Click(object sender, EventArgs
+  e)}\\
+		Diese Funktion und auch die äquivalenten Methoden ..Rolle\_Click(), und
+		..Case\_Click() fügen einen Datensatz aus einer Verf ..-Liste in die
+		Alle..-Liste ein und aktualisieren die angezeigten Daten.
+  \item	\textbf{private Beleg GetBelegFromKennung(string belegKennung)}\\
+  		Diese Methode wird am Anfang aufgerufen, um den zu ändernden Beleg aus der
+  		Datenbank zu ziehen und die dazugehörigen Daten in der Form anzuzeigen.
+  \item \textbf{private void startDateTimePicker\_ValueChanged\\(object sender,
+  EventArgs e)}\\
+  		Dieser Eventhandler überprüft, dass das Start-Datum vor dem End-Datum liegt.
+  		Wenn dem nicht so ist, werden die Werte so angepasst, dass diese Bedingung
+  		stimmt. Damit werden Fehleingaben in der Datenbank ausgeglichen, bevor diese
+  		überhaupt in die Datenbank geschrieben werden.
+  \item \textbf{private void minGR\_ValueChanged(object sender, EventArgs e)}\\
+  		Mit diesem Eventhandler wird sicher gegangen, dass die Mindestanzahl von
+  		Studenten dieses Beleges immer kleiner ist, als die Maximalanzahl. Außerdem
+  		wird sicher gegangen, dass die Anzahl nicht kleiner als 0 sein kann.
+\end{itemize}
+
 \subsubsection{Die Klasse GruppeBearbeiten}
+Diese Klasse stellt eine Windows-Form bereit, mit der eine Gruppe bearbeitet
+werden oder eine neue Gruppe angelegt werden kann.
+
+\begin{itemize}
+  \item \textbf{public delegate void GIsSavedHandler(object sender, EventArgs e);
+		\\public GIsSavedHandler SavedG;}\\
+		Dieser Delegate-Handler teilt später dem Delegate mit, dass die Bearbeitung
+		abgeschlossen ist, sodass dieser seine Ausgabe aktualisieren kann.
+  \item \textbf{public gruppeBearbeiten(Gruppe gruppe, bool neu)}
+  		Der Konstruktor nimmt die zu bearbeitende Gruppe und einen Boolean-Wert
+  		entgegen. Der Boolean-Wert gibt an, ob es sich um eine neue oder eine
+  		existierende Gruppe handelt. Außerdem werden die Daten in die Textfelder und
+  		Comboboxen geladen. Handelt es sich um eine existierende Gruppe, wird die
+  		Combobox für die Kennung gesperrt, da die Casekennung einen Primärschlüssel
+  		in der Datenbank darstellt und deswegen nicht mehr geändert werden kann.
+  \item \textbf{List\textless string\textgreater getFreieCases()}\\
+  		Diese Funktion gibt eine Liste aller noch in diesem Beleg verfügbaren
+  		Case-Kennung zurück. Die Liste dient als DataSource für die Combobox, aus
+  		der man sich eine Case-Kennung für die Gruppe aussuchen kann. Somit wird
+  		direkt umgangen, dass eine Fehleingabe stattfindet.
+  \item \textbf{void getThemen()} \\
+  		Diese Funktion lädt die für diesen Beleg verfügbaren Themen aus der
+  		Datenbank in eine Liste. Außerdem dient die Liste gleich als DataSource für
+  		die Combobox, aus der der Nutzer sich ein Thema zur Bearbeitung aussuchen
+  		kann.
+  \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  		Dieser Eventhandler wird nach einem Klick auf den Button "Abbrechen"
+  		ausgelöst und schließt die Form ohne Speicherung der Daten.
+  \item \textbf{private void speichernbutton\_Click(object sender, EventArgs
+  e)}\\
+  		Diese Methode speichert die Gruppe in der Datenbank und schließt anschließen
+  		die Form. Dabei wird unterscheiden, ob es sich um eine neue Gruppe oder
+  		einen existierende Gruppe handelt. Je nachdem wird die Gruppe entweder
+  		mittels insert in der die Datenbank neu hinzugefügt oder mittels update eine
+  		bestehende Gruppe aktualisiert.
+  \item \textbf{void updateGruppe(bool mitPasswort)} \\
+  		Diese Funktion aktualisiert die Daten einer bestehenden Gruppe mit den neu
+  		eingegebenen. Als Parameter wird dabei ein Boolean-Wert mitgegeben, der
+  		sagt, ob das Passwort auch geändert werden soll. Da das Passwort nur als
+  		Hash-Wert in der Datenbank steht, kann es in der Form nicht angezeigt.
+  		Geändert werden muss es daher, wenn in dem Textfeld etwas drinsteht,
+  		ansonsten wird das alte Kennwort in der Datenbank belassen.
+  \item \textbf{void insertGruppe()} \\
+  		Diese Methode speichert eine neue Gruppe in der Datenbank mittels insert.
+  		Hierbei wird das Passwort über die Sybase-interne Funktion
+  		"internal\_encrypt()" verschlüsselt, sodass es nicht als Klartext in der
+  		Datenkbank steht.
+\end{itemize}
+
 \subsubsection{Die Klasse RolleVerwalten}
+Diese Klasse beschreibt eine Windows-Form, mit der der gesamte Pool von
+verfügbaren Rollen in der Datenbank verwaltet werden kann. Es können bestehende
+Rollen gelöscht und neue Rollen hinzugefügt werden.
+
+
+
 \subsubsection{Die Klasse ThemenVerwalten}
 \subsubsection{Die Klasse PdfArchivierung}
-\subsubsection{Die Klasse KontaktForm}
-\subsubsection{Die Klasse Eingabe}
 
+
+\subsubsection{Die Klasse KontaktForm}
+Diese Klasse stellt eine Windows-Form bereit, mit der bestimmte Studenten oder
+ein Kreis von Studenten per Mail kontaktiert werden können. Dabei wird das
+Standard-Mail-Programm des Betriebssystems benutzt und die einzutragenden
+Mail-Adressen automatisch übernommen.
+
+\begin{itemize}
+  \item \textbf{public kontaktForm()}\\
+  		Der Konstruktor lädt die benötigten Daten aus der Datenbank, sodass die
+  		Filter auf sie angewandt werden können.
+  \item \textbf{private void updateBelegData()}\\
+  		Äquivalent zu ..Themen..(), ..Group..(), ..Rollen..() und ..Filter..()
+  		werden hierbei die Daten des jeweiligen Bereichs aus der Datenbank geladen
+  		und als DataSource für die jeweilige Combobox festgelegt.
+  \item \textbf{private void comboBoxBeleg\_SelectedIndexChanged\\(object
+  sender, EventArgs e)}\\
+  		Äquivalent zu ..Belegthema\_..(), ..Rolle\_..() und ..Gruppe\_..() werden
+  		hier die jeweiligen Daten nochmals neu geladen und den jeweils ausgewählten Daten
+  		entsprechend gefiltert.
+  \item \textbf{private void btnFilter\_Click(object sender, EventArgs e)}\\
+  		Diese Methode sucht alle gewünschten Mail-Adressen aus den Comboboxen und
+  		trägt sie automatisch als Empfänger in das Mail-Programm. Außerdem wird als
+  		Betreff der Mail automatisch die Belegkennung gesetzt.
+\end{itemize}
 
 \subsection{Paket StudentBelegverwaltungUI}
 \subsubsection{Die Klasse LoginForm}

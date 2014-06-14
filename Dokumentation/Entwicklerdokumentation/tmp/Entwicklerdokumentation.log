@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 14:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 15:15
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -455,22 +455,65 @@ Overfull \hbox (13.35938pt too wide) in paragraph at lines 265--268
 l-ten geladen und angezeigt,
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-[6] [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+[6]
+Overfull \hbox (7.00528pt too wide) in paragraph at lines 315--318
+\OT1/cmr/m/n/12 Dieser Han-dler wird durch den "Bestatigen"-Button aus-gelost
+ und gibt den eingegebe-
+ []
+
+[7]
+Overfull \hbox (8.04556pt too wide) in paragraph at lines 349--352
+\OT1/cmr/m/n/12 Diese Funk-tion gibt dem "Abbrechen"-Button die Funk-tion, dass
+ die Form geschlossen
+ []
+
+
+Overfull \hbox (5.57335pt too wide) in paragraph at lines 359--362
+\OT1/cmr/m/n/12 Diese Funk-tion uberpruft, ob die Belegken-nung eingegeben wu
+rde und ob die zulassige
+ []
+
+
+Overfull \hbox (9.8819pt too wide) in paragraph at lines 373--377
+\OT1/cmr/m/n/12 Diese Meth-ode und auch die aquivalenten Meth-o-den ..Rolle[]C
+lick(), und ..Case[]Click()
+ []
+
+
+Overfull \hbox (11.02634pt too wide) in paragraph at lines 378--382
+\OT1/cmr/m/n/12 Diese Funk-tion und auch die aquivalenten Meth-o-den ..Rolle[]
+Click(), und ..Case[]Click()
+ []
+
+[8]
+Overfull \hbox (29.49117pt too wide) in paragraph at lines 403--406
+\OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
+die Bear-beitung abgeschlossen
+ []
+
+[9]
+Overfull \hbox (14.5316pt too wide) in paragraph at lines 433--440
+\OT1/cmr/m/n/12 Diese Funk-tion ak-tu-al-isiert die Daten einer beste-hen-den G
+ruppe mit den neu eingegebe-
+ []
+
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
-(rerunfilecheck)             Checksum: 142815993791C927161D59798A313572;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+(rerunfilecheck)             Checksum: 525EF20926B6DF8B287FC283B7466934;2130.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
- 6566 strings out of 493921
- 95721 string characters out of 3144876
+ 6570 strings out of 493921
+ 95747 string characters out of 3144876
  182016 words of memory out of 3000000
  9741 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
@@ -481,9 +524,9 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (9 pages, 140503 bytes).
+Output written on Entwicklerdokumentation.pdf (13 pages, 151953 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
