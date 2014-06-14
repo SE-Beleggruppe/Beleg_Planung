@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  11 JUN 2014 10:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 11:50
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -381,7 +381,7 @@ umentation.out")
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.out")
 \@outlinefile=\write3
- <grafiken/HTW-Logo.png, id=27, 192.72pt x 45.46988pt>
+ <grafiken/HTW-Logo.png, id=87, 192.72pt x 45.46988pt>
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
@@ -408,21 +408,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 \end{document}
-                    [1
+l.104 \end{document}
+                     [1
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+] [2]
+Overfull \vbox (50.33057pt too high) has occurred while \output is active []
+
+
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 
 
 Package rerunfilecheck Warning: File `Entwicklerdokumentation.out' has changed.
@@ -431,24 +435,24 @@ Package rerunfilecheck Warning: File `Entwicklerdokumentation.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Entwicklerdokumentation.out':
-(rerunfilecheck)             Before: B418B070A27638846A041E757540C095;332
-(rerunfilecheck)             After:  7881AE478BEB91E36C42888886223711;405.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+(rerunfilecheck)             Before: E54A44D537E69635078DEC3E88EBBA8C;1465
+(rerunfilecheck)             After:  24E07C3CE4AA635679AF6EFE22E1BB7E;2054.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 6476 strings out of 493921
- 94176 string characters out of 3144876
- 177016 words of memory out of 3000000
- 9685 multiletter control sequences out of 15000+200000
+ 6515 strings out of 493921
+ 94891 string characters out of 3144876
+ 180016 words of memory out of 3000000
+ 9700 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,267b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Entwicklerdokumentation.pdf (3 pages, 85148 bytes).
+Output written on Entwicklerdokumentation.pdf (5 pages, 102669 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
