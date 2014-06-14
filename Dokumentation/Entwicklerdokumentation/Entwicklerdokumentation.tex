@@ -82,34 +82,56 @@ Methoden definiert und ihre Aufgaben beschrieben.
 
 \subsection{Paket Typen}
 \subsubsection{Die Klasse Beleg}
-Die Klasse Beleg enthält einen Konstruktor zur Initialisierung der Attribute.
-Die für einen Beleg relevanten Eigenschaften sind eine Kennung, ein Passwort zur
-Erstanmeldung, das automatisch generierte Semester, einen Dozenten, ein Start-
-und Enddatum, sowie die minimale und maximale Gruppenanzahl.\\
-Außerdem beinhaltet die Klasse noch eine Funktion \textbf{AddGruppe} mit welcher
-Studenten-Gruppen vom Typ Gruppe zu einem Beleg hinzugefügt werden können.
+
+\begin{itemize}
+  \item \textbf{public Beleg(string kennung, string semester, DateTime
+  startDatum, DateTime endDatum, int minM, int maxM, string passwort)}\\
+  		Der Konstruktor initialisiert die Kennung, das Passwort zur
+		Erstanmeldung, das automatisch generierte Semester, den Dozenten, ein Start-
+		und Enddatum, sowie die minimale und maximale Gruppenanzahl.
+  \item \textbf{public void AddGruppe(Gruppe gruppe)} \\
+  		Mit dieser Methode kann einem Beleg eine Case-Gruppe vom Typ
+  		Gruppe hinzugefügt werden.
+\end{itemize}
 
 \subsubsection{Die Klasse Thema}
-Ein Thema besitzt nur eine Nummer und einen Namen. Diese beiden Attribute werden
-durch den Konstruktor gesetzt.
+\begin{itemize}
+  \item \textbf{public Thema(int themenNummer, string aufgabe)}\\
+  		Ein Thema besitzt nur eine Nummer und einen Namen. Diese beiden Attribute werden
+		durch den Konstruktor gesetzt.
+\end{itemize}
+
 
 \subsubsection{Die Klasse Gruppe}
-Die Attribute der Klasse Gruppe sind eine Kennung, eine Liste mit den Studenten
-die in der Gruppe arbeiten, ein Passwort, ein von der Gruppe gewähltes Thema
-(Nummer), sowie eine Belegkennung.
-Sie werden vom Konstruktor initialisiert, wobei einer der beiden Konstruktoren
-die Belegkennung setzt und der andere nicht.\\
-Desweiteren enthält diese Klasse eine Funktion \textbf{AddStudent} mit welcher
-ein Student vom Typ Student hinzugefügt werden kann.
+
+\begin{itemize}
+  \item \textbf{public Gruppe(string password, string belegkennung)}\\
+  		Durch diesen Konstruktor wird das Passwort und die Belegkennung gesetzt und
+  		eine neue Liste vom Typ Student angelegt.
+  \item \textbf{public Gruppe(string kennung, int themennummer, string
+  password)}\\
+  		Der zweite Konstruktor initialisiert Gruppenkennung, die Themennummer und
+  		das Gruppenpasswort. Außerdem wird eine leere Liste vom Typ Student
+  		angelegt.
+  \item \textbf{public void addStudent(Student student)}\\
+  		Diese Methode dient zum Hinzufügen eines Studenten zu einer Case-Gruppe.
+\end{itemize}
 
 \subsubsection{Die Klasse Rolle}
-Die Klasse Rolle enthält nur den Rollennamen als Attribut, welcher vom
-Konstruktor initialisiert wird.
+\begin{itemize}
+  \item \textbf{public Rolle(string rolle)}\\
+  		Der Konstruktor initialisiert die Rollen-Bezeichnung.
+\end{itemize}
+
 
 \subsubsection{Die Klasse Student}
-Die wichtigsten Informationen über einen Studenten sind der Nach- und Vorname,
-die s-Nummer, sowie die Email-Adresse und die Rolle. Diese Attribute sind in der
-Klasse Student enthalten und werden vom Konstruktor gesetzt.
+\begin{itemize}
+  \item \textbf{public Student(string name, string vorname, string sNummer,
+  string mail, string rolle)}\\
+  		Der Konstruktor setzt die wichtigsten Informationen über einen Studenten,
+  		nämlich Vor- und Nachname, die s-Nummer, die EMail-Adresse und seine
+  		Verantwortlichkeit.
+\end{itemize}
 
 
 \subsection{Paket DozentBelegverwaltungUI}

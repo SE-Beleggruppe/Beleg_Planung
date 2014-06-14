@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 17:17
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -407,138 +407,143 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c@roemisch=\count121
  [3
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.104 
-       [1
-
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
 
-[2]
-Overfull \hbox (2.0507pt too wide) in paragraph at lines 177--188
+Overfull \hbox (6.70946pt too wide) in paragraph at lines 92--95
+\OT1/cmr/m/n/12 Mit dieser Meth-ode kann einem Be-leg eine Case-Gruppe vom Typ 
+Gruppe hinzugefugt
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111   \item \textbf
+                     {public Gruppe(string kennung, int themennummer, string
+[1
+
+] [2] [3]
+Overfull \hbox (2.0507pt too wide) in paragraph at lines 199--210
 \OT1/cmr/m/n/12 grup-pen-List-Box auswahlt. An dieser Stelle mussen jetzt die
  Stu-den-ten dieser Gruppe
  []
 
-[3]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 208.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 230.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 208.
- [4]
-Overfull \hbox (27.82452pt too wide) in paragraph at lines 220--224
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 230.
+ [4] [5]
+Overfull \hbox (27.82452pt too wide) in paragraph at lines 242--246
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird das Data-Grid-View, das die Stu-den-t
 en einer Gruppe reprasentiert
  []
 
 
-Overfull \hbox (14.95381pt too wide) in paragraph at lines 256--261
+Overfull \hbox (14.95381pt too wide) in paragraph at lines 278--283
 \OT1/cmr/m/n/12 Mit dieser Funk-tion kann das Bear-beiten der Stu-den-ten einer
  Gruppe wieder ruckgangig
  []
 
-[5]
-Overfull \hbox (13.35938pt too wide) in paragraph at lines 265--268
+[6]
+Overfull \hbox (13.35938pt too wide) in paragraph at lines 287--290
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird eine In-stanz der Klasse RolleV-er-wa
 l-ten geladen und angezeigt,
  []
 
-[6]
-Overfull \hbox (7.00528pt too wide) in paragraph at lines 315--318
+[7]
+Overfull \hbox (7.00528pt too wide) in paragraph at lines 337--340
 \OT1/cmr/m/n/12 Dieser Han-dler wird durch den "Bestatigen"-Button aus-gelost
  und gibt den eingegebe-
  []
 
-[7]
-Overfull \hbox (8.04556pt too wide) in paragraph at lines 349--352
+[8]
+Overfull \hbox (8.04556pt too wide) in paragraph at lines 371--374
 \OT1/cmr/m/n/12 Diese Funk-tion gibt dem "Abbrechen"-Button die Funk-tion, dass
  die Form geschlossen
  []
 
 
-Overfull \hbox (5.57335pt too wide) in paragraph at lines 359--362
+Overfull \hbox (5.57335pt too wide) in paragraph at lines 381--384
 \OT1/cmr/m/n/12 Diese Funk-tion uberpruft, ob die Belegken-nung eingegeben wu
 rde und ob die zulassige
  []
 
 
-Overfull \hbox (9.8819pt too wide) in paragraph at lines 373--377
+Overfull \hbox (9.8819pt too wide) in paragraph at lines 395--399
 \OT1/cmr/m/n/12 Diese Meth-ode und auch die aquivalenten Meth-o-den ..Rolle[]C
 lick(), und ..Case[]Click()
  []
 
 
-Overfull \hbox (11.02634pt too wide) in paragraph at lines 378--382
+Overfull \hbox (11.02634pt too wide) in paragraph at lines 400--404
 \OT1/cmr/m/n/12 Diese Funk-tion und auch die aquivalenten Meth-o-den ..Rolle[]
 Click(), und ..Case[]Click()
  []
 
-[8]
-Overfull \hbox (29.49117pt too wide) in paragraph at lines 403--406
+[9]
+Overfull \hbox (29.49117pt too wide) in paragraph at lines 425--428
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Bear-beitung abgeschlossen
  []
 
-[9]
-Overfull \hbox (14.5316pt too wide) in paragraph at lines 433--440
+[10]
+Overfull \hbox (14.5316pt too wide) in paragraph at lines 455--462
 \OT1/cmr/m/n/12 Diese Funk-tion ak-tu-al-isiert die Daten einer beste-hen-den G
 ruppe mit den neu eingegebe-
  []
 
-[10] [11]
-Overfull \hbox (32.91612pt too wide) in paragraph at lines 524--528
+[11] [12]
+Overfull \hbox (32.91612pt too wide) in paragraph at lines 546--550
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Archivierung abgeschlossen
  []
 
 
-Overfull \hbox (19.62137pt too wide) in paragraph at lines 535--555
+Overfull \hbox (19.62137pt too wide) in paragraph at lines 557--577
 \OT1/cmr/m/n/12 Zunachst wird ein PDF-Dokument zum schreiben geoffnet. Es bek
 ommt eine []Uberschrift
  []
 
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
+[13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 598.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
 (rerunfilecheck)             Checksum: 525EF20926B6DF8B287FC283B7466934;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
  ) 
 Here is how much of TeX's memory you used:
- 6572 strings out of 493921
- 95761 string characters out of 3144876
+ 6573 strings out of 493921
+ 95768 string characters out of 3144876
  182016 words of memory out of 3000000
  9741 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,4n,28p,267b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,28p,267b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (15 pages, 157925 bytes).
+Output written on Entwicklerdokumentation.pdf (16 pages, 158603 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
