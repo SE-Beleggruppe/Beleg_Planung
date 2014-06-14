@@ -204,6 +204,97 @@ aktuelle und richtige Daten anzuzeigen.
   		neue Gruppe angelegt, indem eine Instanz der Klasse GruppeBearbeiten
   		angelegt wird. Auch hier wird ein Delegate gesetzt, um nach dem Anlegen die
   		gruppenListBox zu aktualisieren.
+  \item \textbf{List\textless string\textgreater getFreieCases(Gruppe
+  gruppe)}\\
+  		Diese Funktion repräsentiert eine Datenbankabfrage, mit der freie
+  		Case-Kennungen zu einem Beleg aus der Datenbank abgerufen werden können.
+  		Diese Funktion wird in der gruppeAnlegenButton\_Click-Funktion verwende, um
+  		zu schauen, ob es überhaupt möglich ist, eine weitere Gruppe zu diesem Beleg
+  		anzulegen, oder ob nicht alle Case-Kennungen schon vergeben sind. Es wird
+  		eine Gruppe und kein Beleg übergeben, weil diese Funktion wie gesagt bei dem
+  		Anlegen einer Gruppe aufgerufen wird. Dabei wird vorher eine
+  		Platzhalter-Gruppe angelegt, die dem Konstruktor von GruppeBearbeiten
+  		übergeben wird. Diese Gruppe kann auch direkt als Anhaltspunkt für diese
+  		Funktion gewählt werden.\newpage
+  \item \textbf{private void dataGridViewFreigebenButton\_Click\\(object sender,
+  EventArgs e)}\\
+  		Mit dieser Funktion wird das DataGridView, das die Studenten einer Gruppe
+  		repräsentiert für Bearbeitungen freigegeben. Standardmäßig ist dieses
+  		gesperrt, damit nicht versehentlich Änderungen gemacht werden.
+  \item	\textbf{private void saveDataGridViewButton\_Click(object sender,
+  EventArgs e)}\\
+  		Diese Funktion ruft die Funktion SaveMitglieder() auf und sperrt danach das
+  		DataGridView wieder, um den Nutzer vor ungewollten Änderungen zu schützen.
+  \item \textbf{private bool SaveMitglieder()}\\
+  		Diese Funktion speichert alle Änderungen von Studenten der ausgewählten
+  		Gruppe. Dabei wird für jeden Studenten unterschieden, ob es sich um einen
+  		neuen oder einen geänderten Studenten handelt. Dies wird davon abhängig
+  		gemacht, ob die Zelle, die die S-Nummer beinhaltet, gesperrt ist oder nicht.
+  		Wenn sie gesperrt ist, handelt es sich um einen schon existierenden
+  		Studenten, der in der Datenbank mit den neuen Werten aktualisiert wird.
+  		Ansonsten wird der Student eingefügt. Teil dieses Prozesses ist auch die
+  		Überprüfung auf eine korrekte und neue S-Nummer sowie auf einen korrekte
+  		E-Mail-Adresse.
+  \item	\textbf{private bool checkMail(string mail)}\\
+  		Dies ist eine einfache und kurze Funktion, die anhand von
+  		Regular-Expressions eine eingegebene E-Mail-Adresse auf korrekte
+  		Validierung untersucht.
+  \item \textbf{private bool checkSNummer(string sNummer)}\\
+  		Diese Funktion überprüft, ob es sich bei der eingegebenen S-Nummer wirklich
+  		um eine korrekte S-Nummer handelt.
+  \item \textbf{private void updateStudent(Student student)}\\
+  		Die Funktion bekommt einen Studenten als Parameter, um dessen Werte in der
+  		Datenbank zu aktualisieren. Da nicht unterschieden werden kann, ob bei dem
+  		Studenten überhaupt etwas geändert wurde, wird diese Funktion beim Speichern
+  		für jeden existierenden Studenten durchgeführt.
+  \item \textbf{private void insertStudent(Student student, Gruppe gruppe)}\\
+  		Diese Funktion trägt einen neuen Studenten in die Datenbank ein. Da an
+  		dieser Stelle nicht nur die Tabelle Student wichtig ist, sondern auch die
+  		Zuordnungs-Tabelle zwischen Student und Gruppe, wird hier auch die Gruppe
+  		mit übergeben.
+  \item \textbf{private void cancelDataGridViewButton\_Click\\(object sender,
+  EventArgs e)}\\
+  		Mit dieser Funktion kann das Bearbeiten der Studenten einer Gruppe wieder
+  		rückgängig gemacht werden. Dabei werden die Elemente zum Bearbeiten wieder
+  		gesperrt und außerdem werden die Studenten der aktuell ausgewählten Gruppe
+  		einfach wieder neu aus der Datenbank geladen.
+  \item \textbf{private void themenVerwaltenButton\_Click(object sender,
+  EventArgs e)}\\
+  		Mit dieser Funktion, durch den Button "Themen verwalten" ausgelöst, wird
+  		eine neue Instanz der Klasse ThemenVerwalten erstellt und diese angezeigt.
+  \item \textbf{private void rolleTextBox\_Click(object sender, EventArgs e)}\\
+  		Mit dieser Funktion wird eine Instanz der Klasse RolleVerwalten geladen und
+  		angezeigt, damit man den Pool an Rollen neu aufstellen kann.
+  \item \textbf{private void buttonArchivieren\_Click(object sender, EventArgs
+  e)}\\
+  		Diese Funktion erlaubt das Archivieren von allen aktuellen Belegen. Dabei
+  		wird eine Instanz der Klasse PdfArchivierung erstellt. Die Klasse hat
+  		ebenfalls einen Delegate-Handler, damit die gelöschten Datensätze nach der
+  		Archivierung nicht mehr in dem Programm sichtbar sind.
+  \item \textbf{private void button1\_Click(object sender, EventArgs e)}\\
+  		Diese etwas unglücklich benannte Funktion erstellt eine neue Instanz der
+  		Klasse kontaktForm, wodurch der Nutzer bestimmte Gruppen oder Studenten der
+  		einzelnen Belege per Mail kontaktieren kann.
+  \item \textbf{private void belegLoeschenButton\_Click(object sender, EventArgs
+  e)}\\
+  		Mit dieser Funktion kann ein ausgewählter Beleg gelöscht werden. Dabei wird
+  		zuerst nachgefragt, ob der Nutzer sich der Konsequenzen bewusst ist und ob
+  		er sich sicher ist. Danach wird geschaut, ob der zu löschende Beleg noch
+  		Gruppen enthält. Wenn dem so ist, wird der Nutzer darüber informiert und ein
+  		zweites Mal gefrag, ob er sich dessen sicher ist. Wenn die Funktion bis hier
+  		noch nicht beendet wurde, wird der Beleg inklusive der existierenden Gruppen
+  		und dessen Studenten aus der Datenbank gelöscht. Danach werden automatisch
+  		die Listboxen und das Datagridview aktualisiert, sodass der Nutzer den
+  		gelöschten Beleg nicht mehr im Programm sieht.
+  \item \textbf{private void gruppeLoeschenButton\_Click(object sender,
+  EventArgs e)}\\
+  		Die Funktion löscht die ausgewählte Gruppe. Äquivalent zum Beleg wird auch
+  		hier Nachgefragt und im Anschluss geschaut, ob die Gruppe Studenten
+  		beinhaltet. Wenn dem so ist, wird auch hier darüber informiert und ein
+  		zweites Mal nachgefragt. Erst danach werden die Studenten und die Gruppe
+  		selbst aus allen betreffenden Tabellen in der Datenbank gelöscht. Danach
+  		werden die Listboxen wieder aktualisiert, um keine alten, falschen Daten
+  		anzuzeigen.
 \end{itemize}
 
 \subsubsection{Die Klasse BelegBearbeiten}
