@@ -449,10 +449,114 @@ Diese Klasse beschreibt eine Windows-Form, mit der der gesamte Pool von
 verfügbaren Rollen in der Datenbank verwaltet werden kann. Es können bestehende
 Rollen gelöscht und neue Rollen hinzugefügt werden.
 
+\begin{itemize}
+  \item \textbf{public RolleVerwalten()}\\
+  		Der Konstruktor setzt den Titel der Form und die Startposition des Fensters
+  		fest. Außerdem werden aus der Datenbank alle Rollen geladen.
+  \item \textbf{private void deleteRolleButton\_Click(object sender, EventArgs
+  e)}\\
+  		Mittels dieses Eventhandlers wird der Klick auf den "Löschen"-Button
+  		abgefangen und die ausgewählte Rolle in der Listbox wird aus der Anzeige und
+  		aus der Datenbank herausgelöscht. Dabei wird zuerst geschaut, ob Studenten
+  		diese Rolle besetzen. Wenn dem so ist, kann die Rolle nicht gelöscht werden,
+  		um inkonsistente Daten in der Datenbank zu vermeiden.\newpage
+  \item \textbf{private void RefreshRollen()} \\ 
+  		Diese Funktion lädt die Rollen aus der Datenbank und zeigt sie in der
+  		Listbox an.
+  \item \textbf{private void newRolleButton\_Click(object sender, EventArgs
+  e)}\\
+  		Mit dieser Methode soll eine neue Rolle hinzugefügt werden. Dafür wird eine
+  		Instanz der Klasse Eingabe.cs erstellt. Dabei wird auch gleich der
+  		Delegate-Handler festgelegt, damit die Rolle nach erfolgreicher Eingabe in
+  		die Datenbank eingetragen werden kann. Danach wird die Instanz mittels der
+  		Methode show() angezeigt.
+  \item \textbf{public void EingabeF(object sender)}\\
+  		Dies ist der Delegate-Handler, um die erfolgreiche Eingabe einer neuen Rolle
+  	    abzufangen und diese in die Datenbank zu speichern. Davor wird überprüft,
+  	    ob die eingegebene Rolle zu lang oder leer ist.
+\end{itemize}
 
 
 \subsubsection{Die Klasse ThemenVerwalten}
+Diese Klasse stellt eine Windows-Form bereit, um die bestehenden Themen in der
+Datenbank zu verwalten. Themen können gelöscht oder neu hinzugefügt werden.
+
+\begin{itemize}
+  \item \textbf{public ThemenVerwalten()}\\
+  		Der Konstruktor setzt den Titel des Fensters, sowie dessen Startposition
+  		fest. Außerdem werden die Themen aus der Datenbank geladen, damit sie
+  		angezeigt werden können.
+  \item \textbf{private void deleteThemaButton\_Click(object sender, EventArgs
+  e)}\\
+  		Dieser Eventhandler fängt das Klicken auf den "Löschen"-Button ab und löscht
+  		das ausgewählte Thema aus der Datenbank und der Listbox. Zuvor wird
+  		allerdings überprüft, ob eine bestehende Gruppe dieses Thema aktuell
+  		ausgewählt hat. Wenn dies der Fall ist, wird der Lösch-Vorgang mit einer
+  		Fehlermeldung abgebrochen.
+  \item \textbf{private void RefreshThemen()} \\
+  		Mittels dieser Methode werden die Themen aus der Datenbank gezogen und
+  		direkt in der Listbox angezeigt.
+  \item \textbf{private void addThemaButton\_Click\_1(object sender, EventArgs
+  e)}\\
+  		Mit dieser Methode soll ein neues Thema hinzugefügt werden. Dafür wird eine
+  		Instanz der Klasse Eingabe.cs erstellt. Dabei wird auch gleich der
+  		Delegate-Handler festgelegt, damit das Thema nach erfolgreicher Eingabe in
+  		die Datenbank eingetragen werden kann. Danach wird die Instanz mittels der
+  		Methode show() angezeigt.
+  \item \textbf{public void EingabeF(object sender)} \\
+  		Dies ist der Delegate-Handler, um die erfolgreiche Eingabe eines neuen
+  		Themas abzufangen und dieses in die Datenbank zu speichern. Davor wird
+  		überprüft, ob das eingegebene Thema zu lang oder leer ist.
+\end{itemize}
+
+
 \subsubsection{Die Klasse PdfArchivierung}
+Die Klasse PdfArchivierung stellt eine Windows-Form bereit, mit der sämtliche
+Belege des aktuellen Semesters archiviert werden können. Dabei werden alle
+relevanten Daten bezüglich der Belege mit ihren Case-Gruppen und den jeweiligen
+Studenten in ein PDF-Dokument gespeichert. Danach wird die Datenbank wieder auf
+die Werkseinstellungen zurückgesetzt (alle Themen und Rollen werden
+freigegebe und alle Case-Gruppen werden geleert und freigegeben) sodass die
+Datenbank wieder für das kommende Semesters genutzt werden kann.
+
+\begin{itemize}
+  \item \textbf{public delegate void GIsSavedHandler(object sender);\\
+        public GIsSavedHandler SavedG;}\\
+  		Dieser Delegate-Handler teilt später dem Delegate mit, dass die Archivierung
+		abgeschlossen ist, sodass die Listboxen und der DataGridView im Mainform neu
+		geladen werden können.
+  \item \textbf{public PdfArchivierung(Database database)}\\
+  		Der Konstruktor setzt den Titel des Fensters, sowie dessen Startposition.
+  		Aus der Datenbank wird das aktuelle Semester geladen um später in der
+  		Überschrift der PDF und im Namen der PDF verwendet werden zu können.
+  		Falls der Beleg in einem Semester bereits archiviert wurde, darf der Button
+  		natürlich nicht noch einmal betätigt werden.
+  \item \textbf{private void buttonArchivieren\_Click(object sender, EventArgs
+  e)}\\
+  		Nach Betätigen des Buttons wird ein Dialog geöffnet, in welchem der Nutzer
+  		den Ort aus wählen kann wo die Archivierungs-PDF gespeichert werden soll.
+  		Dieser Vorgang kann auch mittels Abbrechen-Button abgebrochen werden.\\
+  		Zunächst wird ein PDF-Dokument zum schreiben geöffnet. Es
+  		bekommt eine Überschrift mit dem bereits aus der Datenbank ermittelten
+  		Semester. Pro Beleg wird dann in einer Titelseite ein Absatz mit den für den
+  		Beleg wichtigsten Informationen generiert (Belegkennung, Semester, Zeitraum, Gruppengröße) und
+  		darunter eine Tabelle mit den auswählbaren Themen und den verfügbaren
+  		Rollen. Auf einer neuen Seite wird dann pro Case-Gruppe eine Tabelle
+  		angelegt, welche das Thema der Gruppe (äußere foreach-Schleife) und die
+  		wichtigsten Informationen aller Studenten dieser Gruppe (innere
+  		foreach-Schleife aufzeigt.\\
+  		Nachdem die PDF mit dem Inhalt gefüllt wurde und schließlich erzeugt wurde,
+  		wird sie unter dem vom Nutzer festgelegten Verzeichnis mit dem namen der das
+  		Semester enthält gespeichert und dem Nutzer sofort angezeigt.
+  		Durch die Delete-Statements wird die Datenbank wieder in ihren
+  		Ausgangszustand zurückgesetzt. Der Delegate-Aufruf bewirkt, dass die
+  		Listboxen und der DataGridView wieder neugeladen wird, damit die alten,
+  		bereits gelöschten Daten nicht mehr angezeigt werden.
+  \item \textbf{private void abbrechenButton\_Click(object sender, EventArgs
+  e)}\\
+  		Falls der Nutzer den Archivierungs-Vorgang nicht ausführen möchte, kann das
+  		Fenster mittels Abbrechen-Button geschlossen werden.
+\end{itemize}
 
 
 \subsubsection{Die Klasse KontaktForm}
