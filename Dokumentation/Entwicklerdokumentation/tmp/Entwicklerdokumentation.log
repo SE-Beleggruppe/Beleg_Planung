@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 12:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  14 JUN 2014 14:03
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -381,7 +381,7 @@ umentation.out")
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.out")
 \@outlinefile=\write3
- <grafiken/HTW-Logo.png, id=119, 192.72pt x 45.46988pt>
+ <grafiken/HTW-Logo.png, id=115, 192.72pt x 45.46988pt>
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
@@ -411,37 +411,53 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \subsection
-                {Paket DozentBelegverwaltungUI} [1
+l.104 
+       [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+
+[2]
+Overfull \hbox (2.0507pt too wide) in paragraph at lines 177--188
+\OT1/cmr/m/n/12 grup-pen-List-Box auswahlt. An dieser Stelle mussen jetzt die
+ Stu-den-ten dieser Gruppe
+ []
+
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+ [4] [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
-(rerunfilecheck)             Checksum: 24E07C3CE4AA635679AF6EFE22E1BB7E;2054.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+(rerunfilecheck)             Checksum: 142815993791C927161D59798A313572;2130.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 6525 strings out of 493921
- 95095 string characters out of 3144876
+ 6545 strings out of 493921
+ 95389 string characters out of 3144876
  182016 words of memory out of 3000000
- 9711 multiletter control sequences out of 15000+200000
+ 9726 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,4n,28p,267b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,28p,267b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Entwicklerdokumentation.pdf (4 pages, 108332 bytes).
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Entwicklerdokumentation.pdf (7 pages, 126590 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
