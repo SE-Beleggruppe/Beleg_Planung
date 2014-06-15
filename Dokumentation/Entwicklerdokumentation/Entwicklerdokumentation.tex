@@ -609,16 +609,49 @@ Mail-Adressen automatisch übernommen.
 
 \subsection{Paket StudentBelegverwaltungUI}
 \subsubsection{Die Klasse LoginForm}
+Diese Klasse stellt ein Windows-Form bereit wo sich bereits bestehende Gruppen
+mit dem Gruppenlogin oder neue Gruppen mittels Erstlogin anmelden können.
 \begin{itemize}
   \item \textbf{public LoginForm()}\\
+  		Im Konstruktor wird der Titel des Fenster gesetzt und die Startposition auf
+  		die Mitte des Bildschirms verlagert.
   \item \textbf{private void LoginButton\_Click(object sender, EventArgs e)}\\
+  		Diese Funktion wird beim Klicken des Login-Buttons aufgerufen und prüft
+  		anhand der eingegebenen daten und den Hilfsfunktionen
+  		\textbf{checkBelegLogin} und \textbf{checkGruppeLogin} ob sich eine Gruppe
+  		anmelden möchte (normaler Login), eine neue Gruppe erstellt werden soll
+  		(Erstlogin) oder ob die Kombination aus Benutzernamen und Passwort falsch
+  		ist.\\Falls ein Gruppenlogin vorliegt wird das Hauptmenü mit der
+  		Gruppen-internen Übersicht geöffnet, bei Beleg-Login das Erstlogin-Fenster
+  		falls noch freie Case-gruppen verfügbar sind, was mit dem Aufruf der
+  		Hilfsfunktion \textbf{freieGruppen} festgestellt wird, und falls der
+  		Anmeldezeitraum noch nicht überschritten wurde.
   \item \textbf{private bool checkBelegLogin(string login, string password)}\\
+  		In dieser Funktion wird mit einer Datenbankabfrage geprüft ob die im
+  		Login-Fenser eingegebenen Informationen ein Erstlogin (Beleglogin) sind. Die
+  		Funktion wird beim Klicken des Login-Buttons beim Anmeldebildschirm (also
+  		in der Methode \textbf{LoginButton\_Click}) aufgerufen.
   \item \textbf{private bool checkGruppeLogin(string login, string password)}\\
+  		Diese Hilfsfunktion erkennt mittels Datenbankabfrage ob sich eine bereits
+  		bestehende Gruppe anmelden möchte. Die Funktion wird beim Klicken des
+  		Login-Buttons beim Anmeldebildschirm (also in der Methode
+  		\textbf{LoginButton\_Click}) aufgerufen.
   \item \textbf{private bool freieGruppen(string BelegKennung)}\\
+  		Falls eine Gruppe für einen bestehenden Beleg erstellt werden soll, muss
+  		vorher festgestellt werden ob überhaupt noch freie Case-Gruppen verfügbar
+  		sind oder bereits alle vergeben worden sind. Dies übernimmt diese Funktion
+  		mithilfe einer Datenbankabfrage.
   \item \textbf{private string getBelegKennungFromGruppenKennung(string
   kennung)}\\
+  		In dieser Funktion wird durch die Gruppenkennung die Belegkennung aus der
+  		datenbank bezogen und zurückgegeben.
   \item \textbf{private bool isInBelegZeitraum(string belegkennung)}\\
+  		Diese Funktion bezieht das Start- und Enddatum eines übergebenen Beleges aus
+  		der datenbank und prüft ob sich das aktuelle Datum in diesem Zeitraum
+  		befindet. Sie wird beim Klicken des Login-Buttons aufgerufen.
   \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  		Falls der Abbrechen-Button im Anmeldebildschirm betätigt wird, beendet sich
+  		das Programm.
 \end{itemize}
 
 
@@ -650,13 +683,30 @@ Mail-Adressen automatisch übernommen.
 
 
 \subsubsection{Die Klasse FormErstanmeldung}
+Diese Klasse stellt ein Windows-Form bereit wo die Daten des Leiters der neu
+erstellten Gruppe eingegeben werden und auf Richtigkeit geprüft werden.
 \begin{itemize}
   \item \textbf{public FormErstanmeldung( string belegKennung)}\\
+  		Im Konstruktor wird der Titel des Fenster gesetzt und die Startposition auf
+  		die Mitte des Bildschirms verlagert. Außerdem wird die Belegkennung
+  		initialisiert.
   \item \textbf{private void button1\_Click(object sender, EventArgs e)}\\
+  		Die Methode wird beim Klicken des Fortfahren-Buttons aufgerufen. Falls alle
+  		Eingabefelder mit den Informationen vom Gruppenleiter ausgefüllt sind und
+  		die s-Nummer und die Mail-Adresse gültig sind (Prüfung mittels
+  		\textbf{checkSNummer} und \textbf{checkMail}) wird ein neuer Student
+  		angelegt und dieser zusammen mit der Belegkennung an das
+  		\textbf{FormMitgliederNeuEingeben} weiergereicht.
   \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  		Falls der Abbrechen-Button betätigt wird, beendet sich das Programm.
   \item \textbf{private bool checkSNummer(string sNummer)}\\
+  		Diese Funktion prüft die vom Leiter eingegebene S-Nummer auf Richtigkeit.
   \item \textbf{private bool checkMail(string mail)}\\
+  		Die Funktion checkMail erkennt mithilfe von regulären Ausdrücken, ob die
+  		eingegebene Email-Adresse ein gültiges Format hat.
   \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+  		Hier wird der Closing-Eventhandler überschreiben, damit beim Beenden auch
+  		wirklich der Prozess beendet wird und nicht nur Fenster geschlossen wird.
 \end{itemize}
 
 
@@ -681,6 +731,8 @@ Mail-Adressen automatisch übernommen.
 
 \subsection{Paket DBService}
 \subsubsection{Die Klasse Database}
+Diese Klasse stellt Methoden zur Verbindung mit der Datenbank und zur Ausführung
+von SQL-Statements bereit.
 \begin{itemize}
   \item \textbf{public Database()}\\
   \item \textbf{public void Connect()}\\
