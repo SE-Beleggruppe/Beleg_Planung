@@ -14,4 +14,4 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Gruppe l\"oschen}{5}{subsubsection.3.3.3}
 \contentsline {section}{\numberline {4}Programm Student}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Erstanmeldung}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Anmeldung}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Anmeldung}{8}{subsection.4.2}
