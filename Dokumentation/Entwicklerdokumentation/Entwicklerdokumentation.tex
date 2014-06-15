@@ -606,15 +606,86 @@ Mail-Adressen automatisch übernommen.
   		Betreff der Mail automatisch die Belegkennung gesetzt.
 \end{itemize}
 
+
 \subsection{Paket StudentBelegverwaltungUI}
 \subsubsection{Die Klasse LoginForm}
+\begin{itemize}
+  \item \textbf{public LoginForm()}\\
+  \item \textbf{private void LoginButton\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private bool checkBelegLogin(string login, string password)}\\
+  \item \textbf{private bool checkGruppeLogin(string login, string password)}\\
+  \item \textbf{private bool freieGruppen(string BelegKennung)}\\
+  \item \textbf{private string getBelegKennungFromGruppenKennung(string
+  kennung)}\\
+  \item \textbf{private bool isInBelegZeitraum(string belegkennung)}\\
+  \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+\end{itemize}
+
+
+
 \subsubsection{Die Klasse MainForm}
+\begin{itemize}
+  \item \textbf{public MainForm(string gruppenKennung, string belegkennung)}\\
+  \item \textbf{void mitgliederDataGridView\_UserDeletingRow\\(object sender,
+  DataGridViewRowCancelEventArgs e)}\\
+  \item \textbf{private Gruppe GetGruppeFromKennungS\\(string kennung, string
+  belegkennung)}\\
+  \item \textbf{private bool isInBelegZeitraum(string belegkennung)}\\
+  \item \textbf{ private void updateMitgliederData(List\textless
+  Student\textgreater errorStudenten)}\\
+  \item \textbf{private void UpdateThemen()}\\
+  \item \textbf{private void UpdateRollen()}\\
+  \item \textbf{private int getMinAnzahlMitglieder(string beKennung)}\\
+  \item \textbf{private int getMaxAnzahlMitglieder(string beKennung)}\\
+  \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+  \item \textbf{private int getAnzahlLeiter()}\\
+  \item \textbf{private void saveButton\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private void updateStudent(Student student)}\\
+  \item \textbf{private void insertStudent(Student student, Gruppe gruppe)}\\
+  \item \textbf{private bool checkSNummer(string sNummer)}\\
+  \item \textbf{private bool checkMail(string mail)}\\
+  \item \textbf{private void getZeitraum (string belegkennung)}\\
+\end{itemize}
+
+
+
 \subsubsection{Die Klasse FormErstanmeldung}
+\begin{itemize}
+  \item \textbf{public FormErstanmeldung( string belegKennung)}\\
+  \item \textbf{private void button1\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private bool checkSNummer(string sNummer)}\\
+  \item \textbf{private bool checkMail(string mail)}\\
+  \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+\end{itemize}
+
+
 \subsubsection{Die Klasse FormMitgliederNeuEingeben}
+\begin{itemize}
+  \item \textbf{public FormMitgliederNeuEingeben(Student leiter, string
+  belegKennung)}\\
+  \item \textbf{private void commitButton\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private void updateRollen()}\\
+  \item \textbf{private void RefreshDatagrid(Gruppe gruppe)}\\
+  \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  \item \textbf{private string getGruppenKennung()}\\
+  \item \textbf{private int getThemenNummer()}\\
+  \item \textbf{private int getMaxAnzahlMitglieder(string beKennung)}\\
+  \item \textbf{private void saveGruppeInDatabase()}\\
+  \item \textbf{private void insertStudent(Student student, Gruppe gruppe)}\\
+  \item \textbf{private bool checkSNummer(string sNummer)}\\
+  \item \textbf{private bool checkMail(string mail)}\\
+  \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+\end{itemize}
 
 
 \subsection{Paket DBService}
 \subsubsection{Die Klasse Database}
-
+\begin{itemize}
+  \item \textbf{public Database()}\\
+  \item \textbf{public void Connect()}\\
+  \item \textbf{public List\textless string[]\textgreater ExecuteQuery(string
+  query)}\\
+\end{itemize}
 
 \end{document}
