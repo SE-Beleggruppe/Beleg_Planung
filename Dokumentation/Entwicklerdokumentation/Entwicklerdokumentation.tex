@@ -810,9 +810,19 @@ Diese Klasse stellt Methoden zur Verbindung mit der Datenbank und zur Ausführung
 von SQL-Statements bereit.
 \begin{itemize}
   \item \textbf{public Database()}\\
+  		Im Konstruktor wird die Datenbank festgelegt, mit welcher gearbeitet werden
+  		soll.
   \item \textbf{public void Connect()}\\
+  		Mit dieser Funktion wird die Verbindung zu der Datenbank realisiert bzw eine
+  		Fehlermeldung ausgegeben, falls die Verbindung fehlschlägt.
+  		Mithilfe des Connectionstrings wird der Datenbanzugriff genauer
+  		spezifiziert.
   \item \textbf{public List\textless string[]\textgreater ExecuteQuery(string
   query)}\\
+  		Mithilfe dieser Funktion wird eine Datenbankabfrage ausgeführt und das
+  		Abfrageergebnis als Liste von Strings zurückgegeben. Das Ergebnis der
+  		Abfrage wird zunächst in der Variable datareader gespeichert. In der
+  		while-Schleife wird daraus nun die String-Liste erstellt.
 \end{itemize}
 
 \end{document}
