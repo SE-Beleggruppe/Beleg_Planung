@@ -657,27 +657,102 @@ mit dem Gruppenlogin oder neue Gruppen mittels Erstlogin anmelden können.
 
 
 \subsubsection{Die Klasse MainForm}
+Die Klasse MainForm stellt ein User Interface bereit, mit dem der Nutzer eine
+Übersicht über alle Gruppenmitglieder erhält. Außerdem soll es möglich sein,
+neue Nutzer hinzuzufügen, sowie bestehende Angaben der Nutzer und das
+ausgewählte Thema zu ändern und die Änderungen in die Datenbank zu speichern.
 \begin{itemize}
   \item \textbf{public MainForm(string gruppenKennung, string belegkennung)}\\
+  		Der Konstruktor der Klasse bekommt als Parameter die Gruppenkennung, um die
+  		betreffende Gruppe aus der Datenbank laden zu können. Außerdem ist es
+  		notwendig, die Belegkennung zu wissen, damit die entsprechenden auswählbaren
+  		Themen und Rollen geladen werden können. Als Fenster-Titel wird die
+  		Case-Kennung der Gruppe angegeben. Es werden alle gerade genannten Daten aus
+  		der Datenbank geladen und in die entsprechenden UI-Elemente übernommen.
   \item \textbf{void mitgliederDataGridView\_UserDeletingRow\\(object sender,
   DataGridViewRowCancelEventArgs e)}\\
+  		Dieser Eventhandler wird aufgerufen, wenn der Nutzer ein Gruppenmitglied
+  		löschen will. Dies ist notwendig, damit das Programm nachfragen kann, ob die
+  		Aktion wirklich so gewünscht war. Wenn dem so ist, wird der Nutzer aus der
+  		Datenbank gelöscht und die Anzeige aktualisiert.
   \item \textbf{private Gruppe GetGruppeFromKennungS\\(string kennung, string
   belegkennung)}\\
+  		Diese Methode ruft die Gruppe anhand der Gruppen- und Belegkennung aus der
+  		Datenbank. Außerdem werden gleich die Gruppenmitglieder geladen. Diese
+  		werden in der Gruppen-Property Studenten gespeichert.
   \item \textbf{private bool isInBelegZeitraum(string belegkennung)}\\
+  		Diese Methode prüft, ob das aktuelle Datum sich in dem, in der Datenbank
+  		hinterlegten, Bearbeitungszeitraum des Beleges befindet. Wenn der Zeitraum
+  		abgelaufen ist oder noch nicht begonnen haben sollte, sind die
+  		Interface-Elemente gesperrt, weil dann die Gruppe nicht mehr bearbeiten
+  		werden können soll.
   \item \textbf{ private void updateMitgliederData(List\textless
   Student\textgreater errorStudenten)}\\
+  		Diese Methode wird verwendet, um die Anzeige der Gruppenmitglieder nach dem
+  		Speichern der geändert Daten zu aktualisieren. Als Parameter wird dabei eine
+  		Liste von Studenten übergeben, bei denen Angaben nicht den Vorgaben
+  		entsprachen. Dies kann sein, dass die S-Nummer keine S-Nummer war oder die
+  		Mail-Adresse an der Validierung gescheitert ist. Zuerst wird das
+  		Datagridview mit den Mitgliedsdaten geleert. Danach wird für jedes Mitglied
+  		jede Angabe eingetragen. Handelt es sich um ein wirkliches Mitglied und
+  		keinen Platzhalter ("na"), so wird das Feld für die S-Nummer gesperrt, da
+  		diese in der Datenbank einen Primärschlüssel darstellt.
   \item \textbf{private void UpdateThemen()}\\
+  		Die Liste von auswählbaren Themen besteht aus einer Liste der internen
+  		Klasse Thema. Diese beinhaltet einen Integer-Wert als Themennummer und einen
+  		String als Aufgabenname. Mittels dieser Methode wird die Liste aufgebaut und
+  		als Datasource für die comboBoxThemen festgesetzt. Dadurch ist es den
+  		Nutzern möglich, ein neues Thema auszuwählen, dass vom Dozenten dafür
+  		vorgesehen wurde.
   \item \textbf{private void UpdateRollen()}\\
+  		Die verfügbaren Rollen werden durch eine Liste von strings realisiert. In
+  		der Datenbank stehen sie in der Tablle Zuordnung\_BelegRolle und werden
+  		mittels dieser Funktion aus der Datenbank in die erwähnte Liste geladen. In
+  		der Methode updateMitgliederData(..) wird diese Liste als Datasource für
+  		Comboboxen in dem Datagridview festgelegt.
   \item \textbf{private int getMinAnzahlMitglieder(string beKennung)}\\
+  		Analog zu der Funktion getMaxAnzahlMitglieder(..) wird mittels dieser
+  		Methode die Anzahl der minimal nötigen Gruppenmitgliedern geladen. 
   \item \textbf{private int getMaxAnzahlMitglieder(string beKennung)}\\
+  		Bei der Funktion getMaxAnzahlMitglieder handelt es sich natürlich um die
+  		maximal mögliche Anzahl.
   \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+  		Dieser Eventhandler wird abgefangen, um den Prozess zu beenden, wenn das
+  		Fenster geschlossen werden soll. Das ist notwendig, weil die MainForm nach
+  		der LoginForm präsentiert wird. Dabei wird die LoginForm nur ausgeblendet,
+  		nicht aber geschlossen.
   \item \textbf{private int getAnzahlLeiter()}\\
+  		Diese Methode gibt die Anzahl von Mitgliedern aus, die als Rolle Leiter
+  		ausgewählt haben. Da es nur einen Leiter geben darf und auch genau ein
+  		leiter exisiteren muss, ist diese Funktion notwendig, um die Gegebenheiten
+  		zu überprüfen, bevor die Mitglieder in der Datenbank gespeichert werden.
   \item \textbf{private void saveButton\_Click(object sender, EventArgs e)}\\
+  		Dieser Eventhandler fängt das Ereignis ab, dass der Speichern-Button
+  		gedrückt wurde. Es werden zunächst die Anzahl der Leiter (Fehlerquelle) und
+  		für jedes einzelnes Mitglied die S-Nummer und Mail-Adresse auf Korrektheit
+  		überprüft. Alle korrekt eingetragenen Mitglieder und das ausgewählte Thema
+  		werden in die Datenbank gespeichert. Treten Fehler bei Mitgliederdaten auf,
+  		werden diese in die Liste error geschrieben und später der
+  		updateMitgliederData(..)-Methode übergeben. Nach dem Speichern wird das
+  		Datagridview neu geladen.
   \item \textbf{private void updateStudent(Student student)}\\
+  		Diese Hilfsfunktion updated einen existierenden Studenten in der Datenbank.
+  		Der betreffende Student wird als Parameter übergeben.
   \item \textbf{private void insertStudent(Student student, Gruppe gruppe)}\\
+  		Diese Hilfsmethode fügt einen neuen Studenten in die Datenbank ein. Dabei
+  		wird ein Eintrag in die Tabelle Student und in die Tabelle
+  		Zuordnung\_GruppeStudent vorgenommen.
   \item \textbf{private bool checkSNummer(string sNummer)}\\
+  		Mittels dieser Funktion wird eine eingegebene S-Nummer auf Korrektheit
+  		überprüft. Es wird dabei auf die Länge, das "s" am Anfang und eine korrekte
+  		Zahl nach dem "s" geachtet.
   \item \textbf{private bool checkMail(string mail)}\\
+  		Diese Methode überprüft mittels Regular-Expressions eine eingegebene
+  		Mail-Adresse auf ihre Validierung.
   \item \textbf{private void getZeitraum (string belegkennung)}\\
+  		Diese Methode ruft den Bearbeitungszeitraum aus der Datenbank und zeigt ihn
+  		in dem Label in der MainForm an. Dies ist dafür wichtig, dass die Studenten
+  		wissen, bis wann sie Zeit haben, etwas an den Einstellungen zu verändern.
 \end{itemize}
 
 
