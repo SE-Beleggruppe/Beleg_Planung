@@ -82,6 +82,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 
 \subsection{Paket Typen}
 \subsubsection{Die Klasse Beleg}
+\includegraphics{grafiken/Klassendiagramme_einzeln/Typen/Beleg.png}
 
 \begin{itemize}
   \item \textbf{public Beleg(string kennung, string semester, DateTime
@@ -95,6 +96,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 \end{itemize}
 
 \subsubsection{Die Klasse Thema}
+\includegraphics{grafiken/Klassendiagramme_einzeln/Typen/Thema.png}
 \begin{itemize}
   \item \textbf{public Thema(int themenNummer, string aufgabe)}\\
   		Ein Thema besitzt nur eine Nummer und einen Namen. Diese beiden Attribute werden
@@ -103,7 +105,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 
 
 \subsubsection{Die Klasse Gruppe}
-
+\includegraphics{grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png}
 \begin{itemize}
   \item \textbf{public Gruppe(string password, string belegkennung)}\\
   		Durch diesen Konstruktor wird das Passwort und die Belegkennung gesetzt und
@@ -118,6 +120,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 \end{itemize}
 
 \subsubsection{Die Klasse Rolle}
+\includegraphics{grafiken/Klassendiagramme_einzeln/Typen/Rolle.png}
 \begin{itemize}
   \item \textbf{public Rolle(string rolle)}\\
   		Der Konstruktor initialisiert die Rollen-Bezeichnung.
@@ -125,6 +128,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 
 
 \subsubsection{Die Klasse Student}
+\includegraphics{grafiken/Klassendiagramme_einzeln/Typen/Student.png}
 \begin{itemize}
   \item \textbf{public Student(string name, string vorname, string sNummer,
   string mail, string rolle)}\\
@@ -136,6 +140,7 @@ Methoden definiert und ihre Aufgaben beschrieben.
 
 \subsection{Paket DozentBelegverwaltungUI}
 \subsubsection{Die Klasse MainForm}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png}\\
 Die MainForm-Klasse im Programm Dozent ist dafür da, um einen schnellen
 Überblick über alle laufenden Belege, dessen Gruppen und der darin enthaltenden Studenten zu 
 gewährleisten. Dabei wird sehr eng mit der Datenbank gearbeitet, um immer
@@ -237,7 +242,7 @@ aktuelle und richtige Daten anzuzeigen.
   		Anlegen einer Gruppe aufgerufen wird. Dabei wird vorher eine
   		Platzhalter-Gruppe angelegt, die dem Konstruktor von GruppeBearbeiten
   		übergeben wird. Diese Gruppe kann auch direkt als Anhaltspunkt für diese
-  		Funktion gewählt werden.\newpage
+  		Funktion gewählt werden.
   \item \textbf{private void dataGridViewFreigebenButton\_Click\\(object sender,
   EventArgs e)}\\
   		Mit dieser Funktion wird das DataGridView, das die Studenten einer Gruppe
@@ -321,6 +326,7 @@ aktuelle und richtige Daten anzuzeigen.
 
 
 \subsubsection{Die Klasse Eingabe}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png}\\
 Mit dieser Klasse wird eine allgemein gültige Form bereitgestellt, über die in
 Form eines Dialoges Daten eingegeben werden können. Dafür wird ein Textfeld
 bereit gestellt. Über einen Delegate erfährt die präsentierende Form, dass die
@@ -341,6 +347,7 @@ zugeteilt.
 
 
 \subsubsection{Die Klasse BelegBearbeiten}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png}\\
 Diese Klasse stellt ein User Interface zur Verfügung, mit dem man einen Beleg
 anlegen oder einen existierenden bearbeiten kann.\\
 Properties:
@@ -417,6 +424,7 @@ Methoden:
 \end{itemize}
 
 \subsubsection{Die Klasse GruppeBearbeiten}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png}\\
 Diese Klasse stellt eine Windows-Form bereit, mit der eine Gruppe bearbeitet
 werden oder eine neue Gruppe angelegt werden kann.
 
@@ -467,6 +475,7 @@ werden oder eine neue Gruppe angelegt werden kann.
 \end{itemize}
 
 \subsubsection{Die Klasse RolleVerwalten}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png}\\
 Diese Klasse beschreibt eine Windows-Form, mit der der gesamte Pool von
 verfügbaren Rollen in der Datenbank verwaltet werden kann. Es können bestehende
 Rollen gelöscht und neue Rollen hinzugefügt werden.
@@ -500,6 +509,7 @@ Rollen gelöscht und neue Rollen hinzugefügt werden.
 
 
 \subsubsection{Die Klasse ThemenVerwalten}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png}\\
 Diese Klasse stellt eine Windows-Form bereit, um die bestehenden Themen in der
 Datenbank zu verwalten. Themen können gelöscht oder neu hinzugefügt werden.
 
@@ -533,6 +543,7 @@ Datenbank zu verwalten. Themen können gelöscht oder neu hinzugefügt werden.
 
 
 \subsubsection{Die Klasse PdfArchivierung}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png}\\
 Die Klasse PdfArchivierung stellt eine Windows-Form bereit, mit der sämtliche
 Belege des aktuellen Semesters archiviert werden können. Dabei werden alle
 relevanten Daten bezüglich der Belege mit ihren Case-Gruppen und den jeweiligen
@@ -582,6 +593,7 @@ Datenbank wieder für das kommende Semesters genutzt werden kann.
 
 
 \subsubsection{Die Klasse KontaktForm}
+\includegraphics{grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png}\\
 Diese Klasse stellt eine Windows-Form bereit, mit der bestimmte Studenten oder
 ein Kreis von Studenten per Mail kontaktiert werden können. Dabei wird das
 Standard-Mail-Programm des Betriebssystems benutzt und die einzutragenden
@@ -758,6 +770,7 @@ ausgewählte Thema zu ändern und die Änderungen in die Datenbank zu speichern.
 
 
 \subsubsection{Die Klasse FormErstanmeldung}
+\includegraphics{grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.png}\\
 Diese Klasse stellt ein Windows-Form bereit wo die Daten des Leiters der neu
 erstellten Gruppe eingegeben werden und auf Richtigkeit geprüft werden.
 \begin{itemize}

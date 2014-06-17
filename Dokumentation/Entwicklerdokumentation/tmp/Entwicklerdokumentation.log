@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  16 JUN 2014 20:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  17 JUN 2014 10:40
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -408,242 +408,411 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+<grafiken/Klassendiagramme_einzeln/Typen/Beleg.png, id=157, 494.59781pt x 268.0
+0125pt>
+File: grafiken/Klassendiagramme_einzeln/Typen/Beleg.png Graphic file (type png)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+ <use grafiken/Klassendiagramme_einzeln/Typen/Beleg.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Beleg.png used
+ on input line 85.
+(pdftex.def)             Requested size: 494.59659pt x 268.00058pt.
 
-Overfull \hbox (6.70946pt too wide) in paragraph at lines 92--95
-\OT1/cmr/m/n/12 Mit dieser Meth-ode kann einem Be-leg eine Case-Gruppe vom Typ 
-Gruppe hinzugefugt
+Overfull \hbox (39.35248pt too wide) in paragraph at lines 85--86
+[][] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111   \item \textbf
-                     {public Gruppe(string kennung, int themennummer, string
+l.88   \item \textbf
+                    {public Beleg(string kennung, string semester, DateTime
 [1
 
-] [2] [3]
-Overfull \hbox (2.0507pt too wide) in paragraph at lines 199--210
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+
+Overfull \hbox (6.70946pt too wide) in paragraph at lines 93--96
+\OT1/cmr/m/n/12 Mit dieser Meth-ode kann einem Be-leg eine Case-Gruppe vom Typ 
+Gruppe hinzugefugt
+ []
+
+
+<grafiken/Klassendiagramme_einzeln/Typen/Thema.png, id=162, 224.33812pt x 124.9
+6687pt>
+File: grafiken/Klassendiagramme_einzeln/Typen/Thema.png Graphic file (type png)
+
+ <use grafiken/Klassendiagramme_einzeln/Typen/Thema.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Thema.png used
+ on input line 99.
+(pdftex.def)             Requested size: 224.33757pt x 124.96657pt.
+ [2 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/Typen/Beleg.png> <C:/Users/Felix/eclipse_workspace/SEII
+ - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/Typen/Thema.png>]
+<grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png, id=170, 293.59688pt x 198.
+7425pt>
+File: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png Graphic file (type png
+)
+ <use grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png use
+d on input line 108.
+(pdftex.def)             Requested size: 293.59615pt x 198.742pt.
+
+<grafiken/Klassendiagramme_einzeln/Typen/Rolle.png, id=171, 160.34906pt x 124.9
+6687pt>
+File: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png Graphic file (type png)
+
+ <use grafiken/Klassendiagramme_einzeln/Typen/Rolle.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png used
+ on input line 123.
+(pdftex.def)             Requested size: 160.34866pt x 124.96657pt.
+
+<grafiken/Klassendiagramme_einzeln/Typen/Student.png, id=172, 361.35pt x 161.85
+469pt>
+File: grafiken/Klassendiagramme_einzeln/Typen/Student.png Graphic file (type pn
+g)
+ <use grafiken/Klassendiagramme_einzeln/Typen/Student.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Student.png us
+ed on input line 131.
+(pdftex.def)             Requested size: 361.34912pt x 161.85428pt.
+ [3 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/Typen/Gruppe.png> <C:/Users/Felix/eclipse_workspace/SEI
+I - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/Typen/Rolle.png>]
+
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png, id=179
+, 187.45032pt x 362.85562pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png Gr
+aphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/MainForm.png used on input line 143.
+(pdftex.def)             Requested size: 187.44984pt x 362.85474pt.
+
+[4 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/Kl
+assendiagramme_einzeln/Typen/Student.png>] [5 <C:/Users/Felix/eclipse_workspace
+/SEII - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/DozentBelegve
+rwaltungUI/MainForm.png>] [6]
+Overfull \hbox (2.0507pt too wide) in paragraph at lines 204--215
 \OT1/cmr/m/n/12 grup-pen-List-Box auswahlt. An dieser Stelle mussen jetzt die
  Stu-den-ten dieser Gruppe
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 230.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 235.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 230.
- [4] [5]
-Overfull \hbox (27.82452pt too wide) in paragraph at lines 242--246
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 235.
+ [7]
+Overfull \hbox (27.82452pt too wide) in paragraph at lines 247--251
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird das Data-Grid-View, das die Stu-den-t
 en einer Gruppe reprasentiert
  []
 
 
-Overfull \hbox (14.95381pt too wide) in paragraph at lines 278--283
+Overfull \hbox (14.95381pt too wide) in paragraph at lines 283--288
 \OT1/cmr/m/n/12 Mit dieser Funk-tion kann das Bear-beiten der Stu-den-ten einer
  Gruppe wieder ruckgangig
  []
 
-[6]
-Overfull \hbox (13.35938pt too wide) in paragraph at lines 287--290
+[8]
+Overfull \hbox (13.35938pt too wide) in paragraph at lines 292--295
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird eine In-stanz der Klasse RolleV-er-wa
 l-ten geladen und angezeigt,
  []
 
-[7]
-Overfull \hbox (7.00528pt too wide) in paragraph at lines 337--340
+[9]
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png, id=208,
+ 263.48438pt x 282.30469pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png Gra
+phic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/Eingabe.png used on input line 329.
+(pdftex.def)             Requested size: 263.48372pt x 282.30399pt.
+
+Overfull \hbox (7.00528pt too wide) in paragraph at lines 343--346
 \OT1/cmr/m/n/12 Dieser Han-dler wird durch den "Bestatigen"-Button aus-gelost
  und gibt den eingegebe-
  []
 
-[8]
-Overfull \hbox (8.04556pt too wide) in paragraph at lines 371--374
+
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png,
+ id=209, 313.17pt x 421.575pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten
+.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.
+png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/BelegBearbeiten.png used on input line 350.
+(pdftex.def)             Requested size: 313.16922pt x 421.57396pt.
+ [10 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
+Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png>] [11 <C:/Users/Fe
+lix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/Klassendiagramme_
+einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png (PNG copy)>]
+Overfull \hbox (8.04556pt too wide) in paragraph at lines 378--381
 \OT1/cmr/m/n/12 Diese Funk-tion gibt dem "Abbrechen"-Button die Funk-tion, dass
  die Form geschlossen
  []
 
 
-Overfull \hbox (5.57335pt too wide) in paragraph at lines 381--384
+Overfull \hbox (5.57335pt too wide) in paragraph at lines 388--391
 \OT1/cmr/m/n/12 Diese Funk-tion uberpruft, ob die Belegken-nung eingegeben wu
 rde und ob die zulassige
  []
 
 
-Overfull \hbox (9.8819pt too wide) in paragraph at lines 395--399
+Overfull \hbox (9.8819pt too wide) in paragraph at lines 402--406
 \OT1/cmr/m/n/12 Diese Meth-ode und auch die aquivalenten Meth-o-den ..Rolle[]C
 lick(), und ..Case[]Click()
  []
 
 
-Overfull \hbox (11.02634pt too wide) in paragraph at lines 400--404
+Overfull \hbox (11.02634pt too wide) in paragraph at lines 407--411
 \OT1/cmr/m/n/12 Diese Funk-tion und auch die aquivalenten Meth-o-den ..Rolle[]
 Click(), und ..Case[]Click()
  []
 
-[9]
-Overfull \hbox (29.49117pt too wide) in paragraph at lines 425--428
+[12]
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png
+, id=224, 284.56313pt x 496.85625pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeite
+n.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten
+.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/GruppeBearbeiten.png used on input line 427.
+(pdftex.def)             Requested size: 284.56242pt x 496.85503pt.
+ [13]
+Overfull \hbox (29.49117pt too wide) in paragraph at lines 433--436
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Bear-beitung abgeschlossen
  []
 
-[10]
-Overfull \hbox (14.5316pt too wide) in paragraph at lines 455--462
+[14 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png (PNG copy)
+>]
+Overfull \hbox (14.5316pt too wide) in paragraph at lines 463--470
 \OT1/cmr/m/n/12 Diese Funk-tion ak-tu-al-isiert die Daten einer beste-hen-den G
 ruppe mit den neu eingegebe-
  []
 
-[11] [12]
-Overfull \hbox (32.91612pt too wide) in paragraph at lines 546--550
+
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png, 
+id=233, 404.51125pt x 384.43625pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.
+png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.p
+ng>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/RolleVerwalten.png used on input line 478.
+(pdftex.def)             Requested size: 404.51025pt x 384.4353pt.
+ [15] [16 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/graf
+iken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png (PNG c
+opy)>]
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png,
+ id=242, 404.51125pt x 384.43625pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten
+.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.
+png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/ThemenVerwalten.png used on input line 512.
+(pdftex.def)             Requested size: 404.51025pt x 384.4353pt.
+ [17 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
+Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png (PNG copy)
+>]
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png,
+ id=248, 286.06876pt x 365.11406pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung
+.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.
+png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/PDFArchivierung.png used on input line 546.
+(pdftex.def)             Requested size: 286.06805pt x 365.11316pt.
+ [18]
+Overfull \hbox (32.91612pt too wide) in paragraph at lines 557--561
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Archivierung abgeschlossen
  []
 
-
-Overfull \hbox (19.62137pt too wide) in paragraph at lines 557--577
+[19 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png (PNG copy)>
+]
+Overfull \hbox (19.62137pt too wide) in paragraph at lines 568--588
 \OT1/cmr/m/n/12 Zunachst wird ein PDF-Dokument zum schreiben geoffnet. Es bek
 ommt eine []Uberschrift
  []
 
-[13] [14]
-Overfull \hbox (26.09955pt too wide) in paragraph at lines 634--639
+
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png, id=
+257, 376.40625pt x 275.52937pt>
+File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png
+ Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
+gUI/KontaktForm.png used on input line 596.
+(pdftex.def)             Requested size: 376.40532pt x 275.52869pt.
+[20] [21 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafi
+ken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png (PNG copy)
+>]
+Overfull \hbox (26.09955pt too wide) in paragraph at lines 646--651
 \OT1/cmr/m/n/12 Buttons beim An-melde-bild-schirm (also in der Meth-ode \OT1/cm
 r/bx/n/12 Login-But-ton[]Click\OT1/cmr/m/n/12 ) aufgerufen. 
  []
 
-
-Overfull \hbox (18.10886pt too wide) in paragraph at lines 660--664
+[22]
+Overfull \hbox (18.10886pt too wide) in paragraph at lines 672--676
 \OT1/cmr/m/n/12 uber alle Grup-pen-mit-glieder erhalt. Auer-dem soll es mog
 lich sein, neue Nutzer hinzuzufugen,
  []
 
-[15] [16] [17]
-Overfull \hbox (0.99146pt too wide) in paragraph at lines 749--752
+[23] [24]
+Overfull \hbox (0.99146pt too wide) in paragraph at lines 761--764
 \OT1/cmr/m/n/12 Diese Meth-ode uberpruft mit-tels Regular-Expressions eine ei
 ngegebene Mail-Adresse
  []
 
 
-Overfull \hbox (10.49551pt too wide) in paragraph at lines 779--782
+<grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.p
+ng, id=279, 356.33125pt x 292.09125pt>
+File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdl
+ung.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlu
+ng.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
+ngUI/FormErstanemdlung.png used on input line 773.
+(pdftex.def)             Requested size: 356.33037pt x 292.09052pt.
+ [25]
+Overfull \hbox (10.49551pt too wide) in paragraph at lines 792--795
 \OT1/cmr/m/n/12 Die Funk-tion check-Mail erkennt mithilfe von regularen Ausdr
 ucken, ob die eingegebene
  []
 
-[18]
-Overfull \hbox (2.47087pt too wide) in paragraph at lines 791--792
+[26 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.png (PNG cop
+y)>]
+Overfull \hbox (2.47087pt too wide) in paragraph at lines 804--805
 [][]\OT1/cmr/bx/n/12 public For-m-Mit-gliederNeuEingeben(Student leiter, string
  belegKen-nung) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--797
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
 
  []
 
-[19]
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 821--826
+[27]
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 834--839
 \OT1/cmr/m/n/12 Mithilfe dieser Funk-tion wird eine Daten-bank-abfrage aus-gef
 uhrt und das Abfrageergeb-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 828.
-[20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 828.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 841.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 841.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 828.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 828.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 841.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 841.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
 (rerunfilecheck)             Checksum: 525EF20926B6DF8B287FC283B7466934;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 828.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 841.
  ) 
 Here is how much of TeX's memory you used:
- 6579 strings out of 493921
- 95810 string characters out of 3144876
+ 6660 strings out of 493921
+ 100191 string characters out of 3144876
  182016 words of memory out of 3000000
- 9741 multiletter control sequences out of 15000+200000
+ 9797 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,4n,28p,267b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,28p,267b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (22 pages, 173296 bytes).
+Output written on Entwicklerdokumentation.pdf (30 pages, 676504 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 
