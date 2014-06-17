@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  17 JUN 2014 10:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  17 JUN 2014 13:12
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -668,64 +668,95 @@ File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
 gUI/KontaktForm.png used on input line 596.
 (pdftex.def)             Requested size: 376.40532pt x 275.52869pt.
-[20] [21 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafi
-ken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png (PNG copy)
->]
-Overfull \hbox (26.09955pt too wide) in paragraph at lines 646--651
+[20]
+<grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png, id=2
+62, 428.60126pt x 458.71375pt>
+File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png 
+Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
+ngUI/LoginForm.png used on input line 624.
+(pdftex.def)             Requested size: 428.6002pt x 458.71263pt.
+
+[21 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png (PNG copy)>]
+[22 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png (PNG copy)>]
+Overfull \hbox (26.09955pt too wide) in paragraph at lines 647--652
 \OT1/cmr/m/n/12 Buttons beim An-melde-bild-schirm (also in der Meth-ode \OT1/cm
 r/bx/n/12 Login-But-ton[]Click\OT1/cmr/m/n/12 ) aufgerufen. 
  []
 
-[22]
-Overfull \hbox (18.10886pt too wide) in paragraph at lines 672--676
+
+<grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png, id=27
+1, 259.7203pt x 564.60938pt>
+File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png G
+raphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
+ngUI/MainForm.png used on input line 673.
+(pdftex.def)             Requested size: 259.71967pt x 564.60799pt.
+
+Overfull \hbox (18.10886pt too wide) in paragraph at lines 673--678
 \OT1/cmr/m/n/12 uber alle Grup-pen-mit-glieder erhalt. Auer-dem soll es mog
 lich sein, neue Nutzer hinzuzufugen,
  []
 
-[23] [24]
-Overfull \hbox (0.99146pt too wide) in paragraph at lines 761--764
+[23] [24 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafi
+ken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png (PNG copy)>]
+[25] [26]
+Overfull \hbox (0.99146pt too wide) in paragraph at lines 763--766
 \OT1/cmr/m/n/12 Diese Meth-ode uberpruft mit-tels Regular-Expressions eine ei
 ngegebene Mail-Adresse
  []
 
 
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.p
-ng, id=279, 356.33125pt x 292.09125pt>
+ng, id=289, 356.33125pt x 292.09125pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdl
 ung.png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlu
 ng.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/FormErstanemdlung.png used on input line 773.
+ngUI/FormErstanemdlung.png used on input line 775.
 (pdftex.def)             Requested size: 356.33037pt x 292.09052pt.
- [25]
-Overfull \hbox (10.49551pt too wide) in paragraph at lines 792--795
+ [27 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
+Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.png (PNG co
+py)>]
+Overfull \hbox (10.49551pt too wide) in paragraph at lines 794--797
 \OT1/cmr/m/n/12 Die Funk-tion check-Mail erkennt mithilfe von regularen Ausdr
 ucken, ob die eingegebene
  []
 
-[26 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
-lassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.png (PNG cop
-y)>]
-Overfull \hbox (2.47087pt too wide) in paragraph at lines 804--805
-[][]\OT1/cmr/bx/n/12 public For-m-Mit-gliederNeuEingeben(Student leiter, string
- belegKen-nung) 
- []
 
+<grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeb
+en.png, id=294, 428.60126pt x 699.61375pt>
+File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuE
+ingeben.png Graphic file (type png)
+
+<use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEi
+ngeben.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
+ngUI/MitgliederNeuEingeben.png used on input line 804.
+(pdftex.def)             Requested size: 428.6002pt x 699.61205pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
-
- []
+[28] [29]
+Overfull \vbox (53.36061pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-
+[30 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png (PNG
+ copy)>]
+Overfull \hbox (2.47087pt too wide) in paragraph at lines 807--808
+[][]\OT1/cmr/bx/n/12 public For-m-Mit-gliederNeuEingeben(Student leiter, string
+ belegKen-nung) 
  []
 
 
@@ -778,30 +809,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 816--817
 
  []
 
-[27]
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 834--839
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+
+ []
+
+
+<grafiken/Klassendiagramme_einzeln/Database/Database.png, id=308, 308.15125pt x
+ 223.83624pt>
+File: grafiken/Klassendiagramme_einzeln/Database/Database.png Graphic file (typ
+e png)
+ <use grafiken/Klassendiagramme_einzeln/Database/Database.png>
+Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Database/Database.pn
+g used on input line 825.
+(pdftex.def)             Requested size: 308.15048pt x 223.8357pt.
+
+[31]
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 838--843
 \OT1/cmr/m/n/12 Mithilfe dieser Funk-tion wird eine Daten-bank-abfrage aus-gef
 uhrt und das Abfrageergeb-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 841.
-[28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 841.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+[32 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+lassendiagramme_einzeln/Database/Database.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 841.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 841.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
 (rerunfilecheck)             Checksum: 525EF20926B6DF8B287FC283B7466934;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 841.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
- 6660 strings out of 493921
- 100191 string characters out of 3144876
+ 6684 strings out of 493921
+ 101520 string characters out of 3144876
  182016 words of memory out of 3000000
- 9797 multiletter control sequences out of 15000+200000
+ 9813 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,267b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -810,9 +867,9 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (30 pages, 676504 bytes).
+Output written on Entwicklerdokumentation.pdf (34 pages, 851942 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
