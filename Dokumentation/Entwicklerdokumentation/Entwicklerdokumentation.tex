@@ -801,22 +801,75 @@ erstellten Gruppe eingegeben werden und auf Richtigkeit geprüft werden.
 
 
 \subsubsection{Die Klasse FormMitgliederNeuEingeben}
+Diese Klasse steuert eine Windows-Form mit der es möglich ist, einer gerade
+erstellen und noch nicht gespeicherten Gruppe Mitglieder hinzuzufügen, ein Thema
+auszuwählen und diese ganzen Angaben in der Datenbank zu speichern.
 \includegraphics{grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png}\\
 \begin{itemize}
   \item \textbf{public FormMitgliederNeuEingeben(Student leiter, string
   belegKennung)}\\
+  		Der Konstruktor der Klasse bekommt den Leiter der Gruppe. Dieser wird in der
+  		vorher präsentierten Form seperat eingegeben, da jede neu erstellte Gruppe
+  		einen Ansprechpartner in Form eines Leiters bereitstellen muss. Außerdem
+  		wird die Belegkennung mitgegeben, damit die Themen und Rollen aus der
+  		Datenbank geladen werden können. Nach dem Setzen der Fenster-Position und
+  		des Fenster-Titels wird eine noch freie Gruppen-Kennung aus der Datenbank
+  		geladen. Der Fall, dass alle möglichen Kennungen schon vergeben sind, kann
+  		hier ignoriert werden, da dies nach dem Login schon getestet wird. Da
+  		allerdings mehrere Studenten gleichzeitig eine Gruppe anlegen können sollen,
+  		wird trotzdem an dieser Stelle der mögliche Fehler abgefangen. Außerdem wird
+  		die Anzahl der mindestens notwendigen Studenten und der maximal möglichen
+  		Studenten geladen. Danach wird das Datagridview, das die Studenten
+  		repräsentiert mit Platzhaltern gefüllt. Der Leiter steht an oberster Stelle
+  		und kann hier nicht mehr bearbeitet werden.
   \item \textbf{private void commitButton\_Click(object sender, EventArgs e)}\\
+  		Dieser Eventhandler bearbeitet das Ereignis, dass der Speichern-Button
+  		gedrückt wurde. Es wird überprüft, ob ein Passwort eingegeben wurde und dass
+  		das Passwort nicht zu lang ist, damit es von Sybase nicht automatisch
+  		eingekürzt wird. Wenn das alles stimmt, wird die Gruppe in der Datenbank
+  		gespeichert.
   \item \textbf{private void updateRollen()}\\
+  		Diese Methode lädt die verfügbaren Rollen dieses Beleges aus der Datenbank
+  		und speichert sie in der Liste rollen. Außerdem wird eine Platzhalter-Rolle
+  		"na" angehängt, da die Rollen zu dem Zeitpunkt noch nicht feststehen müssen.
   \item \textbf{private void RefreshDatagrid(Gruppe gruppe)}\\
+  		Mittels dieser Funktion wird das Datagridview, das die Studenten in der
+  		Gruppe darstellt, neu geladen. Dafür werden alle Zeilen gelöscht und dann
+  		für jeden Studenten eine neue Zeile mit den jeweiligen Daten angehängt.
   \item \textbf{private void cancelButton\_Click(object sender, EventArgs e)}\\
+  		Wenn der Abbrechen-Button gedrückt wird, wird der Prozess beendet.
   \item \textbf{private string getGruppenKennung()}\\
+  		Diese Funktion liefert eine noch nicht vergebene Gruppenkennung aus der
+  		Datenbank, damit diese verwendet werden kann.
   \item \textbf{private int getThemenNummer()}\\
+  		Diese Methode liefert die erste Themennummer, damit ein Thema standardmäßig
+  		ausgewählt ist.
   \item \textbf{private int getMaxAnzahlMitglieder(string beKennung)}\\
+  		Mittels dieser Funktion wird die maximal zulässige Anzahl von Mitgliedern
+  		für diesen Beleg zurückgegeben.
   \item \textbf{private void saveGruppeInDatabase()}\\
+  		Diese Methode speichert die eingegebenen Studenten in der Datenbank. Dabei
+  		wird zunächst jeder Student überprüft (S-Nummer und Mail-Adresse). Schlägt
+  		bei einem Studenten (Platzhalter ausgenommen) diese Überprüfung fehl, wird
+  		das Speichern abgebrochen und die fehlerhaten Studenten mittels einer
+  		MessageBox ausgegeben. Wenn die Angaben korrekt validiert sind, wird zu erst
+  		die Gruppe gespeichert (Tabellen Gruppe und Zuorndnung\_GruppeBeleg) und
+  		danach jeder einzelne Student. Danach wird die MainForm präsentiert und
+  		diese Form ausgeblendet.
   \item \textbf{private void insertStudent(Student student, Gruppe gruppe)}\\
+  		Diese Methode speichert einen Studenten in die Datenbank. Dabei wird die
+  		Tabelle und die Tabelle Zuordnung\_GruppeStudent ergänzt. Deswegen benötigt
+  		die Funktion den zu speichernden Studenten und die Gruppe als Parameter.
   \item \textbf{private bool checkSNummer(string sNummer)}\\
+  		Diese Methode validiert eine eingegebene S-Nummer. (Ist die s-Nummer leer,
+  		ist sie nicht genau 6 Stellen lang, beginnt sie nicht mit s\ldots?)
   \item \textbf{private bool checkMail(string mail)}\\
+  		Diese Methdoe validiert eine eingegebene Mail-Adresse. Sie wird mithilfe
+  		von regulären Ausdrücken auf Korrektheit geprüft.
   \item \textbf{protected override void OnClosing(CancelEventArgs e)}\\
+  		Diese Funktion überschreibt den Eventhandler, der aufgerufen wird, wenn der
+  		Schließen-Button gedrückt wird. Dabei wird der Prozess beendet und nicht nur
+  		das Fenster geschlossen.
 \end{itemize}
 
 

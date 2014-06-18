@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  17 JUN 2014 13:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  18 JUN 2014 09:37
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -740,88 +740,46 @@ ingeben.png Graphic file (type png)
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEi
 ngeben.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/MitgliederNeuEingeben.png used on input line 804.
+ngUI/MitgliederNeuEingeben.png used on input line 807.
 (pdftex.def)             Requested size: 428.6002pt x 699.61205pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Overfull \hbox (247.04585pt too wide) in paragraph at lines 804--808
+\OT1/cmr/m/n/12 diese ganzen Angaben in der Daten-bank zu spe-ich-ern. [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 804--808
 
  []
 
-[28] [29]
-Overfull \vbox (53.36061pt too high) has occurred while \output is active []
+[28]
+Overfull \vbox (12.87735pt too high) has occurred while \output is active []
 
 
-[30 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
+[29 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png (PNG
  copy)>]
-Overfull \hbox (2.47087pt too wide) in paragraph at lines 807--808
+Overfull \hbox (2.47087pt too wide) in paragraph at lines 810--825
 [][]\OT1/cmr/bx/n/12 public For-m-Mit-gliederNeuEingeben(Student leiter, string
  belegKen-nung) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--808
+Overfull \hbox (10.09506pt too wide) in paragraph at lines 831--835
+\OT1/cmr/m/n/12 spe-ichert sie in der Liste rollen. Auer-dem wird eine Platzha
+lter-Rolle "na" angehangt,
+ []
 
+[30]
+Overfull \hbox (11.39642pt too wide) in paragraph at lines 866--869
+\OT1/cmr/m/n/12 Diese Meth-doe va-li-diert eine eingegebene Mail-Adresse. Sie w
+ird mithilfe von regularen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 808--809
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 815--816
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 817--818
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 818--819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 819--820
-
+Overfull \hbox (17.51906pt too wide) in paragraph at lines 869--873
+\OT1/cmr/m/n/12 Diese Funk-tion uberschreibt den Even-thandler, der aufgerufen
+ wird, wenn der Schlieen-
  []
 
 
@@ -831,28 +789,28 @@ File: grafiken/Klassendiagramme_einzeln/Database/Database.png Graphic file (typ
 e png)
  <use grafiken/Klassendiagramme_einzeln/Database/Database.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Database/Database.pn
-g used on input line 825.
+g used on input line 878.
 (pdftex.def)             Requested size: 308.15048pt x 223.8357pt.
 
 [31]
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 838--843
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 891--896
 \OT1/cmr/m/n/12 Mithilfe dieser Funk-tion wird eine Daten-bank-abfrage aus-gef
 uhrt und das Abfrageergeb-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 898.
 [32 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/Database/Database.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 898.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 898.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
 (rerunfilecheck)             Checksum: 525EF20926B6DF8B287FC283B7466934;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  ) 
 Here is how much of TeX's memory you used:
  6684 strings out of 493921
@@ -867,7 +825,7 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (34 pages, 851942 bytes).
+Output written on Entwicklerdokumentation.pdf (34 pages, 854436 bytes).
 PDF statistics:
  350 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)
