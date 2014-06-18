@@ -78,7 +78,9 @@ für die Benutzeroberflächen (Login, Bearbeitung, \ldots) des Dozenten- und des
 Studentenprogrammes. Sie verwenden die Klassen aus dem Typen-paket und greifen
 gemeinsam auf die Datenbank des Paketes DB\_Services zu.\\
 Im folgenden werden für jedes Paket die Klassen aus dem Grobentwurf mit ihren
-Methoden definiert und ihre Aufgaben beschrieben.
+Methoden definiert und ihre Aufgaben beschrieben. Die Beschreibungen enthalten
+außerdem pro Klasse das Klassendiagramm mit den Attributen der jeweiligen Klasse
+(die Methoden wurden ausgeblended, da diese schriftlich erklärt werden).
 
 \subsection{Paket Typen}
 \subsubsection{Die Klasse Beleg}
@@ -801,10 +803,11 @@ erstellten Gruppe eingegeben werden und auf Richtigkeit geprüft werden.
 
 
 \subsubsection{Die Klasse FormMitgliederNeuEingeben}
+\includegraphics{grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png}\\
 Diese Klasse steuert eine Windows-Form mit der es möglich ist, einer gerade
 erstellen und noch nicht gespeicherten Gruppe Mitglieder hinzuzufügen, ein Thema
 auszuwählen und diese ganzen Angaben in der Datenbank zu speichern.
-\includegraphics{grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png}\\
+
 \begin{itemize}
   \item \textbf{public FormMitgliederNeuEingeben(Student leiter, string
   belegKennung)}\\
