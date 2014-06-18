@@ -68,11 +68,10 @@ welcher hauptsächlich administrative Funktionen besitzt.\\
 Die vorliegende Dokumentation soll den Benutzern die grundlegenden Funktionen
 beider Programme verständlich darstellen.
 
-\section{Anforderungen}
-\ldots
+\section{Voraussetzungen}
+VPN!
 
-\section{Programm Dozent}
-\subsection{Hauptmenü}
+\section{Hauptmenü}
 \includegraphics{grafiken/Dozent_Hauptmenue.png}\\
 \\Das Hauptmenü enthält zunächst 2 Listboxen welche die Belege des aktuellen
 Semesters anzeigen, sowie die Gruppen des aktuell ausgewählten Beleges.
@@ -82,9 +81,9 @@ Case-Gruppe dar. Beim Anklicken einer Case-Gruppe wird die Tabelle entsprechend
 aktualisiert.\\Im unteren Bereich des Menüs sind einige Buttons zur
 Beleg-Verwaltung zu finden.
 
-\subsection{Für Dozenten relevante Funktionen}
+\section{Für Dozenten relevante Funktionen}
 
-\subsubsection{Menü: Beleg anlegen}
+\subsection{Menü: Beleg anlegen}
 \includegraphics{grafiken/Dozent_Beleg_anlegen.png}\\
 \\Dieses Menü erlaubt es einen neuen Beleg für das aktuelle Semester, welches in
 der zweiten Zeile angezeigt wird, anzulegen. Der Dozent kann hier das
@@ -102,25 +101,25 @@ Listbox nachträglich bearbeitet werden. Ebenfalls durch Doppelklick können auch
 die Case-Gruppen des momentan ausgewählten Beleges bearbeitet werden (zum
 Beispiel, wenn eine Gruppe ihr Passwort vergessen hat).
 
-\subsubsection{Themen verwalten}
+\subsection{Themen verwalten}
 \includegraphics{grafiken/Dozent_Themen_verwalten.png}\\
 \\Per Klick auf den Themen-verwalten-Button erscheint das obige Fenster. Hier
 kann der Dozent Themen zum Themen-Pool hinzufügen oder vorhandene Themen löschen.
 
 
-\subsubsection{Rollen verwalten}
+\subsection{Rollen verwalten}
 \includegraphics{grafiken/Dozent_Rollen_verwalten.png}\\
 \\Genauso können auch die Rollen verwaltet werden.
 
 
-\subsubsection{Kontaktieren}
+\subsection{Kontaktieren}
 \includegraphics{grafiken/Dozent_Kontaktieren.png}\\
 \\Desweiteren kann der Dozent eine E-Mail an die Studenten eines Beleges senden.
 Hierzu gibt es Filtermöglichkeiten um damit ganz bestimmte Studenten ansprechen
 zu können.
 
 
-\subsubsection{Archivieren}
+\subsection{Archivieren}
 \includegraphics{grafiken/Dozent_Archivieren.png}\\
 \\Beim Archivieren werden alle Daten (also alle Belegeund die dazu gehörigen
 Gruppen mit den Studenten) in ein PDF-Dokument an einem gewünschten
@@ -131,19 +130,19 @@ Case-Gruppen sind wieder alle frei auswählbar.
 
 
 
-\subsection{Administrative Funktionen}
+\section{Administrative Funktionen}
 Die folgenden Funktionen dienen nur administrativen Rolle des Dozenten und
 sollten im Normalfall nicht verwendet werden.
 
-\subsubsection{Beleg löschen}
-\\Falls der Beleg noch Case-Gruppen erhält wird der Dozent nach Betätigen des
+\subsection{Beleg löschen}
+Falls der Beleg noch Case-Gruppen erhält wird der Dozent nach Betätigen des
 Löschen-Buttons eine Warnung. Bei erneuter Bestätigung werden die Belege mit
 sämtlichen Case-Gruppen und gegebenenfalls deren Studenten gelöscht.
 Im Normalfall sollte der Dozent allerdings keine Gruppen löschen sondern am Ende
 des Semesters alle Belege archivieren.
 
-\subsubsection{Gruppe anlegen}
-\\Nachdem der Dozent beim Anlegen des Beleges die case-Gruppen freigegeben hat,
+\subsection{Gruppe anlegen}
+Nachdem der Dozent beim Anlegen des Beleges die case-Gruppen freigegeben hat,
 geschieht das Anlegen dieser Gruppen eigentlich automatisch durch die Studenten.
 Dennoch hat der Dozent als Administrator die Möglichkeit (das Recht)
 Case-Gruppen anzulegen.\\ 
@@ -154,56 +153,10 @@ hinzugefügt werden.\\
 \\Hier kann die Kennung der anzulegenden Gruppe, das Thema sowie ein Passwort
 ausgewählt werden.
 
-\subsubsection{Gruppe löschen}
-\\Genau wie beim Löschen von nicht-leeren Belegen bekommt der Dozent auch bei
+\subsection{Gruppe löschen}
+Genau wie beim Löschen von nicht-leeren Belegen bekommt der Dozent auch bei
 Betätigung des Gruppe-löschen-Buttons eine Warnung, falls die zu löschende
 Case-Gruppe Studenten enthält. Es sei erneut darauf hingeweisen, dass auch die
 Gruppen im Normalfall nie manuell gelöscht werden sollten.
-
-
-
-
-
-
-\section{Programm Student}
-
-\subsection{Erstanmeldung}
-\includegraphics{grafiken/Student_ELogin.png}\\
-\\Beim Programm-Start wird der sich einloggende Student aufgefordert die
-Gruppenkennung und das Gruppenpasswort einzugeben.
-Falls es sich hierbei um eine Erstanmeldung handelt, müssen nun die vom Dozenten
-bekanntgegebenen Erstlogin-Daten eingegeben werden.
-\\\includegraphics{grafiken/Student_Login_Erstlogin.png}\\
-\\Als nächstes müssen die Daten eines Studenten der Gruppe eingegeben werden.
-Dieser Student wird provisorisch als Gruppenleiter festgelegt und im
-nächsten Fenster angezeigt. Dies ist jedoch nicht verbindlich, da die
-Verantwortlichkeiten innerhalb der Gruppe noch nachträglich geändert werden
-können. 
-\\\includegraphics{grafiken/Student_Login_Erstlogin_abschliessen.png}\\
-\\Im nächsten Schritt muss ein Gruppenpasswort festgelegt werden, welches
-unten in das Textfeld eingegeben werden muss und mit welchem sich die Gruppe zukünftig
-anmelden kann. Die Gruppe bekommt abschließend die Gruppenkennung angezeigt,
-welche den Benutzernamen bei allen zukünftigen Anmeldungen darstellt. Die
-Gruppe sollte sich also diese Gruppenkennung und das vorher selbst gewählte
-Passwort unbedingt merken!\\
-\\\includegraphics{grafiken/Student_Login_Erstlogin_abschliessen_wirklich.png}\\
-Im nächsten Fenster können die restlichen Mitglieder eingetragen werden und ein
-Thema aus dem Themen-Pool (Combobox unten) ausgewählt werden.
-\\\includegraphics{grafiken/Student_Zusammenfassung.png}
-\\Zum Schluss können alle Gruppendaten gespeichert werden.
-
-
-
-\subsection{Anmeldung}
-\includegraphics{grafiken/Student_Login.png}\\
-Der Anmeldebildschirm ist der selbe wie bei der Erstanmeldung, jedoch wird bei
-der normalen Anmeldung nicht der von dem Dozenten bekanntgegebenen Login
-eingegeben, sondern die case-Gruppe als Benutzernamen und das selbst gewählte
-Passwort. Falls die eingegebene Kombination aus case-Gruppe (Benutzername) und
-dem Passwort richtig ist, erscheint die Übersicht der Gruppe mit den
-Studenten-Daten.\\
-\\\includegraphics{grafiken/Student_Zusammenfassung.png}\\
-\\Solange der Bearbetungszeitraum nicht überschritten ist, können hier
-beliebeige Änderungen vorgenommen werden.
 
 \end{document}
