@@ -1,13 +1,13 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {section}{\numberline {2}Voraussetzungen}{1}{section.2}
-\contentsline {section}{\numberline {3}Hauptmen\"u}{1}{section.3}
-\contentsline {section}{\numberline {4}F\"ur Dozenten relevante Funktionen}{2}{section.4}
-\contentsline {subsection}{\numberline {4.1}Men\"u: Beleg anlegen}{2}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Themen verwalten}{3}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Rollen verwalten}{3}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Kontaktieren}{4}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Archivieren}{5}{subsection.4.5}
-\contentsline {section}{\numberline {5}Administrative Funktionen}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}Beleg l\"oschen}{5}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Gruppe anlegen}{5}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Gruppe l\"oschen}{6}{subsection.5.3}
+\contentsline {section}{\numberline {3}Hauptmen\"u}{2}{section.3}
+\contentsline {section}{\numberline {4}F\"ur Dozenten relevante Funktionen}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Men\"u: Beleg anlegen}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Themen verwalten}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Rollen verwalten}{4}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Kontaktieren}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Archivieren}{6}{subsection.4.5}
+\contentsline {section}{\numberline {5}Administrative Funktionen}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Beleg l\"oschen}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Gruppe anlegen}{6}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Gruppe l\"oschen}{7}{subsection.5.3}

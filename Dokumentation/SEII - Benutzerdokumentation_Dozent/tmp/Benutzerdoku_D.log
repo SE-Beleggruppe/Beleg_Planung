@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  18 JUN 2014 10:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  19 JUN 2014 08:34
 entering extended mode
 **Benutzerdoku_D.tex
 
@@ -415,31 +415,37 @@ Overfull \hbox (3.51503pt too wide) in paragraph at lines 64--70
  Be-leg-grup-pen-daten und besteht
  []
 
-<grafiken/Dozent_Hauptmenue.png, id=82, 867.24pt x 262.73157pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+
+<grafiken/Verbindungsfehler.png, id=82, 365.11406pt x 139.27031pt>
+File: grafiken/Verbindungsfehler.png Graphic file (type png)
+
+<use grafiken/Verbindungsfehler.png>
+Package pdftex.def Info: grafiken/Verbindungsfehler.png used on input line 76.
+(pdftex.def)             Requested size: 365.11316pt x 139.26996pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+<grafiken/Dozent_Hauptmenue.png, id=84, 867.24pt x 262.73157pt>
 File: grafiken/Dozent_Hauptmenue.png Graphic file (type png)
 
 <use grafiken/Dozent_Hauptmenue.png>
-Package pdftex.def Info: grafiken/Dozent_Hauptmenue.png used on input line 75.
+Package pdftex.def Info: grafiken/Dozent_Hauptmenue.png used on input line 81.
 (pdftex.def)             Requested size: 867.2379pt x 262.73091pt.
 
-Overfull \hbox (411.99379pt too wide) in paragraph at lines 75--83
+Overfull \hbox (411.99379pt too wide) in paragraph at lines 81--89
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--83
-
- []
-
-<grafiken/Dozent_Beleg_anlegen.png, id=84, 320.69812pt x 505.89pt>
-File: grafiken/Dozent_Beleg_anlegen.png Graphic file (type png)
-
-<use grafiken/Dozent_Beleg_anlegen.png>
-Package pdftex.def Info: grafiken/Dozent_Beleg_anlegen.png used on input line 8
-7.
-(pdftex.def)             Requested size: 320.69733pt x 505.88875pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--103
+Underfull \hbox (badness 10000) in paragraph at lines 81--89
 
  []
 
@@ -447,133 +453,148 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 
-       [1
+l.89 
+      [1
 
  <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafiken
-/Dozent_Hauptmenue.png>] [2 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdo
-kumentation_Dozent/grafiken/Dozent_Beleg_anlegen.png>]
-<grafiken/Dozent_Themen_verwalten.png, id=94, 489.32813pt x 195.73125pt>
+/Verbindungsfehler.png>]
+<grafiken/Dozent_Beleg_anlegen.png, id=90, 320.69812pt x 505.89pt>
+File: grafiken/Dozent_Beleg_anlegen.png Graphic file (type png)
+
+<use grafiken/Dozent_Beleg_anlegen.png>
+Package pdftex.def Info: grafiken/Dozent_Beleg_anlegen.png used on input line 9
+3.
+(pdftex.def)             Requested size: 320.69733pt x 505.88875pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--109
+
+ []
+
+[2 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
+en/Dozent_Hauptmenue.png>] [3 <C:/Users/Felix/eclipse_workspace/SEII - Benutzer
+dokumentation_Dozent/grafiken/Dozent_Beleg_anlegen.png>]
+<grafiken/Dozent_Themen_verwalten.png, id=101, 489.32813pt x 195.73125pt>
 File: grafiken/Dozent_Themen_verwalten.png Graphic file (type png)
 
 <use grafiken/Dozent_Themen_verwalten.png>
 Package pdftex.def Info: grafiken/Dozent_Themen_verwalten.png used on input lin
-e 105.
+e 111.
 (pdftex.def)             Requested size: 489.32692pt x 195.73076pt.
 
-Overfull \hbox (34.08281pt too wide) in paragraph at lines 105--108
+Overfull \hbox (34.08281pt too wide) in paragraph at lines 111--114
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-<grafiken/Dozent_Rollen_verwalten.png, id=95, 489.32813pt x 195.73125pt>
+<grafiken/Dozent_Rollen_verwalten.png, id=102, 489.32813pt x 195.73125pt>
 File: grafiken/Dozent_Rollen_verwalten.png Graphic file (type png)
 
 <use grafiken/Dozent_Rollen_verwalten.png>
 Package pdftex.def Info: grafiken/Dozent_Rollen_verwalten.png used on input lin
-e 111.
+e 117.
 (pdftex.def)             Requested size: 489.32692pt x 195.73076pt.
 
-Overfull \hbox (34.08281pt too wide) in paragraph at lines 111--113
+Overfull \hbox (34.08281pt too wide) in paragraph at lines 117--119
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-<grafiken/Dozent_Kontaktieren.png, id=96, 228.10219pt x 325.215pt>
+<grafiken/Dozent_Kontaktieren.png, id=103, 228.10219pt x 325.215pt>
 File: grafiken/Dozent_Kontaktieren.png Graphic file (type png)
 
 <use grafiken/Dozent_Kontaktieren.png>
-Package pdftex.def Info: grafiken/Dozent_Kontaktieren.png used on input line 11
-6.
+Package pdftex.def Info: grafiken/Dozent_Kontaktieren.png used on input line 12
+2.
 (pdftex.def)             Requested size: 228.10161pt x 325.2142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
-[3 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
+[4 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
 en/Dozent_Themen_verwalten.png> <C:/Users/Felix/eclipse_workspace/SEII - Benutz
 erdokumentation_Dozent/grafiken/Dozent_Rollen_verwalten.png>]
-<grafiken/Dozent_Archivieren.png, id=103, 315.42844pt x 225.84375pt>
+<grafiken/Dozent_Archivieren.png, id=110, 315.42844pt x 225.84375pt>
 File: grafiken/Dozent_Archivieren.png Graphic file (type png)
 
 <use grafiken/Dozent_Archivieren.png>
-Package pdftex.def Info: grafiken/Dozent_Archivieren.png used on input line 123
+Package pdftex.def Info: grafiken/Dozent_Archivieren.png used on input line 129
 .
 (pdftex.def)             Requested size: 315.42766pt x 225.84319pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+Underfull \hbox (badness 10000) in paragraph at lines 129--135
 
  []
 
 
-Overfull \hbox (21.06346pt too wide) in paragraph at lines 123--129
+Overfull \hbox (21.06346pt too wide) in paragraph at lines 129--135
 \OT1/cmr/m/n/12 bleiben fur zukunftige Belege verfugbar und die Case-Gruppen
  sind wieder alle frei auswahlbar. 
  []
 
-[4 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
+[5 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
 en/Dozent_Kontaktieren.png>]
-<grafiken/Dozent_Gruppe_anlegen.png, id=109, 272.51813pt x 123.46124pt>
+<grafiken/Dozent_Gruppe_anlegen.png, id=117, 272.51813pt x 123.46124pt>
 File: grafiken/Dozent_Gruppe_anlegen.png Graphic file (type png)
 
 <use grafiken/Dozent_Gruppe_anlegen.png>
 Package pdftex.def Info: grafiken/Dozent_Gruppe_anlegen.png used on input line 
-152.
+158.
 (pdftex.def)             Requested size: 272.51746pt x 123.46092pt.
 
-Overfull \hbox (3.91782pt too wide) in paragraph at lines 145--155
+Overfull \hbox (3.91782pt too wide) in paragraph at lines 151--161
 []\OT1/cmr/m/n/12 Nachdem der Dozent beim An-le-gen des Beleges die case-Gruppe
 n freigegeben hat, geschieht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--155
+Underfull \hbox (badness 10000) in paragraph at lines 151--161
 
  []
 
-[5 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
+[6 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
 en/Dozent_Archivieren.png>]
-Overfull \hbox (5.74976pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.74976pt too wide) in paragraph at lines 163--167
 []\OT1/cmr/m/n/12 Genau wie beim Loschen von nicht-leeren Bele-gen bekommt der
  Dozent auch bei Betatigung
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-[6 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+[7 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Dozent/grafik
 en/Dozent_Gruppe_anlegen.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation_Dozent\Benutzer
 doku_D.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `Benutzerdoku_D.out' has not changed.
 (rerunfilecheck)             Checksum: C2EF34E4BC7BA14913CC6443BE9C553C;806.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 6530 strings out of 493921
- 95526 string characters out of 3144876
- 180016 words of memory out of 3000000
- 9721 multiletter control sequences out of 15000+200000
+ 6553 strings out of 493921
+ 95992 string characters out of 3144876
+ 179016 words of memory out of 3000000
+ 9739 multiletter control sequences out of 15000+200000
  10102 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,258b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Benutzerdoku_D.pdf (8 pages, 163167 bytes).
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Benutzerdoku_D.pdf (9 pages, 195142 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
