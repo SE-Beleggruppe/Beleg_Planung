@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  20 JUN 2014 09:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  24 JUN 2014 16:48
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -458,22 +458,17 @@ Package pdftex.def Info: grafiken/Entwurf/KD_Typen_2.jpg used on input line 101
 (pdftex.def)             Requested size: 444.15828pt x 289.07928pt.
  [2 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
 ntwurf/paket_klein.jpg>]
-<grafiken/Entwurf/KD_DozentUI.jpg, id=188, 609.77812pt x 395.22656pt>
-File: grafiken/Entwurf/KD_DozentUI.jpg Graphic file (type jpg)
+<grafiken/Entwurf/KDDozentProgrammUIV2.png, id=188, 408.77719pt x 444.15938pt>
+File: grafiken/Entwurf/KDDozentProgrammUIV2.png Graphic file (type png)
 
-<use grafiken/Entwurf/KD_DozentUI.jpg>
-Package pdftex.def Info: grafiken/Entwurf/KD_DozentUI.jpg used on input line 10
-5.
-(pdftex.def)             Requested size: 609.77663pt x 395.22559pt.
-
-Overfull \hbox (154.53252pt too wide) in paragraph at lines 105--111
-[][] 
- []
-
-[3 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/En
-twurf/KD_Typen_1.jpg> <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokume
-ntation/grafiken/Entwurf/KD_Typen_2.jpg>]
-<grafiken/Entwurf/KD_Database.png, id=193, 220.57407pt x 177.66376pt>
+<use grafiken/Entwurf/KDDozentProgrammUIV2.png>
+Package pdftex.def Info: grafiken/Entwurf/KDDozentProgrammUIV2.png used on inpu
+t line 105.
+(pdftex.def)             Requested size: 408.77618pt x 444.15828pt.
+ [3 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
+ntwurf/KD_Typen_1.jpg> <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokum
+entation/grafiken/Entwurf/KD_Typen_2.jpg>]
+<grafiken/Entwurf/KD_Database.png, id=194, 220.57407pt x 177.66376pt>
 File: grafiken/Entwurf/KD_Database.png Graphic file (type png)
 
 <use grafiken/Entwurf/KD_Database.png>
@@ -481,8 +476,8 @@ Package pdftex.def Info: grafiken/Entwurf/KD_Database.png used on input line 11
 4.
 (pdftex.def)             Requested size: 220.57352pt x 177.66331pt.
  [4 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
-ntwurf/KD_DozentUI.jpg>]
-<grafiken/Klassendiagramme_einzeln/Typen/Beleg.png, id=198, 259.97125pt x 335.2
+ntwurf/KDDozentProgrammUIV2.png>]
+<grafiken/Klassendiagramme_einzeln/Typen/Beleg.png, id=200, 259.97125pt x 335.2
 525pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Beleg.png Graphic file (type png)
 
@@ -506,7 +501,7 @@ Gruppe hinzugefugt
  []
 
 
-<grafiken/Klassendiagramme_einzeln/Typen/Thema.png, id=204, 259.97125pt x 143.5
+<grafiken/Klassendiagramme_einzeln/Typen/Thema.png, id=206, 259.97125pt x 143.5
 3625pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Thema.png Graphic file (type png)
 
@@ -516,7 +511,7 @@ Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Thema.png used
 (pdftex.def)             Requested size: 259.97061pt x 143.53589pt.
  [6 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/Typen/Beleg.png (PNG copy)>]
-<grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png, id=210, 284.06125pt x 198.
+<grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png, id=212, 284.06125pt x 198.
 7425pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png Graphic file (type png
 )
@@ -525,7 +520,7 @@ Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png use
 d on input line 157.
 (pdftex.def)             Requested size: 284.06053pt x 198.742pt.
 
-<grafiken/Klassendiagramme_einzeln/Typen/Rolle.png, id=211, 211.79124pt x 168.6
+<grafiken/Klassendiagramme_einzeln/Typen/Rolle.png, id=213, 211.79124pt x 168.6
 3pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png Graphic file (type png)
 
@@ -537,7 +532,7 @@ Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png used
 lassendiagramme_einzeln/Typen/Thema.png (PNG copy)> <C:/Users/Felix/eclipse_wor
 kspace/SEII - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/Typen/G
 ruppe.png (PNG copy)>]
-<grafiken/Klassendiagramme_einzeln/Typen/Student.png, id=216, 235.88126pt x 198
+<grafiken/Klassendiagramme_einzeln/Typen/Student.png, id=218, 235.88126pt x 198
 .7425pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Student.png Graphic file (type pn
 g)
@@ -546,7 +541,7 @@ Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Student.png us
 ed on input line 180.
 (pdftex.def)             Requested size: 235.88068pt x 198.742pt.
 
-<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png, id=217
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png, id=219
 , 222.8325pt x 451.6875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png Gr
 aphic file (type png)
@@ -593,7 +588,7 @@ l-ten geladen und angezeigt,
  []
 
 [13]
-<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png, id=244,
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png, id=246,
  380.42125pt x 306.14375pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png Gra
 phic file (type png)
@@ -612,7 +607,7 @@ Overfull \hbox (7.00528pt too wide) in paragraph at lines 392--395
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png,
- id=249, 452.69125pt x 231.86626pt>
+ id=251, 452.69125pt x 231.86626pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten
 .png Graphic file (type png)
 
@@ -649,7 +644,7 @@ Click(), und ..Case[]Click()
 
 [16]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png
-, id=258, 380.42125pt x 472.76625pt>
+, id=260, 380.42125pt x 472.76625pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeite
 n.png Graphic file (type png)
 
@@ -674,7 +669,7 @@ ruppe mit den neu eingegebe-
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png, 
-id=268, 404.51125pt x 229.85875pt>
+id=270, 404.51125pt x 229.85875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.
 png Graphic file (type png)
 
@@ -687,7 +682,7 @@ gUI/RolleVerwalten.png used on input line 527.
 iken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png (PNG c
 opy)>]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png,
- id=277, 235.88126pt x 229.85875pt>
+ id=279, 235.88126pt x 229.85875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten
 .png Graphic file (type png)
 
@@ -700,7 +695,7 @@ gUI/ThemenVerwalten.png used on input line 561.
 Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png (PNG copy)
 >]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png,
- id=282, 235.88126pt x 454.69875pt>
+ id=284, 235.88126pt x 454.69875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung
 .png Graphic file (type png)
 
@@ -725,7 +720,7 @@ ommt eine []Uberschrift
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png, id=
-292, 284.06125pt x 564.1075pt>
+294, 284.06125pt x 564.1075pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png
  Graphic file (type png)
 
@@ -737,7 +732,7 @@ gUI/KontaktForm.png used on input line 645.
 ken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png (PNG copy)
 >]
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png, id=3
-01, 235.88126pt x 248.93pt>
+03, 235.88126pt x 248.93pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png 
 Graphic file (type png)
 
@@ -755,7 +750,7 @@ r/bx/n/12 Login-But-ton[]Click\OT1/cmr/m/n/12 ) aufgerufen.
 
 
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png, id=30
-6, 308.15125pt x 397.485pt>
+8, 308.15125pt x 397.485pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png G
 raphic file (type png)
 
@@ -779,7 +774,7 @@ ngegebene Mail-Adresse
 
 [30]
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.p
-ng, id=324, 235.88126pt x 378.41376pt>
+ng, id=326, 235.88126pt x 378.41376pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdl
 ung.png Graphic file (type png)
 
@@ -798,7 +793,7 @@ ucken, ob die eingegebene
 
 
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeb
-en.png, id=329, 308.15125pt x 397.485pt>
+en.png, id=331, 308.15125pt x 397.485pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuE
 ingeben.png Graphic file (type png)
 
@@ -834,7 +829,7 @@ Overfull \hbox (17.51906pt too wide) in paragraph at lines 919--923
  []
 
 
-<grafiken/Klassendiagramme_einzeln/Database/Database.png, id=338, 308.15125pt x
+<grafiken/Klassendiagramme_einzeln/Database/Database.png, id=340, 308.15125pt x
  223.83624pt>
 File: grafiken/Klassendiagramme_einzeln/Database/Database.png Graphic file (typ
 e png)
@@ -865,7 +860,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 948.
  ) 
 Here is how much of TeX's memory you used:
  6727 strings out of 493921
- 102634 string characters out of 3144876
+ 102679 string characters out of 3144876
  183016 words of memory out of 3000000
  9841 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
@@ -876,9 +871,9 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (37 pages, 619189 bytes).
+Output written on Entwicklerdokumentation.pdf (37 pages, 621414 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 386 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
  382 words of extra memory for PDF output out of 10000 (max. 10000000)
 
