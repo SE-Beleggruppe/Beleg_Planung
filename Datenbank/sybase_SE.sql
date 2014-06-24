@@ -1,4 +1,4 @@
-create table Student (
+﻿create table Student (
 	sNummer char(6) NOT NULL,
 	Vorname char(15),
 	Nachname char(15),
@@ -45,7 +45,7 @@ create table Zuordnung_BelegThema (
 
 
 create table Thema (
-	Themennummer int NOT NULL,
+	Themennummer numeric(10) identity,
 	Aufgabe char(80),
 	primary key (Themennummer)
 )

@@ -65,10 +65,57 @@
 Die vorliegende Dokumentation dient zukünftigen Entwicklern dazu sich in das
 bestehende System einarbeiten zu können und die Arbeit fortsetzen zu können.
 
-\section{Enwurf}
-\subsection{Grobentwurf}
-\subsubsection{Architektur}
-\subsubsection{Paketdiagramm}
+\section{Enwurf und Architektur}
+Die Begriffe Entwurf und Architektur werden oft synonym verwendet. Im folgenden
+steht der Entwurf für die Phase des Entwicklungsprozesses, mit der Architektur
+wird der Aufbau des Software Systems beschrieben.
+
+\subsection{Entwurfsarchitektur}
+Bei der Wahl der Entwurfsarchitektur konnte auch auf Erfahrungen des Praktikums
+des Modules Software Engieeniering II zurückgegriffen werden.
+Aufgrund der Eigenart des zu entwickelnden Softwaresystems fiel die primär auf
+die Depot-Architektur, wobei diese mit der 3-Schichten Architektur kombiniert
+ist.
+
+\subsubsection{Depot-Architektur}
+\includegraphics{grafiken/Entwurf/depot.jpg}
+\\Mit der Depot-Architektur steht ein zentrales Depot (Repository) bereit, auf
+das von mehreren Subsystemen zugegriffen wird. Das Depot besteht in dem vorliegenden
+Softwareprojekt aus einer Sybase-Datenbank auf die mit dem Programmen Dozent
+bzw. Student zugegriffen wird. (siehe Abbildung)
+
+\subsection{Packetdiagramm}
+\includegraphics{grafiken/Entwurf/paket_klein.jpg}
+\\Wie aus dem Packetdiagramm ersichtlich ist ist der Code aufgetrennt in eine
+Logikschicht (Packet Typen), der Datenhaltungsschicht (Packet
+Database\_Services) sowie der \\Präsentationsschicht (Packete ProgramDozentUI
+und ProgramStudentUI). Mit einer Trennung der Schichten wird eine klare Struktur,
+hohe Kohäsion \& lose Kopplung (und damit mit Portabilität) sowie eine bessere
+Zugriffskontrolle erreicht.
+
+\subsection{Klassendiagramme}
+\subsubsection{KD Typen}
+Die Abbildung zeigt die Klassendiagramme des Paketes "Typen" mit ihren
+Membervariablen, Memberfunktionen und Beziehungen untereinander.
+\\\includegraphics{grafiken/Entwurf/KD_Typen_1.jpg}
+\\\includegraphics{grafiken/Entwurf/KD_Typen_2.jpg}
+
+
+\subsubsection{Präsentationsschicht}
+\includegraphics{grafiken/Entwurf/KD_DozentUI.jpg}
+\\Um den dokumentierende Charackter gerecht zu werden und ein gesundes Maß an
+Granularität zu gewährleisten wurde darauf verzichtet die Klassen der
+Präsentationsschicht mit allen Labeln etc. darzustellen.
+Stattdessen ist in obigen Diagramm die logische Aufrufhieraschie innerhalb der
+unterschiedlichen Dialoge dargestellt.
+
+
+\subsubsection{Datenbank}
+\includegraphics{grafiken/Entwurf/KD_Database.png}
+\\Die Klasse im Paket Database gewährleistet den Zugriff auf die
+Sybase-Datenbank.
+Auf eine Schnittstelle wurde verzichtet da im Rahmen der zu entwickelten
+Applikation dies keine nennenswerten Vorteile bringen würde.
 
 
 \section{Implementierungsentwurf}
