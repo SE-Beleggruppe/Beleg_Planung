@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  19 JUN 2014 08:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  29 JUN 2014 15:20
 entering extended mode
 **Benutzerdoku_S.tex
 
@@ -299,20 +299,20 @@ File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation_Student\Benutze
 rdoku_S.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -363,7 +363,7 @@ LaTeX Font Info:    ... okay on input line 17.
 \everyMPtoPDFconversion=\toks30
 )
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -372,9 +372,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation_Student\Benutze
 rdoku_S.out")
@@ -385,7 +385,7 @@ rdoku_S.out")
 File: grafiken/HTW-Logo.png Graphic file (type png)
 
 <use grafiken/HTW-Logo.png>
-Package pdftex.def Info: grafiken/HTW-Logo.png used on input line 21.
+Package pdftex.def Info: grafiken/HTW-Logo.png used on input line 22.
 (pdftex.def)             Requested size: 192.71951pt x 45.46974pt.
  [1
 
@@ -401,26 +401,26 @@ rdoku_S.toc")
  [3
 
 ]
-Overfull \hbox (3.51503pt too wide) in paragraph at lines 64--70
+Overfull \hbox (3.51503pt too wide) in paragraph at lines 65--71
 []\OT1/cmr/m/n/12 Das en-twick-elte Software-System di-ent zur Ver-wal-tung von
  Be-leg-grup-pen-daten und besteht
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
 
 <grafiken/Verbindungsfehler.png, id=37, 365.11406pt x 139.27031pt>
 File: grafiken/Verbindungsfehler.png Graphic file (type png)
 
 <use grafiken/Verbindungsfehler.png>
-Package pdftex.def Info: grafiken/Verbindungsfehler.png used on input line 76.
+Package pdftex.def Info: grafiken/Verbindungsfehler.png used on input line 77.
 (pdftex.def)             Requested size: 365.11316pt x 139.26996pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
@@ -428,7 +428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 File: grafiken/Student_ELogin.png Graphic file (type png)
 
 <use grafiken/Student_ELogin.png>
-Package pdftex.def Info: grafiken/Student_ELogin.png used on input line 81.
+Package pdftex.def Info: grafiken/Student_ELogin.png used on input line 82.
 (pdftex.def)             Requested size: 232.61848pt x 101.62943pt.
 
 <grafiken/Student_Login_Erstlogin.png, id=40, 331.2375pt x 153.57375pt>
@@ -436,17 +436,17 @@ File: grafiken/Student_Login_Erstlogin.png Graphic file (type png)
 
 <use grafiken/Student_Login_Erstlogin.png>
 Package pdftex.def Info: grafiken/Student_Login_Erstlogin.png used on input lin
-e 86.
+e 87.
 (pdftex.def)             Requested size: 331.23668pt x 153.57336pt.
 
-<grafiken/Student_Login_Erstlogin_abschliessen.png, id=41, 656.4525pt x 199.495
-32pt>
+<grafiken/Student_Login_Erstlogin_abschliessen.png, id=41, 489.32813pt x 149.05
+687pt>
 File: grafiken/Student_Login_Erstlogin_abschliessen.png Graphic file (type png)
 
  <use grafiken/Student_Login_Erstlogin_abschliessen.png>
 Package pdftex.def Info: grafiken/Student_Login_Erstlogin_abschliessen.png used
- on input line 92.
-(pdftex.def)             Requested size: 656.4509pt x 199.49481pt.
+ on input line 93.
+(pdftex.def)             Requested size: 489.32692pt x 149.0565pt.
 
 <grafiken/Student_Login_Erstlogin_abschliessen_wirklich.png, id=42, 231.86626pt
  x 139.27031pt>
@@ -455,7 +455,7 @@ type png)
 
 <use grafiken/Student_Login_Erstlogin_abschliessen_wirklich.png>
 Package pdftex.def Info: grafiken/Student_Login_Erstlogin_abschliessen_wirklich
-.png used on input line 99.
+.png used on input line 100.
 (pdftex.def)             Requested size: 231.86568pt x 139.26996pt.
 
 <grafiken/Student_Zusammenfassung.png, id=43, 437.38406pt x 225.84375pt>
@@ -463,30 +463,30 @@ File: grafiken/Student_Zusammenfassung.png Graphic file (type png)
 
 <use grafiken/Student_Zusammenfassung.png>
 Package pdftex.def Info: grafiken/Student_Zusammenfassung.png used on input lin
-e 102.
+e 103.
 (pdftex.def)             Requested size: 437.38298pt x 225.84319pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--104
+Underfull \hbox (badness 10000) in paragraph at lines 82--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--104
+Underfull \hbox (badness 10000) in paragraph at lines 82--105
 
  []
 
 
-Overfull \hbox (201.20679pt too wide) in paragraph at lines 81--104
+Overfull \hbox (34.08281pt too wide) in paragraph at lines 82--105
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--104
+Underfull \hbox (badness 10000) in paragraph at lines 82--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--104
+Underfull \hbox (badness 10000) in paragraph at lines 82--105
 
  []
 
@@ -494,7 +494,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 
+l.105 
        [1
 
  <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Student/grafike
@@ -502,50 +502,50 @@ n/Verbindungsfehler.png> <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokum
 entation_Student/grafiken/Student_ELogin.png>] [2 <C:/Users/Felix/eclipse_works
 pace/SEII - Benutzerdokumentation_Student/grafiken/Student_Login_Erstlogin.png>
  <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Student/grafike
-n/Student_Login_Erstlogin_abschliessen.png>]
+n/Student_Login_Erstlogin_abschliessen.png (PNG copy)> <C:/Users/Felix/eclipse_
+workspace/SEII - Benutzerdokumentation_Student/grafiken/Student_Login_Erstlogin
+_abschliessen_wirklich.png>]
 <grafiken/Student_Login.png, id=56, 232.61906pt x 101.62968pt>
 File: grafiken/Student_Login.png Graphic file (type png)
 
 <use grafiken/Student_Login.png>
-Package pdftex.def Info: grafiken/Student_Login.png used on input line 108.
+Package pdftex.def Info: grafiken/Student_Login.png used on input line 109.
 (pdftex.def)             Requested size: 232.61848pt x 101.62943pt.
 File: grafiken/Student_Zusammenfassung.png Graphic file (type png)
  <use grafiken/Student_Zusammenfassung.png>
 Package pdftex.def Info: grafiken/Student_Zusammenfassung.png used on input lin
-e 115.
+e 116.
 (pdftex.def)             Requested size: 437.38298pt x 225.84319pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--118
+Underfull \hbox (badness 10000) in paragraph at lines 109--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--118
+Underfull \hbox (badness 10000) in paragraph at lines 109--119
 
  []
 
 
-Overfull \hbox (11.44827pt too wide) in paragraph at lines 108--118
+Overfull \hbox (11.44827pt too wide) in paragraph at lines 109--119
 \OT1/cmr/m/n/12 Solange der Bear-be-tungszeitraum nicht uberschritten ist, ko
 nnen hier be-liebeige []Anderungen
  []
 
 [3 <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation_Student/grafi
-ken/Student_Login_Erstlogin_abschliessen_wirklich.png> <C:/Users/Felix/eclipse_
-workspace/SEII - Benutzerdokumentation_Student/grafiken/Student_Zusammenfassung
-.png (PNG copy)> <C:/Users/Felix/eclipse_workspace/SEII - Benutzerdokumentation
-_Student/grafiken/Student_Login.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+ken/Student_Zusammenfassung.png (PNG copy)> <C:/Users/Felix/eclipse_workspace/S
+EII - Benutzerdokumentation_Student/grafiken/Student_Login.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Benutzerdokumentation_Student\Benutze
 rdoku_S.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `Benutzerdoku_S.out' has not changed.
 (rerunfilecheck)             Checksum: EE84AEF917C3BDD4BD36A25D8569E0F6;191.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
  6487 strings out of 493921
@@ -554,14 +554,14 @@ Here is how much of TeX's memory you used:
  9705 multiletter control sequences out of 15000+200000
  5705 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,4n,28p,258b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,28p,245b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Benutzerdoku_S.pdf (6 pages, 157189 bytes).
+Output written on Benutzerdoku_S.pdf (6 pages, 186104 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
