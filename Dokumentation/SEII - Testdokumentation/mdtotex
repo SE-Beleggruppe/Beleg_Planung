@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+
+itemize = false
+tabular = false
+while (s = gets) && s != "exit\n" do 
+#  puts "--> " + s
+  next if /^\s*$/.match s
+  data = /^\*\s+(.+?):?\s+-\s+([^\n]+?)\s+$/i.match s
+  if data then
+    puts "\\begin{tabular}{p{5cm} p{7cm}}" if not tabular
+    tabular = true
+    puts "\t" + data[1] + "\t&\t" + data[2] + "\t\\\\"
+    next
+  end
+
+  puts "\\end{tabular}" if tabular
+  tabular = false
+
+  data = /^\*\s+([^\n]+?\s*$)/i.match s
+  if data then
+    puts "\\begin{itemize}" if not itemize
+    itemize = true
+    puts "\t\\item " + data[1]
+    next
+  end
+
+  puts "\\end{itemize}" if itemize
+  itemize = false
+
+  data = /^#\s([^\n]+)/i.match s
+  if data then
+    puts "\n\\newpage\n\\section{" + data[1] + "}"
+    next
+  end
+  data = /^##\s([^\n]+)/i.match s
+  if data then
+    puts "\n\\subsection{" + data[1] + "}"
+    next
+  end
+  data = /^###\s([^\n]+)/i.match s
+  if data then
+    puts "\n\\subsubsection{" + data[1] + "}"
+    next
+  end
+end
+
+puts "\\end{tabular}" if tabular
+puts "\\end{itemize}" if itemize

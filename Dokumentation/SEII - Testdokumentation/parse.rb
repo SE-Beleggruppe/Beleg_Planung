@@ -23,7 +23,7 @@ ARGV.each do
     data = /^\*\s/.match s
     if data then
       cases += 1
-      fails += 1 if /\sok\s/.match s
+      fails += 1 if not /\sok\s/.match s
     end
   end
 

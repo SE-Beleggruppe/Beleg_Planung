@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+target = "../../Testberichte/*.md"
+
+`cat header.tex > tmp.tex`
+
+puts "parsing test reports..."
+`cat #{target} | ./mdtotex >> tmp.tex`
+
+`cat footer.tex >> tmp.tex`
+
+puts "plotting diagram"
+`./parse.rb #{target} > table && ./plot.rb && rm table`
+
+puts "building..."
+_ = `pdflatex tmp.tex && pdflatex tmp.tex && mv tmp.pdf Testdokumentation.pdf && rm tmp.*` 
+puts "done."
