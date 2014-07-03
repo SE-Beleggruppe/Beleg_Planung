@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {2}Enwurf und Architektur}{1}{section.2}
 \contentsline {subsection}{\numberline {2.1}Entwurfsarchitektur}{1}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Depot-Architektur}{1}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {2.2}Packetdiagramm}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Paketdiagramm}{2}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Klassendiagramme}{2}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}KD Typen}{2}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Pr\"asentationsschicht}{4}{subsubsection.2.3.2}
