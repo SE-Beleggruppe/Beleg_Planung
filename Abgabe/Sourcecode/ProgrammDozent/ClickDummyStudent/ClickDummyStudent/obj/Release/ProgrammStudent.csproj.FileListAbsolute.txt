@@ -1,0 +1,17 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\DB_Services.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\Typen.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ProgrammStudent.csprojResolveAssemblyReference.cache
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.FormMitgliederNeuEingeben.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.LoginForm.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.MainForm.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.Properties.Resources.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ProgrammStudent.csproj.GenerateResource.Cache
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ProgrammStudent.exe.config
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ProgrammStudent.exe
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ProgrammStudent.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ProgrammStudent.exe
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ProgrammStudent.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.FormErstanmeldung.resources

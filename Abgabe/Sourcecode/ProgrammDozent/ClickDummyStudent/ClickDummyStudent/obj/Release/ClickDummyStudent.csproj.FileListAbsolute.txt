@@ -1,0 +1,16 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ClickDummyStudent.exe.config
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ClickDummyStudent.exe
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\ClickDummyStudent.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\Typen.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ClickDummyStudent.csprojResolveAssemblyReference.cache
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ClickDummyStudent.csproj.GenerateResource.Cache
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ClickDummyStudent.exe
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\ClickDummyStudent.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\bin\Release\DB_Services.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.FormLeiterNeuEingeben.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.FormMitgliederNeuEingeben.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.LoginForm.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.MainForm.resources
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummyStudent\ClickDummyStudent\obj\Release\StudentBelegverwaltungUI.Properties.Resources.resources

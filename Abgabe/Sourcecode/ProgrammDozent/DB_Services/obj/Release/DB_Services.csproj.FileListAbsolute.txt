@@ -1,0 +1,6 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Release\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Release\DB_Services.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Release\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\obj\Release\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\obj\Release\DB_Services.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\obj\Release\DB_Services.csprojResolveAssemblyReference.cache

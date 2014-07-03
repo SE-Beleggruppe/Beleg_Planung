@@ -1,0 +1,5 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Debug\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Debug\Typen.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Debug\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\obj\Debug\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\obj\Debug\Typen.pdb

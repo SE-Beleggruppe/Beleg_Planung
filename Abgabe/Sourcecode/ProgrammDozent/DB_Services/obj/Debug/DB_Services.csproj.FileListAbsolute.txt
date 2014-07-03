@@ -1,0 +1,5 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Debug\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Debug\DB_Services.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\bin\Debug\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\obj\Debug\DB_Services.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\DB_Services\obj\Debug\DB_Services.pdb
