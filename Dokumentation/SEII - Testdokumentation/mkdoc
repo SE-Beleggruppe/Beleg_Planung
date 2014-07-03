@@ -10,7 +10,7 @@ puts "parsing test reports..."
 `cat footer.tex >> tmp.tex`
 
 puts "plotting diagram"
-`./parse.rb #{target} > table && ./plot.rb && rm table`
+`./parse.rb #{target} > table && ./plot.rb && mv table.png grafiken/table.png && rm table`
 
 puts "building..."
 _ = `pdflatex tmp.tex && pdflatex tmp.tex && mv tmp.pdf Testdokumentation.pdf && rm tmp.*` 

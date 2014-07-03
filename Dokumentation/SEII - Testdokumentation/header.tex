@@ -53,8 +53,12 @@
 \numberwithin{equation}{section}
 \renewcommand{\proofname}{Beweis}
 
-\pagenumbering{roman}\setcounter{page}{3} \tableofcontents
-\newcounter{roemisch} \setcounter{roemisch}{\value{page}}
+\pagenumbering{roman}
+\setcounter{page}{3} 
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newcounter{roemisch} 
+\setcounter{roemisch}{\value{page}}
 \clearpage
 
 \setcounter{page}{2} \pagenumbering{arabic}
