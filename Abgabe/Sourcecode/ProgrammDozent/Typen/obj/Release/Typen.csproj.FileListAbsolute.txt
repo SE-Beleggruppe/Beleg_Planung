@@ -1,0 +1,6 @@
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Release\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Release\Typen.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\bin\Release\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\obj\Release\Typen.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\obj\Release\Typen.pdb
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\Typen\obj\Release\Typen.csprojResolveAssemblyReference.cache

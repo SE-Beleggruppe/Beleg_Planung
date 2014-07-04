@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Codegenerierungs-/Texttransformationsprotokoll">
+  <MessageClass Name="Message" Label="Meldung" Option="Informationsmeldungen anzeigen" />
+  <MessageClass Name="Warning" Label="Warnung" Option="Warnungen anzeigen" />
+  <MessageClass Name="Error" Label="Fehler" Option="Fehler anzeigen" />
+  <MessageClass Name="Property" Label="Eigenschaft" Option="Metadaten anzeigen" />
+  <MessageClass Name="Diagnostic" Label="Meldung" Option="Diagnosemeldungen anzeigen" />
+  <Message Timestamp="2014-07-01T10:16:19" Importance="High" Text="Reverse Engineering gestartet." />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI' -  (Package)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Medium" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung' -  (Class)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::Belegkennung' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::button1_Click' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::button1_Click::e' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::button1_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::cancelButton' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::cancelButton_Click' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::cancelButton_Click::e' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::cancelButton_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::checkMail' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::checkMail::mail' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::checkSNummer' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::checkSNummer::sNummer' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::components' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::Dispose' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::Dispose::disposing' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::FormErstanmeldung' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::FormErstanmeldung::belegKennung' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::goButton' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label1' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label2' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label3' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label5' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label6' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::label7' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::mailTextField' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::nachnameTextField' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::OnClosing' -  (Operation)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::OnClosing::e' -  (Parameter)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::sNummerTextField' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::StudentBelegverwaltungUI::FormErstanmeldung::vornameTextField' -  (Property)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System' -  (Package)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::ComponentModel' -  (Package)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::ComponentModel::CancelEventArgs' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::ComponentModel::IContainer' -  (Interface) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::EventArgs' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Object' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows' -  (Package)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows::Forms' -  (Package)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows::Forms::Button' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows::Forms::Form' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows::Forms::Label' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'KD::System::Windows::Forms::TextBox' -  (Class) (Reverse Engineering teilweise durchgeführt - Definition nicht aktualisiert) " />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering des Elements in das UML-Modell: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering der Beziehung in das UML-Modell: KD::StudentBelegverwaltungUI::FormErstanmeldung nach KD::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering der Beziehung in das UML-Modell: KD::System::ComponentModel::CancelEventArgs nach KD::System::EventArgs (Generalization)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering der Beziehung in das UML-Modell: KD::StudentBelegverwaltungUI::MainForm nach KD::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering der Beziehung in das UML-Modell: KD::StudentBelegverwaltungUI::FormMitgliederNeuEingeben nach KD::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="Diagnostic" Text="Reverse Engineering der Beziehung in das UML-Modell: KD::StudentBelegverwaltungUI::LoginForm nach KD::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="High" Text="Vollständiges Reverse Engineering für (1) Type(n)." />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="High" Text="Reverse Engineering für (8) Type(n) teilweise durchgeführt. Diese Typen waren nicht in der ursprünglichen Auswahl enthalten, sodass kein Reverse Engineering für deren vollständige Definitionen durchgeführt wurde. Stattdessen wurde bei diesem oberflächlichen Vorgang lediglich sichergestellt, dass diese Typen im UML-Modell vorhanden sind, da diese erforderlich sind, um andere Elemente vollständig zu beschreiben." />
+  <Message Timestamp="2014-07-01T10:16:21" Importance="High" Text="Der Reverse Engineering-Vorgang wurde mit (0) Fehler(n) und (0) Warnung(en) abgeschlossen." />
+</Log>

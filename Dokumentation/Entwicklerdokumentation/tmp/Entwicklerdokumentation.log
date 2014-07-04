@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  24 JUN 2014 16:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.10)  3 JUL 2014 15:17
 entering extended mode
 **Entwicklerdokumentation.tex
 
@@ -419,7 +419,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.87 \subsection
-                {Packetdiagramm} [1
+                {Paketdiagramm} [1
 
  <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/Entw
 urf/depot.jpg>]
@@ -463,92 +463,101 @@ File: grafiken/Entwurf/KDDozentProgrammUIV2.png Graphic file (type png)
 
 <use grafiken/Entwurf/KDDozentProgrammUIV2.png>
 Package pdftex.def Info: grafiken/Entwurf/KDDozentProgrammUIV2.png used on inpu
-t line 105.
+t line 111.
 (pdftex.def)             Requested size: 408.77618pt x 444.15828pt.
  [3 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
 ntwurf/KD_Typen_1.jpg> <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokum
-entation/grafiken/Entwurf/KD_Typen_2.jpg>]
-<grafiken/Entwurf/KD_Database.png, id=194, 220.57407pt x 177.66376pt>
+entation/grafiken/Entwurf/KD_Typen_2.jpg>] [4 <C:/Users/Felix/eclipse_workspace
+/SEII - Entwicklerdokumentation/grafiken/Entwurf/KDDozentProgrammUIV2.png>]
+<grafiken/Entwurf/KDProgrammStudentUIKlein.png, id=199, 414.04688pt x 201.00093
+pt>
+File: grafiken/Entwurf/KDProgrammStudentUIKlein.png Graphic file (type png)
+ <use grafiken/Entwurf/KDProgrammStudentUIKlein.png>
+Package pdftex.def Info: grafiken/Entwurf/KDProgrammStudentUIKlein.png used on 
+input line 114.
+(pdftex.def)             Requested size: 414.04585pt x 201.00043pt.
+
+<grafiken/Entwurf/KD_Database.png, id=200, 220.57407pt x 177.66376pt>
 File: grafiken/Entwurf/KD_Database.png Graphic file (type png)
 
 <use grafiken/Entwurf/KD_Database.png>
 Package pdftex.def Info: grafiken/Entwurf/KD_Database.png used on input line 11
-4.
+8.
 (pdftex.def)             Requested size: 220.57352pt x 177.66331pt.
- [4 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
-ntwurf/KDDozentProgrammUIV2.png>]
-<grafiken/Klassendiagramme_einzeln/Typen/Beleg.png, id=200, 259.97125pt x 335.2
+ [5 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
+ntwurf/KDProgrammStudentUIKlein.png (PNG copy)> <C:/Users/Felix/eclipse_workspa
+ce/SEII - Entwicklerdokumentation/grafiken/Entwurf/KD_Database.png>]
+<grafiken/Klassendiagramme_einzeln/Typen/Beleg.png, id=206, 259.97125pt x 335.2
 525pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Beleg.png Graphic file (type png)
 
  <use grafiken/Klassendiagramme_einzeln/Typen/Beleg.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Beleg.png used
- on input line 134.
+ on input line 138.
 (pdftex.def)             Requested size: 259.97061pt x 335.25168pt.
- [5 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/E
-ntwurf/KD_Database.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 137.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 141.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
 
-Overfull \hbox (6.70946pt too wide) in paragraph at lines 142--145
+Overfull \hbox (6.70946pt too wide) in paragraph at lines 146--149
 \OT1/cmr/m/n/12 Mit dieser Meth-ode kann einem Be-leg eine Case-Gruppe vom Typ 
 Gruppe hinzugefugt
  []
 
 
-<grafiken/Klassendiagramme_einzeln/Typen/Thema.png, id=206, 259.97125pt x 143.5
+<grafiken/Klassendiagramme_einzeln/Typen/Thema.png, id=207, 259.97125pt x 143.5
 3625pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Thema.png Graphic file (type png)
 
  <use grafiken/Klassendiagramme_einzeln/Typen/Thema.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Thema.png used
- on input line 148.
+ on input line 152.
 (pdftex.def)             Requested size: 259.97061pt x 143.53589pt.
  [6 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/Typen/Beleg.png (PNG copy)>]
-<grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png, id=212, 284.06125pt x 198.
+<grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png, id=213, 284.06125pt x 198.
 7425pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png Graphic file (type png
 )
  <use grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Gruppe.png use
-d on input line 157.
+d on input line 161.
 (pdftex.def)             Requested size: 284.06053pt x 198.742pt.
 
-<grafiken/Klassendiagramme_einzeln/Typen/Rolle.png, id=213, 211.79124pt x 168.6
+<grafiken/Klassendiagramme_einzeln/Typen/Rolle.png, id=214, 211.79124pt x 168.6
 3pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png Graphic file (type png)
 
  <use grafiken/Klassendiagramme_einzeln/Typen/Rolle.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Rolle.png used
- on input line 172.
+ on input line 176.
 (pdftex.def)             Requested size: 211.79073pt x 168.62958pt.
  [7 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/Typen/Thema.png (PNG copy)> <C:/Users/Felix/eclipse_wor
 kspace/SEII - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/Typen/G
 ruppe.png (PNG copy)>]
-<grafiken/Klassendiagramme_einzeln/Typen/Student.png, id=218, 235.88126pt x 198
+<grafiken/Klassendiagramme_einzeln/Typen/Student.png, id=219, 235.88126pt x 198
 .7425pt>
 File: grafiken/Klassendiagramme_einzeln/Typen/Student.png Graphic file (type pn
 g)
  <use grafiken/Klassendiagramme_einzeln/Typen/Student.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Typen/Student.png us
-ed on input line 180.
+ed on input line 184.
 (pdftex.def)             Requested size: 235.88068pt x 198.742pt.
 
-<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png, id=219
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png, id=220
 , 222.8325pt x 451.6875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png Gr
 aphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/MainForm.png used on input line 192.
+gUI/MainForm.png used on input line 196.
 (pdftex.def)             Requested size: 222.83195pt x 451.68639pt.
 
 [8 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/Kl
@@ -557,104 +566,104 @@ space/SEII - Entwicklerdokumentation/grafiken/Klassendiagramme_einzeln/Typen/St
 udent.png (PNG copy)>] [9 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdo
 kumentation/grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/MainForm.
 png (PNG copy)>] [10]
-Overfull \hbox (2.0507pt too wide) in paragraph at lines 253--264
+Overfull \hbox (2.0507pt too wide) in paragraph at lines 257--268
 \OT1/cmr/m/n/12 grup-pen-List-Box auswahlt. An dieser Stelle mussen jetzt die
  Stu-den-ten dieser Gruppe
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 284.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 288.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 284.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 288.
  [11]
-Overfull \hbox (27.82452pt too wide) in paragraph at lines 296--300
+Overfull \hbox (27.82452pt too wide) in paragraph at lines 300--304
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird das Data-Grid-View, das die Stu-den-t
 en einer Gruppe reprasentiert
  []
 
 [12]
-Overfull \hbox (14.95381pt too wide) in paragraph at lines 332--337
+Overfull \hbox (14.95381pt too wide) in paragraph at lines 336--341
 \OT1/cmr/m/n/12 Mit dieser Funk-tion kann das Bear-beiten der Stu-den-ten einer
  Gruppe wieder ruckgangig
  []
 
 
-Overfull \hbox (13.35938pt too wide) in paragraph at lines 341--344
+Overfull \hbox (13.35938pt too wide) in paragraph at lines 345--348
 \OT1/cmr/m/n/12 Mit dieser Funk-tion wird eine In-stanz der Klasse RolleV-er-wa
 l-ten geladen und angezeigt,
  []
 
 [13]
-<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png, id=246,
+<grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png, id=247,
  380.42125pt x 306.14375pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png Gra
 phic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/Eingabe.png used on input line 378.
+gUI/Eingabe.png used on input line 382.
 (pdftex.def)             Requested size: 380.4203pt x 306.14299pt.
 
 [14 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/DozentBelegverwaltungUI/Eingabe.png (PNG copy)>]
-Overfull \hbox (7.00528pt too wide) in paragraph at lines 392--395
+Overfull \hbox (7.00528pt too wide) in paragraph at lines 396--399
 \OT1/cmr/m/n/12 Dieser Han-dler wird durch den "Bestatigen"-Button aus-gelost
  und gibt den eingegebe-
  []
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png,
- id=251, 452.69125pt x 231.86626pt>
+ id=252, 452.69125pt x 231.86626pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten
 .png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.
 png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/BelegBearbeiten.png used on input line 399.
+gUI/BelegBearbeiten.png used on input line 403.
 (pdftex.def)             Requested size: 452.69014pt x 231.86568pt.
  [15 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
 Klassendiagramme_einzeln/DozentBelegverwaltungUI/BelegBearbeiten.png (PNG copy)
 >]
-Overfull \hbox (8.04556pt too wide) in paragraph at lines 427--430
+Overfull \hbox (8.04556pt too wide) in paragraph at lines 431--434
 \OT1/cmr/m/n/12 Diese Funk-tion gibt dem "Abbrechen"-Button die Funk-tion, dass
  die Form geschlossen
  []
 
 
-Overfull \hbox (5.57335pt too wide) in paragraph at lines 437--440
+Overfull \hbox (5.57335pt too wide) in paragraph at lines 441--444
 \OT1/cmr/m/n/12 Diese Funk-tion uberpruft, ob die Belegken-nung eingegeben wu
 rde und ob die zulassige
  []
 
 
-Overfull \hbox (9.8819pt too wide) in paragraph at lines 451--455
+Overfull \hbox (9.8819pt too wide) in paragraph at lines 455--459
 \OT1/cmr/m/n/12 Diese Meth-ode und auch die aquivalenten Meth-o-den ..Rolle[]C
 lick(), und ..Case[]Click()
  []
 
 
-Overfull \hbox (11.02634pt too wide) in paragraph at lines 456--460
+Overfull \hbox (11.02634pt too wide) in paragraph at lines 460--464
 \OT1/cmr/m/n/12 Diese Funk-tion und auch die aquivalenten Meth-o-den ..Rolle[]
 Click(), und ..Case[]Click()
  []
 
 [16]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png
-, id=260, 380.42125pt x 472.76625pt>
+, id=261, 380.42125pt x 472.76625pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeite
 n.png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten
 .png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/GruppeBearbeiten.png used on input line 476.
+gUI/GruppeBearbeiten.png used on input line 480.
 (pdftex.def)             Requested size: 380.4203pt x 472.76509pt.
  [17]
-Overfull \hbox (29.49117pt too wide) in paragraph at lines 482--485
+Overfull \hbox (29.49117pt too wide) in paragraph at lines 486--489
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Bear-beitung abgeschlossen
  []
@@ -662,50 +671,50 @@ die Bear-beitung abgeschlossen
 [18 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/DozentBelegverwaltungUI/GruppeBearbeiten.png (PNG copy)
 >]
-Overfull \hbox (14.5316pt too wide) in paragraph at lines 512--519
+Overfull \hbox (14.5316pt too wide) in paragraph at lines 516--523
 \OT1/cmr/m/n/12 Diese Funk-tion ak-tu-al-isiert die Daten einer beste-hen-den G
 ruppe mit den neu eingegebe-
  []
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png, 
-id=270, 404.51125pt x 229.85875pt>
+id=271, 404.51125pt x 229.85875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.
 png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.p
 ng>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/RolleVerwalten.png used on input line 527.
+gUI/RolleVerwalten.png used on input line 531.
 (pdftex.def)             Requested size: 404.51025pt x 229.85817pt.
  [19] [20 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/graf
 iken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/RolleVerwalten.png (PNG c
 opy)>]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png,
- id=279, 235.88126pt x 229.85875pt>
+ id=280, 235.88126pt x 229.85875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten
 .png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.
 png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/ThemenVerwalten.png used on input line 561.
+gUI/ThemenVerwalten.png used on input line 565.
 (pdftex.def)             Requested size: 235.88068pt x 229.85817pt.
  [21 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
 Klassendiagramme_einzeln/DozentBelegverwaltungUI/ThemenVerwalten.png (PNG copy)
 >]
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png,
- id=284, 235.88126pt x 454.69875pt>
+ id=285, 235.88126pt x 454.69875pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung
 .png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.
 png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/PDFArchivierung.png used on input line 595.
+gUI/PDFArchivierung.png used on input line 599.
 (pdftex.def)             Requested size: 235.88068pt x 454.69763pt.
  [22]
-Overfull \hbox (32.91612pt too wide) in paragraph at lines 606--610
+Overfull \hbox (32.91612pt too wide) in paragraph at lines 610--614
 \OT1/cmr/m/n/12 Dieser Delegate-Handler teilt spater dem Del-e-gate mit, dass 
 die Archivierung abgeschlossen
  []
@@ -713,53 +722,53 @@ die Archivierung abgeschlossen
 [23 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/DozentBelegverwaltungUI/PDFArchivierung.png (PNG copy)>
 ]
-Overfull \hbox (19.62137pt too wide) in paragraph at lines 617--637
+Overfull \hbox (19.62137pt too wide) in paragraph at lines 621--641
 \OT1/cmr/m/n/12 Zunachst wird ein PDF-Dokument zum schreiben geoffnet. Es bek
 ommt eine []Uberschrift
  []
 
 
 <grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png, id=
-294, 284.06125pt x 564.1075pt>
+295, 284.06125pt x 564.1075pt>
 File: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png
  Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/DozentBelegverwaltun
-gUI/KontaktForm.png used on input line 645.
+gUI/KontaktForm.png used on input line 649.
 (pdftex.def)             Requested size: 284.06053pt x 564.10611pt.
 [24] [25 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafi
 ken/Klassendiagramme_einzeln/DozentBelegverwaltungUI/KontaktForm.png (PNG copy)
 >]
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png, id=3
-03, 235.88126pt x 248.93pt>
+04, 235.88126pt x 248.93pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png 
 Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/LoginForm.png used on input line 673.
+ngUI/LoginForm.png used on input line 677.
 (pdftex.def)             Requested size: 235.88068pt x 248.92938pt.
 
 [26 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/StudentBelegverwaltungUI/LoginForm.png (PNG copy)>]
-Overfull \hbox (26.09955pt too wide) in paragraph at lines 696--701
+Overfull \hbox (26.09955pt too wide) in paragraph at lines 700--705
 \OT1/cmr/m/n/12 Buttons beim An-melde-bild-schirm (also in der Meth-ode \OT1/cm
 r/bx/n/12 Login-But-ton[]Click\OT1/cmr/m/n/12 ) aufgerufen. 
  []
 
 
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png, id=30
-8, 308.15125pt x 397.485pt>
+9, 308.15125pt x 397.485pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png G
 raphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/MainForm.png used on input line 722.
+ngUI/MainForm.png used on input line 726.
 (pdftex.def)             Requested size: 308.15048pt x 397.48402pt.
 
-Overfull \hbox (18.10886pt too wide) in paragraph at lines 722--727
+Overfull \hbox (18.10886pt too wide) in paragraph at lines 726--731
 \OT1/cmr/m/n/12 uber alle Grup-pen-mit-glieder erhalt. Auer-dem soll es mog
 lich sein, neue Nutzer hinzuzufugen,
  []
@@ -767,102 +776,102 @@ lich sein, neue Nutzer hinzuzufugen,
 [27] [28 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafi
 ken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MainForm.png (PNG copy)>]
 [29]
-Overfull \hbox (0.99146pt too wide) in paragraph at lines 812--815
+Overfull \hbox (0.99146pt too wide) in paragraph at lines 816--819
 \OT1/cmr/m/n/12 Diese Meth-ode uberpruft mit-tels Regular-Expressions eine ei
 ngegebene Mail-Adresse
  []
 
 [30]
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.p
-ng, id=326, 235.88126pt x 378.41376pt>
+ng, id=327, 235.88126pt x 378.41376pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdl
 ung.png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlu
 ng.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/FormErstanemdlung.png used on input line 824.
+ngUI/FormErstanemdlung.png used on input line 828.
 (pdftex.def)             Requested size: 235.88068pt x 378.41283pt.
  [31 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
 Klassendiagramme_einzeln/StudentBelegverwaltungUI/FormErstanemdlung.png (PNG co
 py)>]
-Overfull \hbox (10.49551pt too wide) in paragraph at lines 843--846
+Overfull \hbox (10.49551pt too wide) in paragraph at lines 847--850
 \OT1/cmr/m/n/12 Die Funk-tion check-Mail erkennt mithilfe von regularen Ausdr
 ucken, ob die eingegebene
  []
 
 
 <grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeb
-en.png, id=331, 308.15125pt x 397.485pt>
+en.png, id=332, 308.15125pt x 397.485pt>
 File: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuE
 ingeben.png Graphic file (type png)
 
 <use grafiken/Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEi
 ngeben.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/StudentBelegverwaltu
-ngUI/MitgliederNeuEingeben.png used on input line 853.
+ngUI/MitgliederNeuEingeben.png used on input line 857.
 (pdftex.def)             Requested size: 308.15048pt x 397.48402pt.
  [32 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/
 Klassendiagramme_einzeln/StudentBelegverwaltungUI/MitgliederNeuEingeben.png (PN
 G copy)>]
-Overfull \hbox (2.47087pt too wide) in paragraph at lines 860--875
+Overfull \hbox (2.47087pt too wide) in paragraph at lines 864--879
 [][]\OT1/cmr/bx/n/12 public For-m-Mit-gliederNeuEingeben(Student leiter, string
  belegKen-nung) 
  []
 
 
-Overfull \hbox (10.09506pt too wide) in paragraph at lines 881--885
+Overfull \hbox (10.09506pt too wide) in paragraph at lines 885--889
 \OT1/cmr/m/n/12 spe-ichert sie in der Liste rollen. Auer-dem wird eine Platzha
 lter-Rolle "na" angehangt,
  []
 
 [33]
-Overfull \hbox (11.39642pt too wide) in paragraph at lines 916--919
+Overfull \hbox (11.39642pt too wide) in paragraph at lines 920--923
 \OT1/cmr/m/n/12 Diese Meth-doe va-li-diert eine eingegebene Mail-Adresse. Sie w
 ird mithilfe von regularen
  []
 
 
-Overfull \hbox (17.51906pt too wide) in paragraph at lines 919--923
+Overfull \hbox (17.51906pt too wide) in paragraph at lines 923--927
 \OT1/cmr/m/n/12 Diese Funk-tion uberschreibt den Even-thandler, der aufgerufen
  wird, wenn der Schlieen-
  []
 
 
-<grafiken/Klassendiagramme_einzeln/Database/Database.png, id=340, 308.15125pt x
+<grafiken/Klassendiagramme_einzeln/Database/Database.png, id=341, 308.15125pt x
  223.83624pt>
 File: grafiken/Klassendiagramme_einzeln/Database/Database.png Graphic file (typ
 e png)
  <use grafiken/Klassendiagramme_einzeln/Database/Database.png>
 Package pdftex.def Info: grafiken/Klassendiagramme_einzeln/Database/Database.pn
-g used on input line 928.
+g used on input line 932.
 (pdftex.def)             Requested size: 308.15048pt x 223.8357pt.
 
 [34]
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 941--946
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 945--950
 \OT1/cmr/m/n/12 Mithilfe dieser Funk-tion wird eine Daten-bank-abfrage aus-gef
 uhrt und das Abfrageergeb-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 948.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 952.
 [35 <C:/Users/Felix/eclipse_workspace/SEII - Entwicklerdokumentation/grafiken/K
 lassendiagramme_einzeln/Database/Database.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 948.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 952.
 
 ("C:\Users\Felix\eclipse_workspace\SEII - Entwicklerdokumentation\Entwicklerdok
 umentation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 948.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 948.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 952.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 952.
 Package rerunfilecheck Info: File `Entwicklerdokumentation.out' has not changed
 .
-(rerunfilecheck)             Checksum: F0655C945FF42A5EE805A08DD5ABC2B3;2441.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 948.
+(rerunfilecheck)             Checksum: EFCFF098BD90099007E21E2EB1E9D7CD;2440.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 952.
  ) 
 Here is how much of TeX's memory you used:
- 6727 strings out of 493921
- 102679 string characters out of 3144876
+ 6732 strings out of 493921
+ 102906 string characters out of 3144876
  183016 words of memory out of 3000000
- 9841 multiletter control sequences out of 15000+200000
+ 9845 multiletter control sequences out of 15000+200000
  10460 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,4n,28p,267b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -871,9 +880,9 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Entwicklerdokumentation.pdf (37 pages, 621414 bytes).
+Output written on Entwicklerdokumentation.pdf (37 pages, 643604 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
- 382 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
