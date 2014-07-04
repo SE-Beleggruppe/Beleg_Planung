@@ -22,3 +22,4 @@ C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummy\obj\
 C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummy\obj\Release\DozentBelegverwaltungUI.MainForm.resources
 C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummy\obj\Release\DozentBelegverwaltungUI.ThemenVerwalten.resources
 C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummy\bin\Release\Sybase.AdoNet4.AseClient.dll
+C:\Users\Benjamin\Documents\GitHub\ProgrammDozent\ProgrammDozent\ClickDummy\obj\Release\DozentBelegverwaltungUI.StartForm.resources
