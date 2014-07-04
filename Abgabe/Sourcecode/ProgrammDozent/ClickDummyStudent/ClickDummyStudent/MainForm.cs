@@ -31,15 +31,18 @@ namespace StudentBelegverwaltungUI
 
             comboBoxThemen.DropDownStyle = ComboBoxStyle.DropDownList;
 
+            getZeitraum(belegkennung);
+
             // Anmeldezeitraum checken -> wenn überschritten, Felder sperren
             if (!isInBelegZeitraum(belegkennung))
             {
                 mitgliederDataGridView.ReadOnly = true;
                 comboBoxThemen.Enabled = false;
                 saveButton.Enabled = false;
+                zeitraumLabel.ForeColor = Color.Red;
             }
 
-            getZeitraum(belegkennung);
+            
 
             minAnzahl = getMinAnzahlMitglieder(belegkennung);
             maxAnzahl = getMaxAnzahlMitglieder(belegkennung);
